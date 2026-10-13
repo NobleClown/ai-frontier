@@ -1,0 +1,9 @@
+import type { Edition } from './news-types';
+export const initialEdition: Edition = {
+ date: '2026-10-13', updatedAt: '2026-10-13T09:00:00+08:00', headline: '智能体向真实工作推进，基础设施继续加码。', note: '创刊简报：汇总 10 月 12 日发布的消息。性能与融资数据按来源表述，未作独立评测。',
+ stories: [
+ {id:'meta-muse-wonder', title:'Meta 发布 Muse Wonder 系列，聚焦复杂智能体任务', summary:'Meta 宣布推出 Muse Wonder 和 Muse Wonder Full，面向编程和多步骤任务。Wonder 已通过 Meta Model API 与 Muse Code 提供，Full 面向 Muse Code 订阅用户。官方还介绍了跨会话记忆及持续执行能力。', region:'海外', category:'模型动态', source:'Meta Newsroom', url:'https://about.fb.com/news/2026/10/introducing-muse-wonder-models/',publishedDate:'2026-10-12',sourceType:'官方发布',takeaway:'开发者可关注 API 接入；能力和安全表现仍需结合实际任务验证。'},
+ {id:'infinigence-funding',title:'无问芯穹完成 23 亿元 C 轮融资',summary:'据新浪科技报道，AI 原生基础设施企业无问芯穹宣布完成 23 亿元 C 轮融资，累计融资额达 43 亿元。公司业务覆盖大模型所需的算力与软硬件基础设施。',region:'国内',category:'产业动态',source:'新浪科技',url:'https://finance.sina.com.cn/tech/shenji/2026-10-12/doc-iniuxrzi5363347.shtml',publishedDate:'2026-10-12',sourceType:'媒体报道',takeaway:'算力基础设施仍在获得资本投入；融资规模不等于已实现的商业收入。'},
+ {id:'google-timesfm',title:'Google 将 TimesFM 3.0 多变量预测引入 BigQuery',summary:'Google Cloud 发布 TimesFM 3.0 在 BigQuery 中的预览版本。用户可以通过 SQL 同时预测多个相关时间序列，并引入天气、促销等外部因素，不必自行训练预测模型。',region:'海外',category:'产品应用',source:'Google Cloud',url:'https://cloud.google.com/blog/products/data-analytics/bigquery-timesfm-3-0-with-multivariate-time-series-forecasting',publishedDate:'2026-10-12',sourceType:'官方发布',takeaway:'对已有 BigQuery 工作流，预测能力更容易直接接入业务数据。'},
+ {id:'lenovo-agent',title:'联想分享端侧智能体与 Qoder 协作路线',summary:'阿里云开发者社区发布联想在云栖大会 Qoder 分论坛的演讲整理，介绍 AI 主机、天禧 AI 4.3 超能模式与三层协作架构，并提出以端侧设备承载个人和组织智能体。',region:'国内',category:'开发工具',source:'阿里云开发者社区',url:'https://developer.aliyun.com/article/1770034',publishedDate:'2026-10-12',sourceType:'官方发布',takeaway:'这是一篇演讲整理，文章发布日期不代表所有产品在当天发布。'}
+ ]};
