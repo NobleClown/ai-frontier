@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "account": "thsottiaux",
+  "profileUrl": "https://x.com/thsottiaux",
+  "fetchedAt": "2026-10-14T00:00:00+08:00",
+  "status": "source_unavailable",
+  "retrievalMethod": "direct_browser_text",
+  "error": "格式示例，尚未采集；实际文件须填写真实检查时间和结果。",
+  "posts": []
+}

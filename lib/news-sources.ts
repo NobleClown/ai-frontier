@@ -1,0 +1,20 @@
+export const newsSources = [
+ ['OpenAI','https://openai.com/news/','海外','模型发布、ChatGPT、Codex'],
+ ['xAI / Grok','https://x.ai/news','海外','Grok 模型及产品公告'],
+ ['Anthropic','https://www.anthropic.com/news','海外','Claude 与智能体'],
+ ['Google AI','https://blog.google/innovation-and-ai/technology/ai/','海外','Gemini、研究与应用'],
+ ['Meta Newsroom','https://about.fb.com/news/','海外','Meta 模型与产品'],
+ ['智谱 / GLM','https://www.zhipuai.cn/','国内','GLM、AutoClaw、研究发布'],
+ ['Qwen / 阿里','https://qwen.ai/blog','国内','通义模型、开源与工具'],
+ ['DeepSeek','https://api-docs.deepseek.com/','国内','模型更新、API 与定价'],
+ ['月之暗面 / Kimi','https://platform.kimi.com/docs/','国内','Kimi 模型、开放平台；同一厂商合并跟踪'],
+ ['腾讯 / 混元','https://hunyuan.tencent.com/','国内','混元模型与应用'],
+ ['MiniMax','https://www.minimaxi.com/','国内','模型与 Agent 产品'],
+ ['阿里云开发者社区','https://developer.aliyun.com/','国内','企业应用、技术文档'],
+ ['WorkBuddy / CodeBuddy','https://www.codebuddy.cn/docs/workbuddy/Changelog','国内','腾讯 Agent 更新与福利'],
+ ['Qoder','https://docs.qoder.com/','国内','Agent 产品、模型与额度活动；地区规则分开核对'],
+ ['OpenRouter','https://openrouter.ai/blog','海外','聚合 API、免费模型池'],
+ ['新浪科技','https://tech.sina.com.cn/','国内','产业报道'],
+ ['机器之心','https://www.jiqizhixin.com/','国内','研究与模型报道'],
+ ['量子位','https://www.qbitai.com/','国内','产品及行业报道']
+] as const;

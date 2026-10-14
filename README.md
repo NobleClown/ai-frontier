@@ -1,4 +1,14 @@
-# vinext-starter
+# AI 前沿
+
+中文 AI 日报、赛博土鸡蛋、Tibo 重置雷达与热门 GitHub 四榜。
+
+代码仓库：https://github.com/NobleClown/ai-frontier 。本地运行 `npm run dev`，打开 http://127.0.0.1:5173/ 。
+
+部署使用 **Cloudflare Workers + D1**，连接 GitHub `main` 自动发布。构建为 `npm run build:cloudflare`，部署为 `npm run deploy:cloudflare`；第一次创建数据库和连接账号的步骤见 [CLOUDFLARE-DEPLOY.md](CLOUDFLARE-DEPLOY.md)。首次 Cloudflare 连接完成前，本仓库不代表已有公开站点上线。
+
+本地数据维护见 [LOCAL-README.md](LOCAL-README.md)、[RESET-WATCH.md](RESET-WATCH.md) 与 [GITHUB-RANKINGS.md](GITHUB-RANKINGS.md)。不要提交 `.env`、`.dev.vars`、登录凭据或浏览器会话。下方保留原有 Sites 模板的维护说明，独立 Workers 发布采用上述部署入口。
+
+## Retained starter documentation
 
 A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.
 

@@ -11,3 +11,5 @@
 写完通过 `read_daily_news` 或 `/api/news?date=YYYY-MM-DD` 回读，核对日期、条数和来源链接。同日重试为替换写入。正常更新不重新部署。每日成功运行保持安静；只有更新失败或需要用户处理才通知。
 
 公开前须为写入增加单独的编辑授权规则；当前依赖 Sites 的 owner-private 平台访问边界。
+
+新闻来源目录统一维护在 lib/news-sources.ts：覆盖 OpenAI、xAI/Grok、Anthropic、Google、Meta、智谱、Qwen/阿里、DeepSeek、月之暗面/Kimi、腾讯混元、MiniMax，以及 Qoder、WorkBuddy、OpenRouter 和可信媒体。先核对官方发布，再补媒体背景。不能为了覆盖厂商而捏造当日新闻。

@@ -1,0 +1,66 @@
+{
+  "account": "thsottiaux",
+  "profileUrl": "https://x.com/thsottiaux",
+  "lastCheckedAt": "2026-10-13T23:49:13.193Z",
+  "checkStatus": "ok",
+  "checkNote": "已按用户授权采信 Zcode 原文交接：21 条本人帖文，覆盖北京时间 10 月 4 日 12:59 至 10 月 13 日 14:21。窗口不保证完整；未声称此后无新帖。Day 8 已去重，补入 Day 6 完成公告和 Day 3 保存型重置发放历史。",
+  "automationEnabled": true,
+  "cadenceMinutes": 60,
+  "posts": [
+    {
+      "id": "2109873287853707513",
+      "title": "Day 8：Tibo 宣布全局重置已完成",
+      "summary": "已直接核对 Tibo 的 X 原帖：他在全局重置预告之后表示重置已完成。详情页显示北京时间 10 月 13 日 13:06；时间仅核对到分钟，秒数未核实。具体套餐、账号资格和实际生效时刻未明确，请在个人用量页面确认余量。",
+      "scope": "Codex / ChatGPT Work 相关全局重置；具体套餐与账号范围未明确，不推广为所有 GPT 产品。",
+      "publishedAt": "2026-10-13T05:06:00Z",
+      "effectiveAt": null,
+      "url": "https://x.com/thsottiaux/status/2109873287853707513",
+      "verification": "confirmed",
+      "evidence": [
+        {
+          "url": "https://x.com/thsottiaux/status/2109873287853707513",
+          "name": "Tibo 原帖（已核对详情截图）"
+        }
+      ],
+      "publishedAtPrecision": "minute",
+      "verificationMethod": "原帖详情截图 outputs/tibo-reset-confirmed.png"
+    },
+    {
+      "id": "2109132167112782291",
+      "title": "Day 6：Tibo 宣布全局重置已传播完成",
+      "summary": "据 Zcode 提供的原文，Tibo 表示重置已传播完成；所引用的上文是全局重置预告。发布时间为北京时间 10 月 11 日 12:01，精度为分钟；未明确具体套餐或每个账号的实际生效时刻。",
+      "scope": "Codex / ChatGPT Work 相关全局重置；原帖未列具体套餐及账号条件。",
+      "publishedAt": "2026-10-11T12:01:00+08:00",
+      "publishedAtPrecision": "minute",
+      "effectiveAt": null,
+      "url": "https://x.com/thsottiaux/status/2109132167112782291",
+      "verification": "confirmed",
+      "verificationMethod": "Zcode 原文交接（依用户授权采信）",
+      "evidence": [
+        {
+          "name": "Zcode 直接读取的原帖",
+          "url": "https://x.com/thsottiaux/status/2109132167112782291"
+        }
+      ]
+    },
+    {
+      "id": "2107913674593644711",
+      "title": "Day 3：宣布向付费账号发放保存型重置",
+      "summary": "据 Zcode 提供的原文，Tibo 宣布正在向付费账号发放 banked reset。发布时间为北京时间 10 月 8 日 03:19，精度为分钟。这是保存型重置发放公告，未声明所有账号已收到，也不是立即完成的全局重置。",
+      "scope": "原帖称付费账号；未逐项列出套餐、地区和资格条件。",
+      "publishedAt": "2026-10-08T03:19:00+08:00",
+      "publishedAtPrecision": "minute",
+      "effectiveAt": null,
+      "url": "https://x.com/thsottiaux/status/2107913674593644711",
+      "verification": "confirmed",
+      "verificationMethod": "Zcode 原文交接（依用户授权采信）",
+      "evidence": [
+        {
+          "name": "Zcode 直接读取的原帖",
+          "url": "https://x.com/thsottiaux/status/2107913674593644711"
+        }
+      ]
+    }
+  ],
+  "sourceCollectedAt": "2026-10-13T23:44:00Z"
+}
