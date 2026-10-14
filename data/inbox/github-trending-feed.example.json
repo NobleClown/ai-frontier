@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "retrievalMethod": "manual_browser_copy",
+  "period": "monthly",
+  "sourceUrl": "https://github.com/trending?since=monthly",
+  "capturedAt": "替换为实际采集时间，例如 2026-10-14T17:50:00+08:00",
+  "projects": []
+}

@@ -3,6 +3,8 @@ import {robotsAllows} from './public-fetch.mjs';
 assert.equal(robotsAllows('User-agent: *\nDisallow: /private','/private/page'),false);
 assert.equal(robotsAllows('User-agent: *\nDisallow: /\nAllow: /public','/public/page'),true);
 assert.equal(robotsAllows('User-agent: *\nDisallow: /search?*','/search?q=test'),false);
+assert.equal(robotsAllows('User-agent: *\nDisallow: /*?since=*','/trending'),true,'Canonical daily page is not a since-query URL');
+assert.equal(robotsAllows('User-agent: *\nDisallow: /*?since=*','/trending?since=monthly'),false);
 assert.equal(robotsAllows('User-agent: *\nDisallow: /news$','/newsletter'),true);
 assert.equal(robotsAllows('User-agent: *\nDisallow: /\nUser-agent: AI-Frontier-local\nAllow: /','/news'),true);
 assert.equal(robotsAllows('User-agent: *\nDisallow:\n# no restrictions','/news'),true);

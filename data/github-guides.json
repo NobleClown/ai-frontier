@@ -1,5 +1,12 @@
 {
  "996icu/996.ICU":"记录开发者工作时长讨论的社区资料仓库。",
+ "nvm-sh/nvm":"在支持 POSIX 的环境中管理和切换 Node.js 版本。",
+ "K-Dense-AI/scientific-agent-skills":"为 AI Agent 提供科学研究任务的可复用技能。",
+ "HKUDS/CLI-Anything":"将软件操作封装成 Agent 可调用的命令行接口。",
+ "ifixai-ai/iFixAi":"审计 AI Agent 的任务执行是否符合预期要求。",
+ "vxcontrol/pentagi":"提供用于授权安全测试的 AI Agent 编排系统。",
+ "rust-lang/rust":"维护 Rust 编程语言及其编译器工具链。",
+ "ntdevlabs/tiny11builder":"提供定制 Windows 11 安装镜像的制作工具。",
  "addyosmani/agent-skills":"为 AI 编程 Agent 提供可复用的工程实践技能。",
  "affaan-m/ECC":"为编程 Agent 整合技能、记忆和工作流优化工具。",
  "agent-substrate/substrate":"提供 Agent Substrate 智能体系统的核心代码。",

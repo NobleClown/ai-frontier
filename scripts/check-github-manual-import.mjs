@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {validateGithubFeed,monthlyBoardFromFeed,monthlySource} from './github-manual-feed.mjs';
+import {boardChanges} from './github-history.mjs';
+const feed={schemaVersion:1,retrievalMethod:'manual_browser_copy',period:'monthly',sourceUrl:monthlySource,capturedAt:'2026-10-14T09:00:00+08:00',projects:[1,2,3].map(rank=>({rank,name:`example/repo${rank}`,url:`https://github.com/example/repo${rank}`,description:'',language:'',stars:null,starsDisplay:'1.2k',growth:''}))};
+const now=Date.parse('2026-10-14T10:00:00+08:00');
+const board=monthlyBoardFromFeed(feed,null,now);
+assert.equal(board.updatedAt,feed.capturedAt);
+assert.equal(board.projects[0].stars,null);
+assert.deepEqual(monthlyBoardFromFeed(feed,board,now),board);
+assert.equal(monthlyBoardFromFeed({...feed,capturedAt:'2026-10-13T09:00:00+08:00'},board,now).updatedAt,board.updatedAt);
+for(const bad of [{...feed,sourceUrl:'https://example.com'}, {...feed,capturedAt:'2026-10-15T09:00:00+08:00'}, {...feed,projects:[feed.projects[0],feed.projects[0],feed.projects[2]]}])assert.throws(()=>validateGithubFeed(bad,now));
+assert.equal(boardChanges({...board,updatedAt:'2026-10-13T09:00:00+08:00'},board).entries[0].starGain,null);
+console.log('PASS: monthly order, duplicate/time validation, unknown counts and historical timestamp preservation.');

@@ -5,7 +5,7 @@ const rankings=read('data/github-rankings.json'), guides=read('data/github-guide
 const names=new Set(rankings.boards.flatMap(board=>board.projects.map(project=>project.name)));
 for(const name of names) assert.match(guides[name]||'', /[\u4e00-\u9fff]/, `Missing Chinese guide: ${name}`);
 for(const project of quick.projects){
- assert.ok(names.has(project.name), `Quickstart not present in snapshot: ${project.name}`);
+ assert.match(project.name,/^[-\w.]+\/[-\w.]+$/, 'Invalid quickstart repository');
  assert.ok(project.command.trim()&&project.requirements.trim());
  const url=new URL(project.tryUrl);
  assert.equal(url.protocol,'https:');

@@ -13,7 +13,7 @@ export function boardChanges(previous,current){
  if(!previous||!current||!previous.updatedAt||!current.updatedAt)return {status:'no_baseline',entries:[]};
  if(previous.updatedAt===current.updatedAt)return {status:'same_snapshot',entries:[]};
  const old=new Map(previous.projects.map((p,index)=>[p.name,{rank:index+1,stars:p.stars}]));
- return {status:'comparable',entries:current.projects.map((p,index)=>({name:p.name,rank:index+1,previousRank:old.get(p.name)?.rank??null,rankGain:old.has(p.name)?old.get(p.name).rank-index-1:null,starGain:old.has(p.name)?p.stars-old.get(p.name).stars:null}))};
+ return {status:'comparable',entries:current.projects.map((p,index)=>({name:p.name,rank:index+1,previousRank:old.get(p.name)?.rank??null,rankGain:old.has(p.name)?old.get(p.name).rank-index-1:null,starGain:typeof p.stars==='number'&&typeof old.get(p.name)?.stars==='number'?p.stars-old.get(p.name).stars:null}))};
 }
 export function mergeTopProjects(boards){
  const selected=new Map();

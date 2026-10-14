@@ -64,3 +64,4 @@ __pycache__/
 # Zcode public-source handoff stays local; share only its format example.
 /data/inbox/*
 !/data/inbox/tibo-feed.example.json
+!/data/inbox/github-trending-feed.example.json

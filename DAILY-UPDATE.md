@@ -22,6 +22,8 @@
 
 ## 独立 GitHub 趋势榜
 
+总榜通过官方 API、日榜通过无参数 `/trending` 自动获取；周榜参数网页受 robots 限制时保留历史。月度趋势榜按 `GITHUB-TRENDING-CONTRACT.md` 读取用户人工提供的官方快照，保持官方顺序和真实采集时间，不联网绕过参数页限制、不用自算榜替代。交接缺失时标记历史快照，不每天重复通知同一已知来源限制。
+
 GitHub 项目不并入简报，单独维护 `/github` 的四个榜单。刷新 `data/github-rankings.json` 时，为新增仓库补充 `data/github-guides.json` 中的中文一句话用途；不直接显示英文描述。热度理由使用同一快照中的排名、累计 Star 或期间新增 Star，不能编造走红原因。配图采用 GitHub 仓库预览图，失败回退仓库名。
 
 上手命令先核对官方 README；已核对命令和先决条件保存到 `data/github-quickstarts.json`，标记核对日期，不声称本站实测。不能确认命令或 demo 时仅提供官方文档入口并注明，不猜测命令。运行 `node scripts/check-github-guides.mjs` 检查当前所有仓库的中文用途覆盖率和链接。
