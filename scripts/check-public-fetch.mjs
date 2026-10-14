@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {robotsAllows} from './public-fetch.mjs';
+assert.equal(robotsAllows('User-agent: *\nDisallow: /private','/private/page'),false);
+assert.equal(robotsAllows('User-agent: *\nDisallow: /\nAllow: /public','/public/page'),true);
+assert.equal(robotsAllows('User-agent: *\nDisallow: /search?*','/search?q=test'),false);
+assert.equal(robotsAllows('User-agent: *\nDisallow: /news$','/newsletter'),true);
+assert.equal(robotsAllows('User-agent: *\nDisallow: /\nUser-agent: AI-Frontier-local\nAllow: /','/news'),true);
+assert.equal(robotsAllows('User-agent: *\nDisallow:\n# no restrictions','/news'),true);
+assert.equal(robotsAllows('User-agent: *\nDisallow: /news\nAllow: /news','/news'),true);
+console.log('PASS: robots disallow, specific user-agent, longest allow rule, wildcards and empty rules.');

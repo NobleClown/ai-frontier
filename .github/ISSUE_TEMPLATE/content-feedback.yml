@@ -1,0 +1,38 @@
+name: 内容纠错与版权反馈
+description: 反馈来源、额度、日期、上手方式或版权问题。请勿填写敏感信息。
+title: "[内容反馈] "
+body:
+  - type: markdown
+    attributes:
+      value: "反馈内容公开。请勿提供 API Key、密码、Cookie、身份证件或私人联系信息。"
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 反馈类型
+      options:
+        - 信息纠错或规则变更
+        - 版权或图片处理请求
+        - 隐私或其他问题
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: 本站页面与条目名称
+      description: 提供页面网址、条目名称及显示的日期。
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 原始或官方来源
+      description: 可公开核对的链接；没有链接可以写明原因。
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 问题与希望的处理方式
+      description: 说明错误位置、正确内容，或需移除的文字与图片。
+    validations:
+      required: true

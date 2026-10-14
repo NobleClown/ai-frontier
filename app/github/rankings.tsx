@@ -4,6 +4,7 @@ import {ArrowUpRight,Search,Star,GitFork} from 'lucide-react';
 import snapshot from '@/data/github-rankings.json';
 import guides from '@/data/github-guides.json';
 import quickStarts from '@/data/github-quickstarts.json';
+import AiLabel from '../ai-label';
 type Project={name:string;url:string;description:string;language:string;stars:number;forks:number|null;growth:string};
 type Board={id:string;title:string;description:string;sourceUrl:string;updatedAt:string|null;error:string|null;projects:Project[]};
 function purpose(name:string){return guides[name as keyof typeof guides]||'中文用途尚待核对，请查看官方仓库说明。';}
@@ -39,7 +40,7 @@ export default function Rankings(){
     return <article className="github-card" key={project.name}>
      <RepositoryImage project={project} rank={rank}/>
      <div className="github-card-body"><a className="news-title" href={project.url} target="_blank" rel="noopener noreferrer"><h3>{project.name} <ArrowUpRight size={17}/></h3></a>
-      <dl><dt>一句话干嘛</dt><dd>{purpose(project.name)}</dd><dt>为什么火</dt><dd>{heat(project,board,rank)}</dd><dt>怎么试</dt><dd>
+      <AiLabel text="AI 生成说明"/><dl><dt>一句话干嘛</dt><dd>{purpose(project.name)}</dd><dt>为什么火</dt><dd>{heat(project,board,rank)}</dd><dt>怎么试</dt><dd>
        {quick?<><pre><code>{quick.command}</code></pre><a href={quick.tryUrl} target="_blank" rel="noopener noreferrer">{quick.tryLabel} ↗</a><p>{quick.requirements}</p><p>安装说明核对：{quickStarts.verifiedAt} · 本站尚未实测</p></>:<><a href={`${project.url}#readme`} target="_blank" rel="noopener noreferrer">打开官方 README / 上手文档 ↗</a><p>从仓库的安装、快速开始或示例入口试用；未核对安装命令，不保证提供在线 demo。</p></>}
       </dd></dl>
       <div className="github-meta"><span>{project.language||'未标注语言'}</span><span><Star size={14}/> {project.stars.toLocaleString()}</span>{project.forks!==null&&<span><GitFork size={14}/> {project.forks.toLocaleString()}</span>}</div>

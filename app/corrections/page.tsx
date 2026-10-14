@@ -1,0 +1,3 @@
+export const metadata={title:'纠错与版权反馈 · AI 前沿'};
+const issueUrl='https://github.com/NobleClown/ai-frontier/issues/new?template=content-feedback.yml';
+export default function Corrections(){return <main className="policy-page"><a href="/">← 返回首页</a><h1>纠错与版权反馈</h1><p>额度、时间、模型名称、安装方式或来源有误，或者需要提出版权处理请求，可以通过项目的 GitHub Issues 联系维护者。</p><ol><li>记下本站页面网址、条目名称和显示的核对日期。</li><li>附官方公告或原始来源链接，说明哪里有误、应如何修正。</li><li>版权反馈请注明涉及的文字或配图位置，以及希望更正或移除的内容。</li></ol><p className="policy-note">反馈入口需要 GitHub 登录，提交后内容公开。请勿填写 API Key、密码、Cookie、身份证件、私人联系方式或其他敏感资料。本站不会要求提供账号凭据。</p><p><a href={issueUrl} target="_blank" rel="noopener noreferrer">在 GitHub 提交反馈 ↗</a></p><p>本站不保存反馈表单或联系信息；外部反馈受 GitHub 自身条款与隐私规则约束。需要敏感资料的权属问题，请先提交不含敏感信息的说明，再另行商定处理方式。</p><a href="/content-policy">查看内容与来源原则 →</a></main>;}

@@ -1,0 +1,30 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import ts from 'typescript';
+const modules=new Map();
+function load(name){
+ if(modules.has(name))return modules.get(name);
+ const source=fs.readFileSync(new URL(`../lib/${name}.ts`,import.meta.url),'utf8');
+ const code=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
+ const exports={};
+ vm.runInNewContext(code,{exports,URL,require:path=>load(path.replace('./',''))});
+ modules.set(name,exports);return exports;
+}
+const {freeOffers}=load('free-offers');
+const {hasOfficialOfferSources}=load('official-offer-sources');
+for(const offer of freeOffers)assert.ok(hasOfficialOfferSources(offer),`Unapproved official source: ${offer.id}`);
+const official=freeOffers[0];
+assert.equal(hasOfficialOfferSources({...official,entryUrl:'https://openrouter.ai.evil.example/'}),false);
+assert.equal(hasOfficialOfferSources({...official,entryUrl:'https://openrouter.ai@evil.example/'}),false);
+const {discloseEdition,serializeDisclosure}=load('content-disclosure');
+const original={date:'2026-10-14',updatedAt:'old',stories:[{id:'test',url:'https://example.com/original'}]};
+const marked=discloseEdition(original);
+assert.equal(marked.stories[0].contentDisclosure.contentId,'news:2026-10-14:test');
+assert.equal(marked.stories[0].contentDisclosure.sourceUrl,'https://example.com/original');
+assert.equal(marked.updatedAt,'old');
+assert.ok(!original.stories[0].contentDisclosure);
+const encoded=serializeDisclosure({title:'</script><script>alert(1)</script>'});
+assert.ok(!encoded.includes('<'));
+assert.equal(JSON.parse(encoded).title,'</script><script>alert(1)</script>');
+console.log(`PASS: ${freeOffers.length} offers use approved operator domains; spoofed domains rejected; AI provenance preserves sources and freshness; embedded JSON is safe.`);

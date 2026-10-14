@@ -14,7 +14,7 @@ function load(name){
 const {isInEditorialScope,applyEditorialScope}=load('editorial-policy');
 const story={id:'price-update',title:'模型 API 单价下调',summary:'更新输入 token 调用费用。',takeaway:'使用前核对账号费率。',category:'模型动态'};
 assert.ok(isInEditorialScope(story),'Model usage cost should remain in scope');
-for(const title of ['模型公司完成 C 轮融资','大模型用于军事行动','AI 公司的外交与制裁动态','AI 股票行情变化']){
+for(const title of ['模型公司完成 C 轮融资','大模型用于军事行动','AI 公司的外交与制裁动态','AI 股票行情变化','芯片出口管制技术解读']){
  assert.equal(isInEditorialScope({...story,title}),false,`Should exclude: ${title}`);
 }
 assert.equal(isInEditorialScope({...story,category:'产业动态'}),false);
