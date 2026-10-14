@@ -1,0 +1,26 @@
+{
+  "verifiedAt": "2026-10-14",
+  "projects": [
+    {
+      "name": "lyogavin/airllm",
+      "command": "pip install airllm",
+      "tryUrl": "https://github.com/lyogavin/airllm#quickstart",
+      "tryLabel": "官方推理示例",
+      "requirements": "需要 Python；模型权重、磁盘空间与 GPU / CPU 配置另行准备。低显存不代表推理速度快，安装命令只安装库。"
+    },
+    {
+      "name": "vercel-labs/skills",
+      "command": "npx skills add vercel-labs/agent-skills",
+      "tryUrl": "https://github.com/vercel-labs/skills#install-a-skill",
+      "tryLabel": "官方安装说明",
+      "requirements": "需要 Node.js / npm 和已安装的编程 Agent。命令会交互式选择技能及目标 Agent，技能免费不代表模型调用免费。"
+    },
+    {
+      "name": "thedotmack/claude-mem",
+      "command": "/plugin marketplace add thedotmack/claude-mem\n/plugin install claude-mem",
+      "tryUrl": "https://github.com/thedotmack/claude-mem#quick-start",
+      "tryLabel": "官方快速开始",
+      "requirements": "这两条命令在 Claude Code 内依次执行，不是终端命令。会记录会话内容；安装前阅读存储与隐私说明，模型服务费用另计。"
+    }
+  ]
+}

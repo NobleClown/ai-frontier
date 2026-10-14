@@ -3,6 +3,7 @@ import { editions } from '@/db/schema';
 import { desc, eq } from 'drizzle-orm';
 import { bundledEditions } from './bundled-editions';
 import { categories, type Edition } from './news-types';
+import { applyEditorialScope, isInEditorialScope } from './editorial-policy';
 export async function listEditions() {
  const rows = await getDb().select({date:editions.date}).from(editions).orderBy(desc(editions.date)).limit(180);
  return Array.from(new Set([...rows.map(r=>r.date),...bundledEditions.map(e=>e.date)])).sort().reverse();
@@ -11,8 +12,8 @@ export async function readEdition(date?: string): Promise<Edition | null> {
  const db=getDb();
  const rows=date ? await db.select().from(editions).where(eq(editions.date,date)).limit(1) : await db.select().from(editions).orderBy(desc(editions.date)).limit(1);
  const bundled=date?bundledEditions.find(e=>e.date===date):[...bundledEditions].sort((a,b)=>b.date.localeCompare(a.date))[0];
- if(rows[0]&&(!bundled||rows[0].date>=bundled.date))return JSON.parse(rows[0].payload);
- return bundled||null;
+ if(rows[0]&&(!bundled||rows[0].date>=bundled.date))return applyEditorialScope(JSON.parse(rows[0].payload));
+ return bundled?applyEditorialScope(bundled):null;
 }
 function realDate(s: unknown): s is string {return typeof s==='string' && /^\d{4}-\d{2}-\d{2}$/.test(s) && Number.isFinite(Date.parse(s)) && new Date(s+'T00:00:00Z').toISOString().slice(0,10)===s;}
 export function validateEdition(value: unknown): Edition {
@@ -24,7 +25,8 @@ export function validateEdition(value: unknown): Edition {
  const ids=new Set(),urls=new Set();
  for(const s of e.stories) {
   for(const key of ['id','title','summary','source','url','takeaway'] as const)if(typeof s[key]!=='string' || !s[key].trim() || s[key].length>1200)throw new Error('新闻字段缺失或过长');
-  if(!['国内','海外'].includes(s.region) || !categories.includes(s.category) || !['官方发布','媒体报道'].includes(s.sourceType))throw new Error('新闻分类不正确');
+  if(!['国内','海外'].includes(s.region) || !(categories as readonly string[]).includes(s.category) || !['官方发布','媒体报道'].includes(s.sourceType))throw new Error('新闻分类不正确');
+  if(!isInEditorialScope(s))throw new Error('本站只收录 AI 模型及使用相关技术动态，不接受融资或公共事务报道');
   if(!realDate(s.publishedDate) || s.publishedDate>e.date)throw new Error('原文日期不正确');
   if((Date.parse(e.date)-Date.parse(s.publishedDate))/86400000>3)throw new Error('日报只接受最近三天发布的新闻');
   const url=new URL(s.url);if(url.protocol!=='https:' || url.username || url.password)throw new Error('原文必须使用 HTTPS 链接');

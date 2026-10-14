@@ -2,7 +2,7 @@
   "date": "2026-10-14",
   "updatedAt": "2026-10-14T01:15:07.288Z",
   "headline": "搜索接入、端侧模型与成本优化，开发者有了更多选择。",
-  "note": "本期收录 4 条已核对的消息：今天的元宝搜索 MCP 目录条目，以及 10 月 12—13 日的模型、云服务与安全研究。原文日期逐条保留；AWS 周报属于近期更新回顾，厂商测试数据不视为本站实测。",
+  "note": "本期收录 3 条已核对的消息：今天的元宝搜索 MCP 目录条目，以及 10 月 12—13 日的模型与 API 使用动态。原文日期逐条保留；AWS 周报属于近期更新回顾，厂商测试数据不视为本站实测。",
   "stories": [
     {
       "id": "yuanbao-search-mcp-20261014",
@@ -39,18 +39,6 @@
       "url": "https://github.com/OpenBMB/MiniCPM-V",
       "publishedDate": "2026-10-12",
       "takeaway": "适合关注本地多模态与端侧部署的开发者。内存占用不等于模型文件大小；速度取决于设备与推理配置，上述数字为团队测试结果。"
-    },
-    {
-      "id": "anthropic-replication-research-20261012",
-      "title": "Anthropic 研究评估小模型在 IoT 设备上运行与复制的潜在风险",
-      "summary": "Anthropic 红队 10 月 12 日发布研究，评估模型在不同硬件上配置推理服务，以及串联复制步骤的能力。团队报告一个 9B 模型在 9 类测试硬件中的 8 类上成功启动推理；较强模型在简化实验中能完成端到端复制。",
-      "region": "海外",
-      "category": "研究进展",
-      "source": "Anthropic Frontier Red Team",
-      "sourceType": "官方发布",
-      "url": "https://www.anthropic.com/research/self-replicating-ai",
-      "publishedDate": "2026-10-12",
-      "takeaway": "实验简化了入侵环节，结果不能直接等同于现实攻击能力。小模型何时具备完整能力属于研究推测，不是已发生的大规模自传播事件。"
     }
   ]
 }
