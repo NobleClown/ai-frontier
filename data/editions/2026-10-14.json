@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-14",
+  "updatedAt": "2026-10-14T01:15:07.288Z",
+  "headline": "搜索接入、端侧模型与成本优化，开发者有了更多选择。",
+  "note": "本期收录 4 条已核对的消息：今天的元宝搜索 MCP 目录条目，以及 10 月 12—13 日的模型、云服务与安全研究。原文日期逐条保留；AWS 周报属于近期更新回顾，厂商测试数据不视为本站实测。",
+  "stories": [
+    {
+      "id": "yuanbao-search-mcp-20261014",
+      "title": "元宝搜索 MCP 条目更新，支持为智能体接入联网检索",
+      "summary": "腾讯云 MCP 广场中，元宝搜索团队的服务条目标注 10 月 14 日发布。服务支持指定网址和时间范围检索，返回网页标题、摘要、链接等信息；开发者需开通元宝搜索服务并使用自己的 API Key 接入。",
+      "region": "国内",
+      "category": "开发工具",
+      "source": "腾讯云 MCP 广场 · 元宝搜索团队",
+      "sourceType": "官方发布",
+      "url": "https://developer.cloud.tencent.com/mcp/server/11764",
+      "publishedDate": "2026-10-14",
+      "takeaway": "这是服务目录条目的日期，不代表元宝搜索底层服务今天首次上线。免费额度需到官方活动页另查，不能把 MCP 接入理解成永久免费。"
+    },
+    {
+      "id": "aws-ai-weekly-20261013",
+      "title": "AWS 周报回顾 Haiku 5.5、Nova 2.5 Sonic 与智能体运行边界",
+      "summary": "AWS 10 月 13 日周报汇总近期 AI 更新，包括 Claude Haiku 5.5 在 AWS 上的可用性、Nova 2.5 Sonic 语音模型，以及用于约束智能体行为的 Strands Box。周报称 Haiku 5.5 对多数任务的成本较 Haiku 4.5 低约 75%。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "AWS News Blog",
+      "sourceType": "官方发布",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
+      "publishedDate": "2026-10-13",
+      "takeaway": "周报日期不是各产品的首发日期。成本比例是 AWS 的描述，选型时仍需查看实际价目表、地区可用性和自己的任务表现。"
+    },
+    {
+      "id": "minicpm-v47-20261012",
+      "title": "OpenBMB 发布 MiniCPM-V 4.7，提供 MoE 与 1B 两种版本",
+      "summary": "OpenBMB 官方仓库将 MiniCPM-V 4.7 的发布日期列为 10 月 12 日，提供 35B-A3B 和 1B 版本。团队介绍了提前调度专家权重的 LES 技术，并报告在 iPhone 17 Pro Max 上以约 3GB 内存实现超过 13 Token／秒的解码速度。",
+      "region": "国内",
+      "category": "模型动态",
+      "source": "OpenBMB 官方 GitHub",
+      "sourceType": "官方发布",
+      "url": "https://github.com/OpenBMB/MiniCPM-V",
+      "publishedDate": "2026-10-12",
+      "takeaway": "适合关注本地多模态与端侧部署的开发者。内存占用不等于模型文件大小；速度取决于设备与推理配置，上述数字为团队测试结果。"
+    },
+    {
+      "id": "anthropic-replication-research-20261012",
+      "title": "Anthropic 研究评估小模型在 IoT 设备上运行与复制的潜在风险",
+      "summary": "Anthropic 红队 10 月 12 日发布研究，评估模型在不同硬件上配置推理服务，以及串联复制步骤的能力。团队报告一个 9B 模型在 9 类测试硬件中的 8 类上成功启动推理；较强模型在简化实验中能完成端到端复制。",
+      "region": "海外",
+      "category": "研究进展",
+      "source": "Anthropic Frontier Red Team",
+      "sourceType": "官方发布",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "publishedDate": "2026-10-12",
+      "takeaway": "实验简化了入侵环节，结果不能直接等同于现实攻击能力。小模型何时具备完整能力属于研究推测，不是已发生的大规模自传播事件。"
+    }
+  ]
+}
