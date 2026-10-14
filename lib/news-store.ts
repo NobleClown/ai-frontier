@@ -5,6 +5,7 @@ import { bundledEditions } from './bundled-editions';
 import { categories, type Edition } from './news-types';
 import { applyEditorialScope, isInEditorialScope } from './editorial-policy';
 import {discloseEdition} from './content-disclosure';
+import {selectEdition} from './edition-selection';
 export async function listEditions() {
  const rows = await getDb().select({date:editions.date}).from(editions).orderBy(desc(editions.date)).limit(180);
  return Array.from(new Set([...rows.map(r=>r.date),...bundledEditions.map(e=>e.date)])).sort().reverse();
@@ -13,8 +14,8 @@ export async function readEdition(date?: string): Promise<Edition | null> {
  const db=getDb();
  const rows=date ? await db.select().from(editions).where(eq(editions.date,date)).limit(1) : await db.select().from(editions).orderBy(desc(editions.date)).limit(1);
  const bundled=date?bundledEditions.find(e=>e.date===date):[...bundledEditions].sort((a,b)=>b.date.localeCompare(a.date))[0];
- if(rows[0]&&(!bundled||rows[0].date>=bundled.date))return discloseEdition(applyEditorialScope(JSON.parse(rows[0].payload)));
- return bundled?discloseEdition(applyEditorialScope(bundled)):null;
+ const selected=selectEdition(rows[0]?JSON.parse(rows[0].payload):null,bundled);
+ return selected?discloseEdition(applyEditorialScope(selected)):null;
 }
 function realDate(s: unknown): s is string {return typeof s==='string' && /^\d{4}-\d{2}-\d{2}$/.test(s) && Number.isFinite(Date.parse(s)) && new Date(s+'T00:00:00Z').toISOString().slice(0,10)===s;}
 export function validateEdition(value: unknown): Edition {

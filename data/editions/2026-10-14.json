@@ -1,9 +1,21 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T01:15:07.288Z",
-  "headline": "搜索接入、端侧模型与成本优化，开发者有了更多选择。",
-  "note": "本期收录 3 条已核对的消息：今天的元宝搜索 MCP 目录条目，以及 10 月 12—13 日的模型与 API 使用动态。原文日期逐条保留；AWS 周报属于近期更新回顾，厂商测试数据不视为本站实测。",
+  "updatedAt": "2026-10-14T09:59:03.721Z",
+  "headline": "模型接入继续扩展，旧版 API 进入迁移窗口。",
+  "note": "本期 7 条，覆盖 10 月 12—14 日，保留真实原文日期。今天新增 OpenAI API 弃用通知；Gemini、Pi API 与 GLM-Legal 为近三天进展。AWS 是近期更新回顾。Tibo 交接缺原始发布时间，暂未入刊；部分厂商页面读取受限，本期不保证全天或全厂商覆盖。",
   "stories": [
+    {
+      "id": "openai-gpt4-deprecation-20261014",
+      "title": "OpenAI 宣布部分 GPT-4 系列 API 模型将于明年 1 月停用",
+      "summary": "OpenAI 10 月 14 日的弃用通知列出 GPT-4o、GPT-4o mini、GPT-4.1 和 GPT-4.1 mini 的指定版本，计划于 2027 年 1 月 14 日从 API 移除，建议迁移至 gpt-6-luna。相关微调版本跟随基础模型的停用时间。",
+      "region": "海外",
+      "category": "模型动态",
+      "source": "OpenAI 官方 API 文档",
+      "sourceType": "官方发布",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "publishedDate": "2026-10-14",
+      "takeaway": "这是提前公告，不是今天停止调用；核对代码中的完整模型 ID，迁移前测试输出、费用和接口兼容性。"
+    },
     {
       "id": "yuanbao-search-mcp-20261014",
       "title": "元宝搜索 MCP 条目更新，支持为智能体接入联网检索",
@@ -15,6 +27,30 @@
       "url": "https://developer.cloud.tencent.com/mcp/server/11764",
       "publishedDate": "2026-10-14",
       "takeaway": "这是服务目录条目的日期，不代表元宝搜索底层服务今天首次上线。免费额度需到官方活动页另查，不能把 MCP 接入理解成永久免费。"
+    },
+    {
+      "id": "google-gemini4-argon-access-20261013",
+      "title": "Gemini 4 Argon 扩大开放，开发者可通过付费 API 接入",
+      "summary": "Google 10 月 13 日公告扩大 Gemini 4 Argon 的开放范围：开发者可使用 AI Studio 与 Gemini 平台的付费 API；Gemini 应用及搜索 AI Mode 面向 Google AI Pro、Ultra 用户提供。官方介绍其支持长程编程与多步骤任务。",
+      "region": "海外",
+      "category": "模型动态",
+      "source": "Google 官方博客",
+      "sourceType": "官方发布",
+      "url": "https://blog.google/intl/en-in/products/introducing-gemini-4-argon/",
+      "publishedDate": "2026-10-13",
+      "takeaway": "这是开放范围扩大，不是模型首次公布。付费 API、应用订阅及 Antigravity 权益分别核对；官方性能声明不等于本站实测。"
+    },
+    {
+      "id": "pi-api-beta-20261013",
+      "title": "Physical Intelligence 推出 Pi API Beta，支持机器人模型微调与推理",
+      "summary": "Physical Intelligence 于 10 月 13 日介绍 Pi API 测试版。开发者可以上传机器人任务数据，在平台管理的计算资源上微调模型，再通过托管网关进行推理，并用评估数据指导下一轮训练。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "Physical Intelligence 官方博客",
+      "sourceType": "官方发布",
+      "url": "https://www.pi.website/blog/api-beta",
+      "publishedDate": "2026-10-13",
+      "takeaway": "面向有机器人硬件与任务数据的开发团队，不是通用聊天 API。公告属于 Beta 发布，接入资格、适配和费用需到官方入口确认。"
     },
     {
       "id": "aws-ai-weekly-20261013",
@@ -39,6 +75,18 @@
       "url": "https://github.com/OpenBMB/MiniCPM-V",
       "publishedDate": "2026-10-12",
       "takeaway": "适合关注本地多模态与端侧部署的开发者。内存占用不等于模型文件大小；速度取决于设备与推理配置，上述数字为团队测试结果。"
+    },
+    {
+      "id": "zhipu-glm-legal",
+      "title": "智谱发布 GLM-Legal，开放法律专用模型 Beta 与 API 申请",
+      "summary": "智谱 10 月 12 日官方文章介绍了基于 GLM-5.3-Flash 的 GLM-Legal，通过领域训练与推理优化支持合同审阅等专业工作流。文章提供 Beta 及 API 接入申请入口，并预告与 AutoClaw 的结合。",
+      "region": "国内",
+      "category": "模型动态",
+      "source": "Z.ai 官方博客",
+      "sourceType": "官方发布",
+      "url": "https://z.ai/blog/glm-legal",
+      "publishedDate": "2026-10-12",
+      "takeaway": "目前应按官方申请流程确认接入，不能当作所有账号已可用或免费。这里仅介绍模型与接入，不展开案件或公共事务报道。"
     }
   ]
 }

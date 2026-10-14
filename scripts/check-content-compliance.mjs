@@ -20,6 +20,13 @@ assert.equal(hasOfficialOfferSources({...official,entryUrl:'https://openrouter.a
 const {discloseEdition,serializeDisclosure}=load('content-disclosure');
 const original={date:'2026-10-14',updatedAt:'old',stories:[{id:'test',url:'https://example.com/original'}]};
 const marked=discloseEdition(original);
+const {selectEdition}=load('edition-selection');
+const older={date:'2026-10-14',updatedAt:'2026-10-14T01:00:00Z'};
+const newer={date:'2026-10-14',updatedAt:'2026-10-14T09:00:00Z'};
+assert.equal(selectEdition(older,newer),newer,'Fresh bundle must override stale same-day database');
+assert.equal(selectEdition(newer,older),newer,'Fresh database must override stale bundle');
+assert.equal(selectEdition({...newer,date:'2026-10-13'},older),older,'Edition date takes priority over timestamp');
+assert.equal(selectEdition(null,newer),newer);
 assert.equal(marked.stories[0].contentDisclosure.contentId,'news:2026-10-14:test');
 assert.equal(marked.stories[0].contentDisclosure.sourceUrl,'https://example.com/original');
 assert.equal(marked.updatedAt,'old');
