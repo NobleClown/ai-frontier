@@ -53,6 +53,8 @@ next-env.d.ts
 /.agents/
 /.codex/
 /outputs/
+__pycache__/
+*.pyc
 /work/
 
 # Generated TypeScript cache and local Wrangler secrets.

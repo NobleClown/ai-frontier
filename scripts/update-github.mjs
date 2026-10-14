@@ -1,11 +1,13 @@
 import {writeFile,mkdir} from 'node:fs/promises';
 import {fetchPublicPage} from './public-fetch.mjs';
+import {archiveRankings} from './github-history.mjs';
 const headers={'User-Agent':'AI-Frontier-local','Accept':'application/vnd.github+json'};
 const clean=s=>s.replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/\s+/g,' ').trim();
 const linkCount=s=>Number(clean(s.slice(s.indexOf('>')+1)).replace(/[^0-9]/g,''))||0;
 const definitions=[['total','总榜','公开、未归档仓库按累计 Star 排序'],['daily','日榜','GitHub Trending · 今日'],['weekly','周榜','GitHub Trending · 本周'],['monthly','趋势榜','GitHub Trending · 本月；不是本站计算的涨幅榜']];
 let previous={boards:[]};try{previous=JSON.parse(await (await import('node:fs/promises')).readFile(new URL('../data/github-rankings.json',import.meta.url),'utf8'));}catch{}
 const boards=[];
+await archiveRankings(previous);
 for(const [id,title,description] of definitions){
  try{
  const url=id==='total'?'https://api.github.com/search/repositories?q=stars:%3E10000+archived:false&sort=stars&order=desc&per_page=20':`https://github.com/trending?since=${id==='weekly'?'weekly':id==='monthly'?'monthly':'daily'}`;
@@ -19,6 +21,8 @@ for(const [id,title,description] of definitions){
  if(id!=='monthly')await new Promise(resolve=>setTimeout(resolve,1000));
 }
 await mkdir(new URL('../data/',import.meta.url),{recursive:true});
-await writeFile(new URL('../data/github-rankings.json',import.meta.url),JSON.stringify({checkedAt:new Date().toISOString(),boards},null,2)+'\n');
+const snapshot={checkedAt:new Date().toISOString(),boards};
+await writeFile(new URL('../data/github-rankings.json',import.meta.url),JSON.stringify(snapshot,null,2)+'\n');
+await archiveRankings(snapshot);
 console.log(boards.map(b=>({board:b.id,count:b.projects.length,error:b.error})));
 

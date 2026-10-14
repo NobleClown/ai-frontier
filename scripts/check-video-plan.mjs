@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {boardChanges,mergeTopProjects} from './github-history.mjs';
+const project=name=>({name,stars:100});
+const before={updatedAt:'2026-10-13T00:00:00Z',projects:[project('a'),project('b')]};
+const after={updatedAt:'2026-10-14T00:00:00Z',projects:[project('b'),project('new')]};
+assert.equal(boardChanges(null,after).status,'no_baseline');
+assert.equal(boardChanges(before,before).status,'same_snapshot');
+const changes=boardChanges(before,after);
+assert.equal(changes.entries[0].rankGain,1);
+assert.equal(changes.entries[1].previousRank,null);
+const merged=mergeTopProjects([{...before,id:'daily'},{...after,id:'monthly'}]);
+assert.equal(merged.length,3);
+assert.equal(merged.find(p=>p.name==='b').boards.length,2);
+console.log('PASS: missing baseline does not invent movement; rank changes and daily/monthly deduplication verified.');
