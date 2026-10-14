@@ -1,5 +1,6 @@
 export const newsSources = [
  ['OpenAI','https://openai.com/news/','海外','模型发布、ChatGPT、Codex'],
+ ['Tibo / OpenAI 产品动态','https://x.com/thsottiaux','海外','本人关于 Codex、ChatGPT 的产品、模型、使用限额与重置帖文；按原文标注适用范围'],
  ['OpenAI 开发者社区','https://community.openai.com/','海外','官方开发者论坛；API、工具实践与讨论，用户帖需核对'],
  ['xAI / Grok','https://x.ai/news','海外','Grok 模型及产品公告'],
  ['xAI 官方开发者 Discord','https://discord.com/invite/x-ai','海外','官方 API 文档推荐的 Discord；Grok API 讨论'],
