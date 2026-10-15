@@ -1,19 +1,24 @@
 import {writeFile,mkdir} from 'node:fs/promises';
 import {fetchPublicPage} from './public-fetch.mjs';
 import {archiveRankings} from './github-history.mjs';
-import {readGithubFeed,monthlyBoardFromFeed} from './github-manual-feed.mjs';
+import {readGithubFeed,githubBoardFromFeed} from './github-manual-feed.mjs';
 const headers={'User-Agent':'AI-Frontier-local','Accept':'application/vnd.github+json'};
 const clean=s=>s.replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/\s+/g,' ').trim();
 const linkCount=s=>Number(clean(s.slice(s.indexOf('>')+1)).replace(/[^0-9]/g,''))||0;
 const definitions=[['total','总榜','公开、未归档仓库按累计 Star 排序'],['daily','日榜','GitHub Trending · 今日'],['weekly','周榜','GitHub Trending · 本周'],['monthly','趋势榜','GitHub Trending · 本月；不是本站计算的涨幅榜']];
 let previous={boards:[]};try{previous=JSON.parse(await (await import('node:fs/promises')).readFile(new URL('../data/github-rankings.json',import.meta.url),'utf8'));}catch{}
 const boards=[];
+let handoff=null,handoffError=null;
+try{handoff=await readGithubFeed();}catch(error){if(error.code!=='ENOENT')handoffError=error;}
 await archiveRankings(previous);
 for(const [id,title,description] of definitions){
  try{
- if(id==='monthly'){
-  try{boards.push(monthlyBoardFromFeed(await readGithubFeed(),previous.boards.find(b=>b.id===id)));}
-  catch(error){if(error.code==='ENOENT')throw Error('等待人工提供官方月榜快照（见 GITHUB-TRENDING-CONTRACT.md）');throw error;}
+ if(['daily','weekly','monthly'].includes(id)){
+  if(handoffError)throw Error(`读取交接文件失败：${handoffError.message}`);
+  if(!handoff)throw Error('等待 Zcode 提供浏览器读取快照（见 GITHUB-TRENDING-CONTRACT.md）');
+  const input=handoff.boards?.find(board=>board.period===id);
+  if(!input)throw Error(`等待 Zcode 提供${id==='daily'?'日榜':id==='weekly'?'周榜':'月榜'}快照`);
+  boards.push(githubBoardFromFeed(input,previous.boards.find(b=>b.id===id)));
   continue;
  }
  const url=id==='total'?'https://api.github.com/search/repositories?q=stars:%3E10000+archived:false&sort=stars&order=desc&per_page=20':id==='daily'?'https://github.com/trending':`https://github.com/trending?since=${id==='weekly'?'weekly':'monthly'}`;

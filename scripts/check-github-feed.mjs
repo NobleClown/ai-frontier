@@ -1,3 +1,3 @@
 import {readGithubFeed,validateGithubFeed} from './github-manual-feed.mjs';
-validateGithubFeed(await readGithubFeed());
-console.log('PASS: official monthly manual snapshot is valid.');
+const feed=validateGithubFeed(await readGithubFeed());
+console.log(`PASS: ${feed.boards.length} official GitHub Trending browser snapshots are valid.`);
