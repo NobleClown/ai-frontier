@@ -3,32 +3,32 @@
   "profileUrl": "https://x.com/thsottiaux",
   "lastCheckedAt": "2026-10-15T13:34:09.0991156Z",
   "checkStatus": "ok",
-  "checkNote": "根据用户确认，Day 10 Reset 为 Codex 重置。已保留 Zcode 直接读取的原帖时间和链接；原帖未说明具体套餐、账号资格或各账号实际生效时刻。",
+  "checkNote": "Tibo X 原帖确认 Day 10 Reset 已完成；根据用户确认标注为 Codex 重置。原帖未说明具体套餐、账号资格或各账号实际生效时刻。",
   "automationEnabled": true,
   "cadenceMinutes": 60,
   "posts": [
     {
-      "summary": "根据用户确认，该 Day 10 Reset 指 Codex 重置。Zcode 直接读取的本人帖文显示，Tibo 先写“Day 10/ Reset”，随后称“Landing within the next 2 hours”，并于北京时间 10 月 15 日 14:28 发文“Done and dusted”。可确认 Tibo 表示 Codex 重置事项已完成；原帖没有说明覆盖套餐、账号资格或各账号实际生效时刻，不能据此推断所有 Codex 用户均已获得重置。",
+      "summary": "Tibo 先写“Day 10/ Reset”，随后称“Landing within the next 2 hours”，并于北京时间 10 月 15 日 14:28 发文“Done and dusted”。根据用户确认，此处指 Codex 重置；可确认 Tibo 表示重置事项已完成。原帖没有说明覆盖套餐、账号资格或各账号实际生效时刻，不能据此推断所有 Codex 用户均已获得重置。",
       "publishedAt": "2026-10-15T14:28:00+08:00",
       "publishedAtPrecision": "minute",
       "evidence": [
         {
-          "url": "https://x.com/thsottiaux/status/2110618732666257557",
-          "name": "Zcode 直接读取的完成帖"
+          "name": "Tibo 完成帖",
+          "url": "https://x.com/thsottiaux/status/2110618732666257557"
         },
         {
-          "url": "https://x.com/thsottiaux/status/2110595554036400151",
-          "name": "Zcode 直接读取的时间安排帖"
+          "name": "Tibo 时间安排帖",
+          "url": "https://x.com/thsottiaux/status/2110595554036400151"
         },
         {
-          "url": "https://x.com/thsottiaux/status/2110595484180214059",
-          "name": "Zcode 直接读取的 Day 10 Reset 帖"
+          "name": "Tibo Day 10 Reset 帖",
+          "url": "https://x.com/thsottiaux/status/2110595484180214059"
         }
       ],
       "verification": "confirmed",
       "url": "https://x.com/thsottiaux/status/2110618732666257557",
       "title": "Codex Day 10 Reset：Tibo 表示重置已完成",
-      "verificationMethod": "Zcode 原文交接（依用户授权采信）",
+      "verificationMethod": "核对 Tibo X 原帖（详情时间由页面绝对时间确认）",
       "effectiveAt": null,
       "id": "2110618732666257557",
       "scope": "Codex 重置；原帖未说明适用套餐、账号资格或覆盖范围。"
@@ -54,17 +54,17 @@
     {
       "id": "2109132167112782291",
       "title": "Day 6：Tibo 宣布全局重置已传播完成",
-      "summary": "据 Zcode 提供的原文，Tibo 表示重置已传播完成；所引用的上文是全局重置预告。发布时间为北京时间 10 月 11 日 12:01，精度为分钟；未明确具体套餐或每个账号的实际生效时刻。",
+      "summary": "Tibo 表示重置已传播完成；其引用的上文是全局重置预告。发布时间为北京时间 10 月 11 日 12:01，精度为分钟；未明确具体套餐或每个账号的实际生效时刻。",
       "scope": "Codex / ChatGPT Work 相关全局重置；原帖未列具体套餐及账号条件。",
       "publishedAt": "2026-10-11T12:01:00+08:00",
       "publishedAtPrecision": "minute",
       "effectiveAt": null,
       "url": "https://x.com/thsottiaux/status/2109132167112782291",
       "verification": "confirmed",
-      "verificationMethod": "Zcode 原文交接（依用户授权采信）",
+      "verificationMethod": "核对 Tibo X 原帖",
       "evidence": [
         {
-          "name": "Zcode 直接读取的原帖",
+          "name": "Tibo 原帖",
           "url": "https://x.com/thsottiaux/status/2109132167112782291"
         }
       ]
@@ -72,17 +72,17 @@
     {
       "id": "2107913674593644711",
       "title": "Day 3：宣布向付费账号发放保存型重置",
-      "summary": "据 Zcode 提供的原文，Tibo 宣布正在向付费账号发放 banked reset。发布时间为北京时间 10 月 8 日 03:19，精度为分钟。这是保存型重置发放公告，未声明所有账号已收到，也不是立即完成的全局重置。",
+      "summary": "Tibo 宣布正在向付费账号发放 banked reset。发布时间为北京时间 10 月 8 日 03:19，精度为分钟。这是保存型重置发放公告，未声明所有账号均已收到，也不是立即完成的全局重置。",
       "scope": "原帖称付费账号；未逐项列出套餐、地区和资格条件。",
       "publishedAt": "2026-10-08T03:19:00+08:00",
       "publishedAtPrecision": "minute",
       "effectiveAt": null,
       "url": "https://x.com/thsottiaux/status/2107913674593644711",
       "verification": "confirmed",
-      "verificationMethod": "Zcode 原文交接（依用户授权采信）",
+      "verificationMethod": "核对 Tibo X 原帖",
       "evidence": [
         {
-          "name": "Zcode 直接读取的原帖",
+          "name": "Tibo 原帖",
           "url": "https://x.com/thsottiaux/status/2107913674593644711"
         }
       ]
