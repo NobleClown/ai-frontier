@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-15",
+  "updatedAt": "2026-10-15T02:19:19.681Z",
+  "headline": "语音 API 与编程 Agent 更新，回看近三天模型接入变化。",
+  "note": "截至北京时间 10:19，本轮尚未核实 10 月 15 日首发的新消息；本期 5 条均为 10 月 13—14 日近期进展，保留原文日期，不冒充今日首发。Tibo 交接已过期且缺原始发布时间，未收录；部分厂商页面不可读，不保证全厂商覆盖。",
+  "stories": [
+    {
+      "id": "grok-voice-3-20261014",
+      "title": "Grok Voice 3.0 上线 Voice Agent API，沿用每分钟 0.08 美元定价",
+      "summary": "官方 10 月 14 日发布 Grok Voice 3.0，面向语音到语音交互和语音智能体。公告称 API 已开放，价格与上一代相同；使用 grok-voice-latest 的智能体已自动切换到新版本。",
+      "region": "海外",
+      "category": "模型动态",
+      "source": "xAI / SpaceXSI 官方公告",
+      "sourceType": "官方发布",
+      "url": "https://x.ai/news/grok-voice-3",
+      "publishedDate": "2026-10-14",
+      "takeaway": "已有 latest 别名调用需回归测试打断、轮次交替和工具调用。延迟与榜单表现为公告所引测试，本站未独立实测；不要把控制台试用理解为永久免费。",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-15:grok-voice-3-20261014",
+        "sourceUrl": "https://x.ai/news/grok-voice-3"
+      }
+    },
+    {
+      "id": "kimi-code-desktop-110-20261014",
+      "title": "Kimi Code Desktop 1.1.0 支持 Linux，加入远程控制和文件树",
+      "summary": "Kimi 官方变更记录将 1.1.0 标为 10 月 14 日更新：新增 AppImage、deb、RPM 安装包，可通过链接或二维码远程控制本机 Agent，并加入文件树、可选进展更新和 kimi app 启动命令。",
+      "region": "国内",
+      "category": "开发工具",
+      "source": "Kimi Code 官方变更记录",
+      "sourceType": "官方发布",
+      "url": "https://www.kimi.com/code/docs/kimi-code-desktop/changelog.html",
+      "publishedDate": "2026-10-14",
+      "takeaway": "这是桌面客户端功能更新，不代表新模型发布或免费额度变化。远程控制需在设置中开启，使用前核对权限与官方说明。",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-15:kimi-code-desktop-110-20261014",
+        "sourceUrl": "https://www.kimi.com/code/docs/kimi-code-desktop/changelog.html"
+      }
+    },
+    {
+      "id": "openai-gpt4-deprecation-20261014",
+      "title": "OpenAI 宣布部分 GPT-4 系列 API 模型将于明年 1 月停用",
+      "summary": "OpenAI 10 月 14 日的弃用通知列出 GPT-4o、GPT-4o mini、GPT-4.1 和 GPT-4.1 mini 的指定版本，计划于 2027 年 1 月 14 日从 API 移除，建议迁移至 gpt-6-luna。相关微调版本跟随基础模型的停用时间。",
+      "region": "海外",
+      "category": "模型动态",
+      "source": "OpenAI 官方 API 文档",
+      "sourceType": "官方发布",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "publishedDate": "2026-10-14",
+      "takeaway": "这是提前公告，不是今天停止调用；核对代码中的完整模型 ID，迁移前测试输出、费用和接口兼容性。",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-15:openai-gpt4-deprecation-20261014",
+        "sourceUrl": "https://developers.openai.com/api/docs/deprecations"
+      }
+    },
+    {
+      "id": "google-gemini4-argon-access-20261013",
+      "title": "Gemini 4 Argon 扩大开放，开发者可通过付费 API 接入",
+      "summary": "Google 10 月 13 日公告扩大 Gemini 4 Argon 的开放范围：开发者可使用 AI Studio 与 Gemini 平台的付费 API；Gemini 应用及搜索 AI Mode 面向 Google AI Pro、Ultra 用户提供。官方介绍其支持长程编程与多步骤任务。",
+      "region": "海外",
+      "category": "模型动态",
+      "source": "Google 官方博客",
+      "sourceType": "官方发布",
+      "url": "https://blog.google/intl/en-in/products/introducing-gemini-4-argon/",
+      "publishedDate": "2026-10-13",
+      "takeaway": "这是开放范围扩大，不是模型首次公布。付费 API、应用订阅及 Antigravity 权益分别核对；官方性能声明不等于本站实测。",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-15:google-gemini4-argon-access-20261013",
+        "sourceUrl": "https://blog.google/intl/en-in/products/introducing-gemini-4-argon/"
+      }
+    },
+    {
+      "id": "pi-api-beta-20261013",
+      "title": "Physical Intelligence 推出 Pi API Beta，支持机器人模型微调与推理",
+      "summary": "Physical Intelligence 于 10 月 13 日介绍 Pi API 测试版。开发者可以上传机器人任务数据，在平台管理的计算资源上微调模型，再通过托管网关进行推理，并用评估数据指导下一轮训练。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "Physical Intelligence 官方博客",
+      "sourceType": "官方发布",
+      "url": "https://www.pi.website/blog/api-beta",
+      "publishedDate": "2026-10-13",
+      "takeaway": "面向有机器人硬件与任务数据的开发团队，不是通用聊天 API。公告属于 Beta 发布，接入资格、适配和费用需到官方入口确认。",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-15:pi-api-beta-20261013",
+        "sourceUrl": "https://www.pi.website/blog/api-beta"
+      }
+    }
+  ]
+}

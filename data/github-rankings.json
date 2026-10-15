@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-14T15:38:39.531Z",
+  "checkedAt": "2026-10-15T02:17:43.632Z",
   "boards": [
     {
       "id": "total",
       "title": "总榜",
       "description": "公开、未归档仓库按累计 Star 排序",
       "sourceUrl": "https://api.github.com/search/repositories?q=stars:%3E10000+archived:false&sort=stars&order=desc&per_page=20",
-      "updatedAt": "2026-10-14T15:38:33.280Z",
+      "updatedAt": "2026-10-15T02:17:37.682Z",
       "error": null,
       "projects": [
         {
@@ -14,8 +14,8 @@
           "url": "https://github.com/codecrafters-io/build-your-own-x",
           "description": "Master programming by recreating your favorite technologies from scratch.",
           "language": "Markdown",
-          "stars": 553192,
-          "forks": 51876,
+          "stars": 553272,
+          "forks": 51884,
           "growth": ""
         },
         {
@@ -23,8 +23,8 @@
           "url": "https://github.com/sindresorhus/awesome",
           "description": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
           "language": "",
-          "stars": 518859,
-          "forks": 37457,
+          "stars": 519053,
+          "forks": 37468,
           "growth": ""
         },
         {
@@ -32,8 +32,8 @@
           "url": "https://github.com/public-apis/public-apis",
           "description": "A collective list of free APIs",
           "language": "Python",
-          "stars": 488639,
-          "forks": 54174,
+          "stars": 488798,
+          "forks": 54194,
           "growth": ""
         },
         {
@@ -41,8 +41,8 @@
           "url": "https://github.com/freeCodeCamp/freeCodeCamp",
           "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
           "language": "TypeScript",
-          "stars": 457048,
-          "forks": 49288,
+          "stars": 457066,
+          "forks": 49315,
           "growth": ""
         },
         {
@@ -50,7 +50,7 @@
           "url": "https://github.com/EbookFoundation/free-programming-books",
           "description": ":books: Freely available programming books",
           "language": "Python",
-          "stars": 399036,
+          "stars": 399056,
           "forks": 66918,
           "growth": ""
         },
@@ -59,8 +59,8 @@
           "url": "https://github.com/openclaw/openclaw",
           "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
           "language": "TypeScript",
-          "stars": 391969,
-          "forks": 82420,
+          "stars": 392035,
+          "forks": 82434,
           "growth": ""
         },
         {
@@ -68,8 +68,8 @@
           "url": "https://github.com/donnemartin/system-design-primer",
           "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
           "language": "Python",
-          "stars": 374203,
-          "forks": 58852,
+          "stars": 374248,
+          "forks": 58861,
           "growth": ""
         },
         {
@@ -77,8 +77,8 @@
           "url": "https://github.com/nilbuild/developer-roadmap",
           "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
           "language": "TypeScript",
-          "stars": 369367,
-          "forks": 45081,
+          "stars": 369408,
+          "forks": 45079,
           "growth": ""
         },
         {
@@ -86,8 +86,8 @@
           "url": "https://github.com/jwasham/coding-interview-university",
           "description": "A complete computer science study plan to become a software engineer.",
           "language": "",
-          "stars": 362496,
-          "forks": 84907,
+          "stars": 362516,
+          "forks": 84904,
           "growth": ""
         },
         {
@@ -95,8 +95,8 @@
           "url": "https://github.com/vinta/awesome-python",
           "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
           "language": "Python",
-          "stars": 327354,
-          "forks": 28930,
+          "stars": 327474,
+          "forks": 28927,
           "growth": ""
         },
         {
@@ -104,8 +104,8 @@
           "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
           "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
           "language": "",
-          "stars": 326501,
-          "forks": 15295,
+          "stars": 326675,
+          "forks": 15304,
           "growth": ""
         },
         {
@@ -113,8 +113,8 @@
           "url": "https://github.com/obra/superpowers",
           "description": "An agentic skills framework & software development methodology that works.",
           "language": "Shell",
-          "stars": 299007,
-          "forks": 26709,
+          "stars": 299205,
+          "forks": 26726,
           "growth": ""
         },
         {
@@ -122,8 +122,8 @@
           "url": "https://github.com/mattpocock/skills",
           "description": "Skills for Real Engineers. Straight from my .agents directory.",
           "language": "Shell",
-          "stars": 290782,
-          "forks": 24387,
+          "stars": 291369,
+          "forks": 24436,
           "growth": ""
         },
         {
@@ -131,8 +131,8 @@
           "url": "https://github.com/practical-tutorials/project-based-learning",
           "description": "Curated list of project-based tutorials",
           "language": "Python",
-          "stars": 286680,
-          "forks": 36608,
+          "stars": 286724,
+          "forks": 36606,
           "growth": ""
         },
         {
@@ -140,8 +140,8 @@
           "url": "https://github.com/affaan-m/ECC",
           "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
           "language": "JavaScript",
-          "stars": 279074,
-          "forks": 41535,
+          "stars": 279515,
+          "forks": 41597,
           "growth": ""
         },
         {
@@ -149,7 +149,7 @@
           "url": "https://github.com/996icu/996.ICU",
           "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
           "language": "",
-          "stars": 277139,
+          "stars": 277141,
           "forks": 20683,
           "growth": ""
         },
@@ -158,8 +158,8 @@
           "url": "https://github.com/NousResearch/hermes-agent",
           "description": "The agent that grows with you",
           "language": "Python",
-          "stars": 253698,
-          "forks": 55025,
+          "stars": 253821,
+          "forks": 55070,
           "growth": ""
         },
         {
@@ -167,8 +167,8 @@
           "url": "https://github.com/torvalds/linux",
           "description": "Linux kernel source tree",
           "language": "C",
-          "stars": 251792,
-          "forks": 67927,
+          "stars": 251846,
+          "forks": 67965,
           "growth": ""
         },
         {
@@ -176,8 +176,8 @@
           "url": "https://github.com/react/react",
           "description": "The library for web and native user interfaces.",
           "language": "JavaScript",
-          "stars": 251012,
-          "forks": 51492,
+          "stars": 251024,
+          "forks": 51501,
           "growth": ""
         },
         {
@@ -185,8 +185,8 @@
           "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
           "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
           "language": "",
-          "stars": 250008,
-          "forks": 14511,
+          "stars": 250128,
+          "forks": 14516,
           "growth": ""
         }
       ]
@@ -196,7 +196,7 @@
       "title": "日榜",
       "description": "GitHub Trending · 今日",
       "sourceUrl": "https://github.com/trending",
-      "updatedAt": "2026-10-14T15:38:37.508Z",
+      "updatedAt": "2026-10-15T02:17:41.606Z",
       "error": null,
       "projects": [
         {
@@ -204,108 +204,108 @@
           "url": "https://github.com/morluto/rea",
           "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
           "language": "TypeScript",
-          "stars": 232373,
+          "stars": 244536,
           "forks": null,
-          "growth": "41,187 stars today"
+          "growth": "41,034 stars today"
         },
         {
           "name": "debpalash/VoiceStudio",
           "url": "https://github.com/debpalash/VoiceStudio",
           "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
           "language": "Python",
-          "stars": 65351,
+          "stars": 66554,
           "forks": null,
-          "growth": "3,547 stars today"
+          "growth": "3,538 stars today"
         },
         {
           "name": "mksglu/context-mode",
           "url": "https://github.com/mksglu/context-mode",
           "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
           "language": "TypeScript",
-          "stars": 28849,
+          "stars": 29190,
           "forks": null,
-          "growth": "946 stars today"
+          "growth": "947 stars today"
         },
         {
           "name": "nvm-sh/nvm",
           "url": "https://github.com/nvm-sh/nvm",
           "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
           "language": "Shell",
-          "stars": 95396,
+          "stars": 95469,
           "forks": null,
-          "growth": "45 stars today"
+          "growth": "52 stars today"
         },
         {
           "name": "K-Dense-AI/scientific-agent-skills",
           "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
           "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
           "language": "Python",
-          "stars": 49049,
+          "stars": 49422,
           "forks": null,
-          "growth": "146 stars today"
+          "growth": "163 stars today"
         },
         {
           "name": "HKUDS/CLI-Anything",
           "url": "https://github.com/HKUDS/CLI-Anything",
           "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
           "language": "Python",
-          "stars": 52283,
+          "stars": 52562,
           "forks": null,
-          "growth": "94 stars today"
+          "growth": "103 stars today"
         },
         {
           "name": "ifixai-ai/iFixAi",
           "url": "https://github.com/ifixai-ai/iFixAi",
           "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
           "language": "Python",
-          "stars": 26846,
+          "stars": 27520,
           "forks": null,
-          "growth": "2,143 stars today"
+          "growth": "2,109 stars today"
         },
         {
           "name": "vxcontrol/pentagi",
           "url": "https://github.com/vxcontrol/pentagi",
           "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
           "language": "Go",
-          "stars": 28965,
+          "stars": 29588,
           "forks": null,
-          "growth": "1,070 stars today"
+          "growth": "1,025 stars today"
         },
         {
           "name": "rust-lang/rust",
           "url": "https://github.com/rust-lang/rust",
           "description": "Empowering everyone to build reliable and efficient software.",
           "language": "Rust",
-          "stars": 119836,
+          "stars": 120072,
           "forks": null,
-          "growth": "205 stars today"
+          "growth": "207 stars today"
         },
         {
           "name": "xtool-org/xtool",
           "url": "https://github.com/xtool-org/xtool",
           "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
           "language": "Swift",
-          "stars": 10286,
+          "stars": 10910,
           "forks": null,
-          "growth": "1,510 stars today"
+          "growth": "1,502 stars today"
         },
         {
           "name": "ntdevlabs/tiny11builder",
           "url": "https://github.com/ntdevlabs/tiny11builder",
           "description": "WinUI app for building smaller, customized Windows 11 images.",
           "language": "C#",
-          "stars": 20096,
+          "stars": 20263,
           "forks": null,
-          "growth": "194 stars today"
+          "growth": "139 stars today"
         },
         {
           "name": "NationalSecurityAgency/ghidra",
           "url": "https://github.com/NationalSecurityAgency/ghidra",
           "description": "Ghidra is a software reverse engineering (SRE) framework",
           "language": "Java",
-          "stars": 87033,
+          "stars": 87605,
           "forks": null,
-          "growth": "1,002 stars today"
+          "growth": "1,008 stars today"
         }
       ]
     },
