@@ -27,6 +27,7 @@ export const newsSources = [
  ['Qoder','https://docs.qoder.com/','国内','Agent 产品、模型与额度活动；地区规则分开核对'],
  ['Qoder 官方论坛','https://forum.qoder.com/','国内','Agent 使用、问题反馈、公告与开发者讨论'],
  ['OpenRouter','https://openrouter.ai/blog','海外','聚合 API、免费模型池'],
+ ['OpenCode 官方更新','https://opencode.ai/changelog','海外','开源编程 Agent、CLI / 桌面端、模型接入与使用规则；核对版本和原始发布日期'],
  ['机器之心','https://www.jiqizhixin.com/','国内','研究与模型报道'],
  ['量子位','https://www.qbitai.com/','国内','产品及行业报道']
 ] as const;
