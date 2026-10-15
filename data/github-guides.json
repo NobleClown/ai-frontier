@@ -59,5 +59,7 @@
  "vectorize-io/hindsight":"为 Agent 提供可持续积累和检索的记忆系统。",
  "vercel-labs/skills":"为编程 Agent 查找和安装可复用技能。",
  "vinta/awesome-python":"按用途整理 Python 库和开发工具。",
- "xtool-org/xtool":"在多个操作系统上构建和部署 Swift iOS 应用。"
+ "xtool-org/xtool":"在多个操作系统上构建和部署 Swift iOS 应用。",
+ "twostraws/SwiftUI-Agent-Skill":"为 SwiftUI 编程提供面向 AI 助手的开发技能与规范。",
+ "Gaurav-Gosain/tuios":"在终端中分屏管理工作区和编程 Agent 会话，并查看它们的运行状态。"
 }

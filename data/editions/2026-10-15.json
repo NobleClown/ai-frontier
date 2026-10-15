@@ -1,8 +1,8 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T02:19:19.681Z",
-  "headline": "语音 API 与编程 Agent 更新，回看近三天模型接入变化。",
-  "note": "截至北京时间 10:19，本轮尚未核实 10 月 15 日首发的新消息；本期 5 条均为 10 月 13—14 日近期进展，保留原文日期，不冒充今日首发。Tibo 交接已过期且缺原始发布时间，未收录；部分厂商页面不可读，不保证全厂商覆盖。",
+  "updatedAt": "2026-10-15T12:26:18.6816222Z",
+  "headline": "编程 Agent 与模型接入更新，回看近三天已核实动态。",
+  "note": "晚间更新（北京时间 20:25）：未核实到 10 月 15 日首发的模型或开发工具消息；本期 6 条均按原始发布日期归档，含 OpenCode 10 月 14 日 v2.0.29。Tibo 交接已过期且缺原始发布时间，未收录；GitHub 日、周、月榜取今天中午的可见页面快照，不代表晚间采集；总榜 API 刷新失败，保留旧数据。",
   "stories": [
     {
       "id": "grok-voice-3-20261014",
@@ -93,6 +93,24 @@
         "contentId": "news:2026-10-15:pi-api-beta-20261013",
         "sourceUrl": "https://www.pi.website/blog/api-beta"
       }
+    },
+    {
+      "source": "OpenCode 官方 Changelog",
+      "title": "OpenCode v2.0.29 加入远程配对与响应续写",
+      "region": "海外",
+      "contentDisclosure": {
+        "contentId": "news:2026-10-15:opencode-v2029-20261014",
+        "publisher": "AI 前沿",
+        "generationMethod": "ai_generated",
+        "sourceUrl": "https://opencode.ai/changelog"
+      },
+      "category": "开发工具",
+      "takeaway": "远程配对会开放远程访问，启用前先检查设备与访问范围；本条为 10 月 14 日版本更新，不是今日首发。",
+      "publishedDate": "2026-10-14",
+      "url": "https://opencode.ai/changelog",
+      "id": "opencode-v2029-20261014",
+      "sourceType": "官方发布",
+      "summary": "OpenCode 官方 10 月 14 日发布 v2.0.29：桌面端可通过 OpenTunnel 配对远程设备，支持二维码或链接；可管理多个 Provider 账号；模型输出触及 token 上限时会自动续写。"
     }
   ]
 }
