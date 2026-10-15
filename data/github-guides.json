@@ -61,5 +61,7 @@
  "vinta/awesome-python":"按用途整理 Python 库和开发工具。",
  "xtool-org/xtool":"在多个操作系统上构建和部署 Swift iOS 应用。",
  "twostraws/SwiftUI-Agent-Skill":"为 SwiftUI 编程提供面向 AI 助手的开发技能与规范。",
- "Gaurav-Gosain/tuios":"在终端中分屏管理工作区和编程 Agent 会话，并查看它们的运行状态。"
+ "Gaurav-Gosain/tuios":"在终端中分屏管理工作区和编程 Agent 会话，并查看它们的运行状态。",
+ "ranxianglei/billion-context":"为编程 Agent 提供上下文压缩代理，减少上下文占用并延长会话。",
+ "DuarteSantos8/openGym":"提供可自行托管的健身训练工具，用于规划训练并记录训练情况。"
 }
