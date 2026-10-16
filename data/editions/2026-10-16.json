@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-16",
+  "updatedAt": "2026-10-16T01:47:21.434Z",
+  "headline": "语音模型更新与 Agent 可用性改进，关注已落地的使用变化。",
+  "note": "晨间更新（北京时间约 09:45）：截至本轮核对，尚未确认 10 月 16 日首发的独立新事件；本期 7 条为 10 月 14—15 日已核实进展，均保留原始发布日期。OpenAI 官方更新记录标 10 月 15 日，跨时区的 X 帖不重复算作今天首发。Tibo 正式交接采集于今天 09:32，含 2 条本人帖文及引用上下文，不代表完整时间线；Bonjour 转引的语音发布与官方更新记录合并。Day 10 Reset 为昨日完成记录。Qwen 博客正文不可读，部分厂商未检出窗口内可核对新消息，不保证全厂商覆盖。GitHub 独立展示，本轮日周月榜快照为今天 09:41，总榜通过官方 API 刷新。",
+  "stories": [
+    {
+      "id": "openai-gpt-live-11-20261015",
+      "title": "GPT-Live-1.1 与轻量版 Quip 开始进入 ChatGPT Voice",
+      "summary": "OpenAI 10 月 15 日发布语音更新：GPT-Live-1.1 及轻量版 GPT-Live-1.1 Quip 开始在 ChatGPT Voice 推出，改善多语言口音，并增加法语、德语、印地语、日语、韩语、墨西哥西班牙语声音及英语 Bubbie。联网搜索时的等待提示也更丰富。",
+      "takeaway": "声音选项依地区与账号显示，在设置的 Voice 中选择。此次公告是产品内语音更新，不能据此推断新版 API 已开放或所有账号声音完全一致。",
+      "region": "海外",
+      "category": "模型动态",
+      "source": "OpenAI 官方 ChatGPT 更新记录",
+      "sourceType": "官方发布",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "publishedDate": "2026-10-15",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-16:openai-gpt-live-11-20261015",
+        "sourceUrl": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      }
+    },
+    {
+      "id": "tibo-capacity-recovery-20261015",
+      "title": "Tibo：通过服务改动与增加算力，减少“所选模型满载”中断",
+      "summary": "Tibo 于北京时间 10 月 15 日 23:11 的 Day 11 帖文表示，已落地一系列改动并增加算力，以显著减少所选模型满载提示；即使仍触发，也应能最终自动继续，而非一直阻塞。他同时征集仍出现该问题的反馈。",
+      "takeaway": "这是原作者报告的服务可用性与恢复体验改进，本站未独立测量效果。帖子未逐项列出产品和套餐，不等于额外额度发放或重置公告。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2110750421367287996",
+      "publishedDate": "2026-10-15",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-16:tibo-capacity-recovery-20261015",
+        "sourceUrl": "https://x.com/thsottiaux/status/2110750421367287996"
+      }
+    },
+    {
+      "id": "opencode-v2030-20261015",
+      "title": "OpenCode v2.0.30 增加逐轮改动视图，TUI 可侧边查看 diff",
+      "summary": "OpenCode 官方将 v2.0.30 标为 10 月 15 日发布。桌面端可按完成的对话轮次展示修改文件、行数和可展开差异；终端内 /diff 默认停靠在会话旁，可按 f 切换全屏。该版还移除了已退役的会话分享后端和 /share 命令。",
+      "takeaway": "适合需要逐轮审查 Agent 改动的用户。依赖 /share 的旧工作流需调整；功能和兼容性以官方变更记录为准，本站未实际运行该版本。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方 Changelog",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/changelog",
+      "publishedDate": "2026-10-15",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-16:opencode-v2030-20261015",
+        "sourceUrl": "https://opencode.ai/changelog"
+      }
+    },
+    {
+      "id": "tibo-codex-day10-reset-20261015",
+      "title": "Codex Day 10 Reset：Tibo 发文表示重置已完成",
+      "summary": "在 Day 10 Reset 及随后两小时内落地的预告之后，Tibo 于北京时间 10 月 15 日 14:28 发文表示事项已经完成。该事件为 Codex 重置，完成帖及其引用的时间安排帖保留原始链接与分钟精度时间。",
+      "takeaway": "这是 10 月 15 日的完成消息，不是今天又发生一次重置。原帖未说明适用套餐、账号资格、覆盖范围及每个账号的实际生效时刻，请在个人用量页核对。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2110618732666257557",
+      "publishedDate": "2026-10-15",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-16:tibo-codex-day10-reset-20261015",
+        "sourceUrl": "https://x.com/thsottiaux/status/2110618732666257557"
+      }
+    },
+    {
+      "id": "kimi-code-desktop-110-20261014",
+      "title": "Kimi Code Desktop 1.1.0 支持 Linux，加入远程控制和文件树",
+      "summary": "Kimi 官方变更记录将 1.1.0 标为 10 月 14 日更新：新增 AppImage、deb、RPM 安装包，可通过链接或二维码远程控制本机 Agent，并加入文件树、可选进展更新和 kimi app 启动命令。",
+      "region": "国内",
+      "category": "开发工具",
+      "source": "Kimi Code 官方变更记录",
+      "sourceType": "官方发布",
+      "url": "https://www.kimi.com/code/docs/kimi-code-desktop/changelog.html",
+      "publishedDate": "2026-10-14",
+      "takeaway": "这是桌面客户端功能更新，不代表新模型发布或免费额度变化。远程控制需在设置中开启，使用前核对权限与官方说明。",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-16:kimi-code-desktop-110-20261014",
+        "sourceUrl": "https://www.kimi.com/code/docs/kimi-code-desktop/changelog.html"
+      }
+    },
+    {
+      "id": "grok-voice-3-20261014",
+      "title": "Grok Voice 3.0 上线 Voice Agent API，沿用每分钟 0.08 美元定价",
+      "summary": "官方 10 月 14 日发布 Grok Voice 3.0，面向语音到语音交互和语音智能体。公告称 API 已开放，价格与上一代相同；使用 grok-voice-latest 的智能体已自动切换到新版本。",
+      "region": "海外",
+      "category": "模型动态",
+      "source": "xAI / SpaceXSI 官方公告",
+      "sourceType": "官方发布",
+      "url": "https://x.ai/news/grok-voice-3",
+      "publishedDate": "2026-10-14",
+      "takeaway": "已有 latest 别名调用需回归测试打断、轮次交替和工具调用。延迟与榜单表现为公告所引测试，本站未独立实测；不要把控制台试用理解为永久免费。",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-16:grok-voice-3-20261014",
+        "sourceUrl": "https://x.ai/news/grok-voice-3"
+      }
+    },
+    {
+      "id": "openai-gpt4-deprecation-20261014",
+      "title": "OpenAI 宣布部分 GPT-4 系列 API 模型将于明年 1 月停用",
+      "summary": "OpenAI 10 月 14 日的弃用通知列出 GPT-4o、GPT-4o mini、GPT-4.1 和 GPT-4.1 mini 的指定版本，计划于 2027 年 1 月 14 日从 API 移除，建议迁移至 gpt-6-luna。相关微调版本跟随基础模型的停用时间。",
+      "region": "海外",
+      "category": "模型动态",
+      "source": "OpenAI 官方 API 文档",
+      "sourceType": "官方发布",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "publishedDate": "2026-10-14",
+      "takeaway": "这是提前公告，不是今天停止调用；核对代码中的完整模型 ID，迁移前测试输出、费用和接口兼容性。",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-16:openai-gpt4-deprecation-20261014",
+        "sourceUrl": "https://developers.openai.com/api/docs/deprecations"
+      }
+    }
+  ]
+}

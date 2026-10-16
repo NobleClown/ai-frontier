@@ -63,5 +63,10 @@
  "twostraws/SwiftUI-Agent-Skill":"为 SwiftUI 编程提供面向 AI 助手的开发技能与规范。",
  "Gaurav-Gosain/tuios":"在终端中分屏管理工作区和编程 Agent 会话，并查看它们的运行状态。",
  "ranxianglei/billion-context":"为编程 Agent 提供上下文压缩代理，减少上下文占用并延长会话。",
- "DuarteSantos8/openGym":"提供可自行托管的健身训练工具，用于规划训练并记录训练情况。"
+ "DuarteSantos8/openGym":"提供可自行托管的健身训练工具，用于规划训练并记录训练情况。",
+ "anthropics/claude-plugins-official":"Anthropic 维护的 Claude Code 插件目录，收录内部插件与社区扩展。",
+ "JuliusBrussee/caveman":"为编程 Agent 提供精简输出技能与上下文处理代理。",
+ "ruvnet/ruflo":"编排多个 Agent，管理协作任务、共享记忆与执行流程。",
+ "lightseekorg/tokenspeed":"提供用于运行大语言模型的推理引擎。",
+ "xerj-org/xerj":"为代码、文档、日志等内容建立索引，供 Agent 检索与 RAG 使用。"
 }
