@@ -68,5 +68,6 @@
  "JuliusBrussee/caveman":"为编程 Agent 提供精简输出技能与上下文处理代理。",
  "ruvnet/ruflo":"编排多个 Agent，管理协作任务、共享记忆与执行流程。",
  "lightseekorg/tokenspeed":"提供用于运行大语言模型的推理引擎。",
- "xerj-org/xerj":"为代码、文档、日志等内容建立索引，供 Agent 检索与 RAG 使用。"
+ "xerj-org/xerj":"为代码、文档、日志等内容建立索引，供 Agent 检索与 RAG 使用。",
+ "LibreSpark/LibreTV":"自部署的在线影视搜索与播放站，支持 Docker 等方式快速搭建。"
 }

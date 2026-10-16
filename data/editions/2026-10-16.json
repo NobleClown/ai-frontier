@@ -1,9 +1,27 @@
 {
   "date": "2026-10-16",
-  "updatedAt": "2026-10-16T01:47:21.434Z",
-  "headline": "语音模型更新与 Agent 可用性改进，关注已落地的使用变化。",
-  "note": "晨间更新（北京时间约 09:45）：截至本轮核对，尚未确认 10 月 16 日首发的独立新事件；本期 7 条为 10 月 14—15 日已核实进展，均保留原始发布日期。OpenAI 官方更新记录标 10 月 15 日，跨时区的 X 帖不重复算作今天首发。Tibo 正式交接采集于今天 09:32，含 2 条本人帖文及引用上下文，不代表完整时间线；Bonjour 转引的语音发布与官方更新记录合并。Day 10 Reset 为昨日完成记录。Qwen 博客正文不可读，部分厂商未检出窗口内可核对新消息，不保证全厂商覆盖。GitHub 独立展示，本轮日周月榜快照为今天 09:41，总榜通过官方 API 刷新。",
+  "updatedAt": "2026-10-16T13:43:00.000Z",
+  "headline": "语音模型与 Agent 工具细节迭代为主，16 日当日无新的大版本模型发布。",
+  "note": "晚间更新（北京时间约 21:43）：在晨间 7 条（10 月 14—15 日已核实进展，保留原始发布日期）基础上补充 2 条——腾讯 WorkBuddy 5.8.2 官方变更记录标今天发布，OpenRouter Private Endpoints 为 10 月 14 日官方博客，均打开原文核对。Tibo 正式交接晨间 09:32、晚间 17:31 场次共 3 条本人帖文，晚间新增仅 1 条无产品事实的预告式短帖，未纳入简报；Day 10 Reset 为昨日完成记录。状态页核查：DeepSeek 显示正常且日历未标注 10 月 15—16 日事件，OpenAI、Claude 正常（Claude 最近事件为 10 月 13 日已解决）。覆盖局限：OpenAI 官网与帮助中心本轮返回 403，x.ai 及 docs.x.ai 域名解析异常不可读，Google AI Studio 不可读，Qwen 博客正文为空，混元首页为无正文单页，MiniMax 与 Qoder 文档公告页未标日期；Gemini 4 Argon 开发者开放（10-13）与 GPT-5.5 退役（10-14）仅有搜索线索、官方正文未核验不收录；Meta Muse Wonder（10-12/13）与腾讯元器停服公告（10-8）超出近三天窗口。GitHub 独立展示，本轮日周月榜快照为今天 18:01—18:02，总榜 21:32 通过官方 API 刷新。",
   "stories": [
+    {
+      "id": "workbuddy-582-fixes-20261016",
+      "title": "WorkBuddy 5.8.2 修复历史会话异常等多项使用问题",
+      "summary": "腾讯 WorkBuddy 官方变更记录将 5.8.2 标为 10 月 16 日发布：修复历史会话打开异常、企业微信机器人文件回复卡住、Artifacts 计数跳变、旗舰版侧边栏菜单配置及语音输入等问题，属稳定性修复版本。",
+      "takeaway": "这是桌面端使用问题修复，不含新模型或额度变化；以官方变更记录为准，本站未实际升级验证。",
+      "region": "国内",
+      "category": "产品应用",
+      "source": "腾讯 CodeBuddy / WorkBuddy 官方变更记录",
+      "sourceType": "官方发布",
+      "url": "https://www.codebuddy.cn/docs/workbuddy/Changelog",
+      "publishedDate": "2026-10-16",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-16:workbuddy-582-fixes-20261016",
+        "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+      }
+    },
     {
       "id": "openai-gpt-live-11-20261015",
       "title": "GPT-Live-1.1 与轻量版 Quip 开始进入 ChatGPT Voice",
@@ -74,6 +92,24 @@
         "publisher": "AI 前沿",
         "contentId": "news:2026-10-16:tibo-codex-day10-reset-20261015",
         "sourceUrl": "https://x.com/thsottiaux/status/2110618732666257557"
+      }
+    },
+    {
+      "id": "openrouter-private-endpoints-20261014",
+      "title": "OpenRouter 推出 Private Endpoints，企业可接入自有微调模型",
+      "summary": "OpenRouter 官方博客 10 月 14 日宣布 Private Endpoints：Enterprise 客户可将自有微调模型、专属部署或预留算力接入其 API 路由，保留现有模型别名，端点默认排在供应商列表前列，组织外不可见且不进入公开榜单与评测。",
+      "takeaway": "该功能为 Enterprise 附加能力，需客户经理或联系表单开通，默认每组织上限 10 个端点；私有部署不等于零数据保留，数据政策需自行声明，价格未公开。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenRouter 官方博客",
+      "sourceType": "官方发布",
+      "url": "https://openrouter.ai/blog/announcements/private-endpoints/",
+      "publishedDate": "2026-10-14",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-16:openrouter-private-endpoints-20261014",
+        "sourceUrl": "https://openrouter.ai/blog/announcements/private-endpoints/"
       }
     },
     {
