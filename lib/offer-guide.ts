@@ -1,6 +1,8 @@
 import {freeOffers,offerStatus} from './free-offers';
 export const useCases=[{id:'coding',name:'写代码 / 做网站',description:'先用现成 Agent，减少配置步骤。'},{id:'api',name:'给应用接入 API',description:'找到可用型号，核对配额与接入方式。'},{id:'text',name:'翻译 / 处理文本',description:'从轻量文本模型开始试用。'},{id:'all',name:'查看全部',description:'比较全部免费与试用记录。'}];
 export const guideNotes:Record<string,{tasks:string[];fit:string;watch:string;alternative:string}>={
+ 'opencode-glm-flash-free':{tasks:['coding'],fit:'适合想在 OpenCode 中免费尝试 GLM 编程任务的人。',watch:'选 Free 后缀；200K 上下文为用户确认，官方目录未列上限，限免结束日期未知。',alternative:'opencode-deepseek-flash-free'},
+ 'opencode-deepseek-flash-free':{tasks:['coding'],fit:'适合用 OpenCode 免费尝试 DeepSeek Flash 编程任务的人。',watch:'只选 Free 型号；不要误选同名收费版，免费截止日期未公布。',alternative:'opencode-glm-flash-free'},
  'qoder-daily':{tasks:['coding'],fit:'适合愿意每天领取积分、直接用 Agent 写代码的人。',watch:'每天手动领；模型会扣积分，不等于不限量免费。',alternative:'workbuddy-free'},
  'qoder-efficient':{tasks:['coding'],fit:'适合已经订阅 Qoder、希望减少积分消耗的人。',watch:'需要付费订阅，使用前确认 Efficient 显示 0.0×。',alternative:'qoder-daily'},
  'workbuddy-free':{tasks:['coding'],fit:'适合先体验 Agent，再判断是否需要付费的人。',watch:'月度积分共享；长任务可能很快耗尽额度。',alternative:'qoder-daily'},

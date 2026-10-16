@@ -2,6 +2,8 @@ import type {FreeOffer} from './free-offers';
 // Service operators' own domains, including official hosting platforms.
 // Listing a hosted model does not imply that platform is the model developer.
 export const offerOperatorDomains:Record<string,string[]>={
+ 'opencode-glm-flash-free':['opencode.ai'],
+ 'opencode-deepseek-flash-free':['opencode.ai'],
  'openrouter-free':['openrouter.ai'],
  'qoder-daily':['qoder.com'], 'qoder-efficient':['qoder.com'], 'qoder-flash-ended':['qoder.com'],
  'workbuddy-free':['workbuddy.cn','codebuddy.cn'], 'workbuddy-mini-hy3':['workbuddy.cn'],
