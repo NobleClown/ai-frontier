@@ -12,6 +12,7 @@ export const newsSources = [
  ['AWS AI / ML 博客','https://aws.amazon.com/blogs/machine-learning/','海外','模型接入、智能体与云端推理实践；周报与首发日期分别核对'],
  ['Meta / Llama 开发者资源','https://dev.meta.ai/llama/docs/community-support-and-resources','海外','官方社区资源入口；教程与生态资源，不是独立新闻公告'],
  ['智谱 / GLM','https://www.zhipuai.cn/','国内','GLM、AutoClaw、研究发布'],
+ ['智谱 Coding Plan 活动公告','https://docs.bigmodel.cn/cn/coding-plan/notice/event-glm-5.3-flash','国内','Coding Plan 免费畅用类活动公告入口；核对活动起止日期与适用客户端，已结束活动不写成进行中'],
  ['Qwen / 阿里','https://qwen.ai/blog','国内','通义模型、开源与工具'],
  ['Qwen 官方社区入口','https://qwen.readthedocs.io/zh-cn/stable/index.html','国内','官方文档中的 Discord 与微信群入口；开源模型交流'],
  ['DeepSeek','https://api-docs.deepseek.com/','国内','模型更新、API 与定价'],
@@ -28,6 +29,7 @@ export const newsSources = [
  ['Qoder 官方论坛','https://forum.qoder.com/','国内','Agent 使用、问题反馈、公告与开发者讨论'],
  ['OpenRouter','https://openrouter.ai/blog','海外','聚合 API、免费模型池'],
  ['OpenCode 官方更新','https://opencode.ai/changelog','海外','开源编程 Agent、CLI / 桌面端、模型接入与使用规则；核对版本和原始发布日期'],
+ ['OpenCode Go 活动页','https://opencode.ai/go','海外','编程 Agent 订阅的限时免费/加倍模型活动与免费名单；页面常无发布日期，需另行核对原始公告日期'],
  ['机器之心','https://www.jiqizhixin.com/','国内','研究与模型报道'],
  ['量子位','https://www.qbitai.com/','国内','产品及行业报道']
 ] as const;
