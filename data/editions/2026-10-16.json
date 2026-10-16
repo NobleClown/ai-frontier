@@ -1,9 +1,27 @@
 {
   "date": "2026-10-16",
-  "updatedAt": "2026-10-16T13:43:00.000Z",
-  "headline": "语音模型与 Agent 工具细节迭代为主，16 日当日无新的大版本模型发布。",
-  "note": "晚间更新（北京时间约 21:43）：在晨间 7 条（10 月 14—15 日已核实进展，保留原始发布日期）基础上补充 2 条——腾讯 WorkBuddy 5.8.2 官方变更记录标今天发布，OpenRouter Private Endpoints 为 10 月 14 日官方博客，均打开原文核对。Tibo 正式交接晨间 09:32、晚间 17:31 场次共 3 条本人帖文，晚间新增仅 1 条无产品事实的预告式短帖，未纳入简报；Day 10 Reset 为昨日完成记录。状态页核查：DeepSeek 显示正常且日历未标注 10 月 15—16 日事件，OpenAI、Claude 正常（Claude 最近事件为 10 月 13 日已解决）。覆盖局限：OpenAI 官网与帮助中心本轮返回 403，x.ai 及 docs.x.ai 域名解析异常不可读，Google AI Studio 不可读，Qwen 博客正文为空，混元首页为无正文单页，MiniMax 与 Qoder 文档公告页未标日期；Gemini 4 Argon 开发者开放（10-13）与 GPT-5.5 退役（10-14）仅有搜索线索、官方正文未核验不收录；Meta Muse Wonder（10-12/13）与腾讯元器停服公告（10-8）超出近三天窗口。GitHub 独立展示，本轮日周月榜快照为今天 18:01—18:02，总榜 21:32 通过官方 API 刷新。",
+  "updatedAt": "2026-10-16T14:57:42.000Z",
+  "headline": "OpenCode 限时免费开放 GLM 与 DeepSeek 编码模型，语音与 Agent 工具继续细节迭代。",
+  "note": "晚间更新（北京时间约 22:57）：在晨间 7 条（10 月 14—15 日已核实进展，保留原始发布日期）基础上补充 3 条——腾讯 WorkBuddy 5.8.2 官方变更记录标今天发布，OpenRouter Private Endpoints 为 10 月 14 日官方博客，OpenCode 官方模型目录新增 GLM-5.3-Flash Free 与 DeepSeek V4.1 Flash Free（官方记录今晚打开核对，页面未标起止日期；相关 X 热点页 ID 经同源帖校准对应北京时间约 10 月 16 日 00:20，判定为窗口内事件；社区所称免费版上下文限 200k 未见于官方文档，仅以社区口径写入解读；B 站社区频道视频不作为厂商公告）。Tibo 正式交接晨间 09:32、晚间 17:31 场次共 3 条本人帖文，晚间新增仅 1 条无产品事实的预告式短帖，未纳入简报；Day 10 Reset 为昨日完成记录。状态页核查：DeepSeek 显示正常且日历未标注 10 月 15—16 日事件，OpenAI、Claude 正常（Claude 最近事件为 10 月 13 日已解决）。覆盖局限：OpenAI 官网与帮助中心本轮返回 403，x.ai 及 docs.x.ai 域名直连解析异常（docs.x.ai 经用户授权代理核对可读），Google AI Studio 不可读，Qwen 博客正文为空，混元首页为无正文单页，MiniMax 与 Qoder 文档公告页未标日期；GPT-5.5 退役（10-14）仅有搜索线索、官方正文未核验不收录；Meta Muse Wonder（10-12/13）与腾讯元器停服公告（10-8）超出近三天窗口。GitHub 独立展示，本轮日周月榜快照为今天 18:01—18:02，总榜 21:32 通过官方 API 刷新。",
   "stories": [
+    {
+      "id": "opencode-glm-flash-free-20261016",
+      "title": "OpenCode 限时免费开放 GLM-5.3-Flash 与 DeepSeek V4.1 Flash",
+      "summary": "OpenCode 官方模型目录现列出 GLM-5.3-Flash Free 与 DeepSeek V4.1 Flash Free，输入、输出与缓存读取均不计费，描述为限时免费并称供应商执行零数据保留政策；付费版 DeepSeek V4.1 Flash 为每百万 token 输入 0.30、输出 1.20 美元。官方页面未公布免费截止日期，也未标注上下文上限。",
+      "takeaway": "免费条款以官方模型目录为准，截止时间未公布，不宜当作长期免费；社区讨论称免费版上下文限 200k、官方文档未标注，长上下文任务先小规模验证；本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方模型目录",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/v2/docs/console/models",
+      "publishedDate": "2026-10-16",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-16:opencode-glm-flash-free-20261016",
+        "sourceUrl": "https://opencode.ai/v2/docs/console/models"
+      }
+    },
     {
       "id": "workbuddy-582-fixes-20261016",
       "title": "WorkBuddy 5.8.2 修复历史会话异常等多项使用问题",

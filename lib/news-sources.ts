@@ -30,6 +30,7 @@ export const newsSources = [
  ['OpenRouter','https://openrouter.ai/blog','海外','聚合 API、免费模型池'],
  ['OpenCode 官方更新','https://opencode.ai/changelog','海外','开源编程 Agent、CLI / 桌面端、模型接入与使用规则；核对版本和原始发布日期'],
  ['OpenCode Go 活动页','https://opencode.ai/go','海外','编程 Agent 订阅的限时免费/加倍模型活动与免费名单；页面常无发布日期，需另行核对原始公告日期'],
+ ['OpenCode Console 模型目录','https://opencode.ai/v2/docs/console/models','海外','OpenCode 官方免费与付费模型列表；免费模型多标限时但无起止日期，需交叉核对原始公告时间'],
  ['机器之心','https://www.jiqizhixin.com/','国内','研究与模型报道'],
  ['量子位','https://www.qbitai.com/','国内','产品及行业报道']
 ] as const;
