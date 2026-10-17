@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-17",
+  "updatedAt": "2026-10-17T02:12:22.000Z",
+  "headline": "Codex 与 Work 有效用量改进、OpenCode 快速迭代，免费编码模型限免延续。",
+  "note": "晨间更新（北京时间约 10:12）：截至本轮核对，10 月 17 日新事件为 Tibo Day 12 帖（Codex 与 Work 用量改进）；另核出 OpenCode v2.0.32 标 10 月 16 日发布。近三日（14—16 日）已核实条目继续保留：OpenCode GLM-5.3-Flash 与 DeepSeek V4.1 Flash 限免今晨复核仍在目录中；WorkBuddy 5.8.2、GPT-Live-1.1、Codex Day 10 Reset、OpenRouter Private Endpoints、Kimi Code Desktop 1.1.0、Grok Voice 3.0、GPT-4 系列弃用均保留原始日期。10 月 15 日 Day 11 帖被同主题 Day 12 取代，v2.0.30 被 v2.0.32 取代。Tibo 正式交接今晨含 2 条本人帖文，另一条 ChatGPT Space 讨论征集帖无产品事实未纳入。覆盖局限：OpenAI 官网与帮助中心持续 403，x.ai 域名 DNS 污染且主站 403，Qwen 博客正文为空，混元首页为无正文单页，Google 博客条目无日期；OpenAI DevDay Exchange 班加罗尔场（10-16）为地区社区活动未收录；Qoder Qwen3.8-Flash 顺延公告无发布日期，已记入土鸡蛋数据而非新闻条目。状态页：DeepSeek、OpenAI、Claude 均正常无事故。GitHub 独立展示，三榜快照为今晨 09:41—09:42，总榜 10:01 官方 API 刷新；赛博土鸡蛋 15 条中 14 条今晨完成官方复核，火山方舟文档页不可读保留原核对日期。",
+  "stories": [
+    {
+      "id": "tibo-codex-day12-usage-20261017",
+      "title": "Tibo：Codex 与 Work 改进上下文复用，有效用量提升",
+      "summary": "Tibo 北京时间 10 月 17 日 07:55 发布 Day 12 帖文：通过跨子代理复用上下文、延长上下文缓存时间和改进请求路由提高缓存命中，Codex 与 Work 的有效用量已获得提升。帖文未列出适用套餐和具体提升幅度。",
+      "takeaway": "这是作者报告的服务端改进，实际用量变化因任务类型而异，本站未独立测量；不等于额外额度发放或重置公告。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2111244596131111253",
+      "publishedDate": "2026-10-17",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-17:tibo-codex-day12-usage-20261017",
+        "sourceUrl": "https://x.com/thsottiaux/status/2111244596131111253"
+      }
+    },
+    {
+      "id": "opencode-v2032-20261016",
+      "title": "OpenCode v2.0.32：/copy 复制最新回复，语音会话 SDK 实验开放",
+      "summary": "OpenCode 官方变更记录将 v2.0.32 标为 10 月 16 日发布：TUI 内 /copy 可复制最新助手回复或压缩摘要，修复无头环境登录崩溃、Gemini 响应异常重试与 Windows 快照问题，并新增实验性语音会话 SDK 接口。",
+      "takeaway": "语音会话 SDK 为实验性接口，行为可能调整；本站未实测该版本，升级前按官方变更记录核对兼容性。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方 Changelog",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/changelog",
+      "publishedDate": "2026-10-16",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-17:opencode-v2032-20261016",
+        "sourceUrl": "https://opencode.ai/changelog"
+      }
+    },
+    {
+      "id": "opencode-glm-flash-free-20261016",
+      "title": "OpenCode 限时免费开放 GLM-5.3-Flash 与 DeepSeek V4.1 Flash",
+      "summary": "OpenCode 官方模型目录列出 GLM-5.3-Flash Free 与 DeepSeek V4.1 Flash Free，输入、输出与缓存读取均不计费，描述为限时免费并称供应商执行零数据保留政策；付费版 DeepSeek V4.1 Flash 为每百万 token 输入 0.30、输出 1.20 美元。官方页面未公布免费截止日期，也未标注上下文上限。",
+      "takeaway": "免费条款以官方模型目录为准，截止时间未公布，不宜当作长期免费；社区讨论称免费版上下文限 200k、官方文档未标注，长上下文任务先小规模验证；本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方模型目录",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/v2/docs/console/models",
+      "publishedDate": "2026-10-16",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-17:opencode-glm-flash-free-20261016",
+        "sourceUrl": "https://opencode.ai/v2/docs/console/models"
+      }
+    },
+    {
+      "id": "workbuddy-582-fixes-20261016",
+      "title": "WorkBuddy 5.8.2 修复历史会话异常等多项使用问题",
+      "summary": "腾讯 WorkBuddy 官方变更记录将 5.8.2 标为 10 月 16 日发布：修复历史会话打开异常、企业微信机器人文件回复卡住、Artifacts 计数跳变、旗舰版侧边栏菜单配置及语音输入等问题，属稳定性修复版本。",
+      "takeaway": "这是桌面端使用问题修复，不含新模型或额度变化；以官方变更记录为准，本站未实际升级验证。",
+      "region": "国内",
+      "category": "产品应用",
+      "source": "腾讯 CodeBuddy / WorkBuddy 官方变更记录",
+      "sourceType": "官方发布",
+      "url": "https://www.codebuddy.cn/docs/workbuddy/Changelog",
+      "publishedDate": "2026-10-16",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-17:workbuddy-582-fixes-20261016",
+        "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+      }
+    },
+    {
+      "id": "openai-gpt-live-11-20261015",
+      "title": "GPT-Live-1.1 与轻量版 Quip 开始进入 ChatGPT Voice",
+      "summary": "OpenAI 10 月 15 日发布语音更新：GPT-Live-1.1 及轻量版 GPT-Live-1.1 Quip 开始在 ChatGPT Voice 推出，改善多语言口音，并增加法语、德语、印地语、日语、韩语、墨西哥西班牙语声音及英语 Bubbie。联网搜索时的等待提示也更丰富。",
+      "takeaway": "声音选项依地区与账号显示，在设置的 Voice 中选择。此次公告是产品内语音更新，不能据此推断新版 API 已开放或所有账号声音完全一致。",
+      "region": "海外",
+      "category": "模型动态",
+      "source": "OpenAI 官方 ChatGPT 更新记录",
+      "sourceType": "官方发布",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "publishedDate": "2026-10-15",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-17:openai-gpt-live-11-20261015",
+        "sourceUrl": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      }
+    },
+    {
+      "id": "tibo-codex-day10-reset-20261015",
+      "title": "Codex Day 10 Reset：Tibo 发文表示重置已完成",
+      "summary": "在 Day 10 Reset 及随后两小时内落地的预告之后，Tibo 于北京时间 10 月 15 日 14:28 发文表示事项已经完成。该事件为 Codex 重置，完成帖及其引用的时间安排帖保留原始链接与分钟精度时间。",
+      "takeaway": "这是 10 月 15 日的完成消息，不是新发生的重置。原帖未说明适用套餐、账号资格、覆盖范围及每个账号的实际生效时刻，请在个人用量页核对。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2110618732666257557",
+      "publishedDate": "2026-10-15",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-17:tibo-codex-day10-reset-20261015",
+        "sourceUrl": "https://x.com/thsottiaux/status/2110618732666257557"
+      }
+    },
+    {
+      "id": "openrouter-private-endpoints-20261014",
+      "title": "OpenRouter 推出 Private Endpoints，企业可接入自有微调模型",
+      "summary": "OpenRouter 官方博客 10 月 14 日宣布 Private Endpoints：Enterprise 客户可将自有微调模型、专属部署或预留算力接入其 API 路由，保留现有模型别名，端点默认排在供应商列表前列，组织外不可见且不进入公开榜单与评测。",
+      "takeaway": "该功能为 Enterprise 附加能力，需客户经理或联系表单开通，默认每组织上限 10 个端点；私有部署不等于零数据保留，数据政策需自行声明，价格未公开。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenRouter 官方博客",
+      "sourceType": "官方发布",
+      "url": "https://openrouter.ai/blog/announcements/private-endpoints/",
+      "publishedDate": "2026-10-14",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-17:openrouter-private-endpoints-20261014",
+        "sourceUrl": "https://openrouter.ai/blog/announcements/private-endpoints/"
+      }
+    },
+    {
+      "id": "kimi-code-desktop-110-20261014",
+      "title": "Kimi Code Desktop 1.1.0 支持 Linux，加入远程控制和文件树",
+      "summary": "Kimi 官方变更记录将 1.1.0 标为 10 月 14 日更新：新增 AppImage、deb、RPM 安装包，可通过链接或二维码远程控制本机 Agent，并加入文件树、可选进展更新和 kimi app 启动命令。",
+      "region": "国内",
+      "category": "开发工具",
+      "source": "Kimi Code 官方变更记录",
+      "sourceType": "官方发布",
+      "url": "https://www.kimi.com/code/docs/kimi-code-desktop/changelog.html",
+      "publishedDate": "2026-10-14",
+      "takeaway": "这是桌面客户端功能更新，不代表新模型发布或免费额度变化。远程控制需在设置中开启，使用前核对权限与官方说明。",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-17:kimi-code-desktop-110-20261014",
+        "sourceUrl": "https://www.kimi.com/code/docs/kimi-code-desktop/changelog.html"
+      }
+    },
+    {
+      "id": "grok-voice-3-20261014",
+      "title": "Grok Voice 3.0 上线 Voice Agent API，沿用每分钟 0.08 美元定价",
+      "summary": "官方 10 月 14 日发布 Grok Voice 3.0，面向语音到语音交互和语音智能体。公告称 API 已开放，价格与上一代相同；使用 grok-voice-latest 的智能体已自动切换到新版本。",
+      "region": "海外",
+      "category": "模型动态",
+      "source": "xAI / SpaceXSI 官方公告",
+      "sourceType": "官方发布",
+      "url": "https://x.ai/news/grok-voice-3",
+      "publishedDate": "2026-10-14",
+      "takeaway": "已有 latest 别名调用需回归测试打断、轮次交替和工具调用。延迟与榜单表现为公告所引测试，本站未独立实测；不要把控制台试用理解为永久免费。",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-17:grok-voice-3-20261014",
+        "sourceUrl": "https://x.ai/news/grok-voice-3"
+      }
+    },
+    {
+      "id": "openai-gpt4-deprecation-20261014",
+      "title": "OpenAI 宣布部分 GPT-4 系列 API 模型将于明年 1 月停用",
+      "summary": "OpenAI 10 月 14 日的弃用通知列出 GPT-4o、GPT-4o mini、GPT-4.1 和 GPT-4.1 mini 的指定版本，计划于 2027 年 1 月 14 日从 API 移除，建议迁移至 gpt-6-luna。相关微调版本跟随基础模型的停用时间。",
+      "region": "海外",
+      "category": "模型动态",
+      "source": "OpenAI 官方 API 文档",
+      "sourceType": "官方发布",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "publishedDate": "2026-10-14",
+      "takeaway": "这是提前公告，不是立即停止调用；核对代码中的完整模型 ID，迁移前测试输出、费用和接口兼容性。",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-17:openai-gpt4-deprecation-20261014",
+        "sourceUrl": "https://developers.openai.com/api/docs/deprecations"
+      }
+    }
+  ]
+}
