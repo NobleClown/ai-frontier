@@ -1,9 +1,27 @@
 {
   "date": "2026-10-17",
-  "updatedAt": "2026-10-17T02:12:22.000Z",
-  "headline": "Codex 与 Work 有效用量改进、OpenCode 快速迭代，免费编码模型限免延续。",
-  "note": "晨间更新（北京时间约 10:12）：截至本轮核对，10 月 17 日新事件为 Tibo Day 12 帖（Codex 与 Work 用量改进）；另核出 OpenCode v2.0.32 标 10 月 16 日发布。近三日（14—16 日）已核实条目继续保留：OpenCode GLM-5.3-Flash 与 DeepSeek V4.1 Flash 限免今晨复核仍在目录中；WorkBuddy 5.8.2、GPT-Live-1.1、Codex Day 10 Reset、OpenRouter Private Endpoints、Kimi Code Desktop 1.1.0、Grok Voice 3.0、GPT-4 系列弃用均保留原始日期。10 月 15 日 Day 11 帖被同主题 Day 12 取代，v2.0.30 被 v2.0.32 取代。Tibo 正式交接今晨含 2 条本人帖文，另一条 ChatGPT Space 讨论征集帖无产品事实未纳入。覆盖局限：OpenAI 官网与帮助中心持续 403，x.ai 域名 DNS 污染且主站 403，Qwen 博客正文为空，混元首页为无正文单页，Google 博客条目无日期；OpenAI DevDay Exchange 班加罗尔场（10-16）为地区社区活动未收录；Qoder Qwen3.8-Flash 顺延公告无发布日期，已记入土鸡蛋数据而非新闻条目。状态页：DeepSeek、OpenAI、Claude 均正常无事故。GitHub 独立展示，三榜快照为今晨 09:41—09:42，总榜 10:01 官方 API 刷新；赛博土鸡蛋 15 条中 14 条今晨完成官方复核，火山方舟文档页不可读保留原核对日期。",
+  "updatedAt": "2026-10-17T10:26:44.000Z",
+  "headline": "DeepSeek 发布 V4.1-Flash-1017 并全量开放 Search/Fetch API，Codex 用量改进延续。",
+  "note": "晚间更新（北京时间约 18:26）：新增 DeepSeek-V4.1-Flash-1017（官方 10 月 17 日发布，含 Search/Fetch API 全量开放与 10 月 31 日起计费节点、开源权重）。晨间版 10 条已核实条目继续保留原日期；OpenCode 晚间复核 v2.0.32 仍为最新版本，GLM-5.3-Flash Free 与 DeepSeek V4.1 Flash Free 限免仍在目录中。Tibo 晚间交接（17:32 采集）仅一条他人互动闲聊帖，无产品事实未纳入，Day 12 帖仍为最新本人帖文。Qoder 最新 0.4.8 标 10 月 15 日（日常打磨版本）未收录；Anthropic 10 月 15 日独立评估机构说明为研究政策类未收录；OpenAI 状态页 10 月 16 日 Compliance API 成本数据延迟事件已恢复，未收录。状态页：DeepSeek、OpenAI、Claude 均 10 月 16—17 日无事故。覆盖局限：OpenAI 官网与帮助中心持续 403，x.ai 域名 DNS 污染且主站 403，Qwen 博客正文为空，混元与 MiniMax 首页为无正文单页，Google 博客条目无日期（最新可见为 9 月）。GitHub 独立展示，赛博土鸡蛋另行维护。",
   "stories": [
+    {
+      "id": "deepseek-v41-flash-1017-20261017",
+      "title": "DeepSeek 发布 V4.1-Flash-1017，Search/Fetch API 全量开放",
+      "summary": "官方 10 月 17 日发布 DeepSeek-V4.1-Flash-1017，上线网站、App 与 API，称较上一版基准更强、任务完成更快、输出更短，属性能与成本的 Pareto 改进；针对 DeepSeek Harness、腾讯 CodeBuddy、WorkBuddy 优化，建议升级 Harness v0.2.1-rc.1 以上。Search 与 Fetch API 全量开放，每端点每千次调用 0.75 美元，权重已在 Hugging Face 与 ModelScope 开源。",
+      "takeaway": "经 DeepSeek Harness、Claude Code、Codex 服务端工具发起的 Search/Fetch 调用对 DeepSeek API 用户暂时免费，10 月 31 日 16:00 UTC 起计费；1017 是 V4.1 Flash 系列新版本，调用前核对新模型 ID，本站未实测。",
+      "region": "国内",
+      "category": "模型动态",
+      "source": "DeepSeek 官方文档 News",
+      "sourceType": "官方发布",
+      "url": "https://api-docs.deepseek.com/news/news261017",
+      "publishedDate": "2026-10-17",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-17:deepseek-v41-flash-1017-20261017",
+        "sourceUrl": "https://api-docs.deepseek.com/news/news261017"
+      }
+    },
     {
       "id": "tibo-codex-day12-usage-20261017",
       "title": "Tibo：Codex 与 Work 改进上下文复用，有效用量提升",
