@@ -1,8 +1,8 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T02:07:25.000Z",
+  "updatedAt": "2026-10-18T10:22:31.000Z",
   "headline": "Codex Day 13 限额重置，DeepSeek 检索 API 与新模型延续发酵。",
-  "note": "晨间更新（北京时间约 10:07，10:45 修订）：10 月 18 日新事件为 Tibo Day 13 限额重置（00:20 宣告、05:12「Done」）；重置对象经用户确认（10:45）为 Codex/ChatGPT 相关限额，完成对应关系一并更新。近三日（15—17 日）条目继续保留：DeepSeek V4.1-Flash-1017 与 Search/Fetch API（10-17，官方目录复核仍在最新条目）、Tibo Day 12 用量改进（10-17）、OpenCode v2.0.32 与两款限时免费模型（10-16，今晨复核仍在目录）、WorkBuddy 5.8.2（10-16）、GPT-Live-1.1（10-15）。10 月 14 日条目与 Day 10 Reset（10-15，题材由 Day 13 接续）本期出窗。Tibo 交接今晨 4 条本人帖：Day 13 收录，「Done」并入该条目，其余为 Dots 报税体验分享与调侃帖，未收录。覆盖局限：OpenAI 官网与帮助中心持续 403，x.ai 域名 DNS 污染且主站 403，Qwen 博客正文为空，混元首页无正文，Google 博客条目无日期；搜索无其他窗口内新事件（Amazon/Decart 并购报道不属收录范围）。状态页：DeepSeek、OpenAI、Claude 均正常无 10-17/18 事故。GitHub 独立展示，三榜快照今晨 09:41—09:42，总榜 10:01 官方 API 刷新；赛博土鸡蛋 15 条中 14 条今晨复核规则无变化（checkedAt → 10-18），火山方舟页面仍不可读保留 10-13。",
+  "note": "晚间更新（北京时间约 18:22）：晚间全面复核官方发布、更新日志与状态页，未发现 10 月 16—18 日窗口内需新增或更正的事件，晨间 7 条维持原日期与内容。OpenCode 最新仍 v2.0.32，GLM-5.3-Flash Free 与 DeepSeek V4.1 Flash Free 限免晚间复核仍在官方目录；DeepSeek 文档 News 仍仅 1017 一条，状态页正常；Anthropic、OpenRouter、Kimi Code Desktop、WorkBuddy、Qoder、Meta 均无窗口内新条目；OpenAI 状态页 10-17/18 无事故；智谱 Coding Plan 公告页无新活动。Tibo 交接 fetchedAt 仍为今晨 09:32（午间与 17:30 采集无新帖写入，按合同不刷新），4 条帖文晨间已处理，Day 13（含 05:12「Done」）仍为最新本人帖文。覆盖局限维持：OpenAI 官网与帮助中心持续 403，x.ai 域名 DNS 污染且主站 403，Qwen 博客正文为空，混元与 MiniMax 首页为无正文单页，Google 博客条目无日期。晨间更新（北京时间约 10:07，10:45 修订）：10 月 18 日新事件为 Tibo Day 13 限额重置（00:20 宣告、05:12「Done」）；重置对象经用户确认（10:45）为 Codex/ChatGPT 相关限额，完成对应关系一并更新。近三日（15—17 日）条目继续保留：DeepSeek V4.1-Flash-1017 与 Search/Fetch API（10-17，官方目录复核仍在最新条目）、Tibo Day 12 用量改进（10-17）、OpenCode v2.0.32 与两款限时免费模型（10-16，晚间复核仍在目录）、WorkBuddy 5.8.2（10-16）、GPT-Live-1.1（10-15）。10 月 14 日条目与 Day 10 Reset（10-15，题材由 Day 13 接续）本期出窗。Tibo 交接今晨 4 条本人帖：Day 13 收录，「Done」并入该条目，其余为 Dots 报税体验分享与调侃帖，未收录。搜索无其他窗口内新事件（Amazon/Decart 并购报道不属收录范围）。状态页：DeepSeek、OpenAI、Claude 均正常无 10-17/18 事故。GitHub 独立展示，赛博土鸡蛋另行维护。",
   "stories": [
     {
       "id": "tibo-codex-day13-reset-20261018",
