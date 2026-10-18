@@ -75,5 +75,8 @@
  "deepseek-ai/deepseek-harness":"DeepSeek 官方的插件化 Agent 框架，把工具与能力以插件形式接入编码工作流。",
  "android/skills":"Android 官方的 Agent 技能库，用模块化指令让编码 Agent 遵循官方最佳实践开发。",
  "MadsLorentzen/ai-job-search":"基于 Claude Code 的本地求职框架，评估职位、定制简历、写求职信与备面试。",
- "hmjz100/LinkSwift":"网盘文件下载地址获取工具，支持百度、阿里云盘等八家网盘的直链下载。"
+ "hmjz100/LinkSwift":"网盘文件下载地址获取工具，支持百度、阿里云盘等八家网盘的直链下载。",
+ "akitaonrails/ai-memory":"为编码 Agent CLI 提供长期记忆，并在不同厂商 Agent 之间交接上下文。",
+ "stablyai/orca":"用自有订阅统一运行多支编码 Agent 的平台，覆盖桌面、移动与远程运行时。",
+ "anomalyco/opencode":"OpenCode 的官方开源仓库，开源编码 Agent 主项目。"
 }
