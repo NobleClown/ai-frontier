@@ -1,12 +1,34 @@
 {
   "account": "thsottiaux",
   "profileUrl": "https://x.com/thsottiaux",
-  "lastCheckedAt": "2026-10-15T13:34:09.0991156Z",
+  "lastCheckedAt": "2026-10-18T13:27:27Z",
   "checkStatus": "ok",
-  "checkNote": "Tibo X 原帖确认 Day 10 Reset 已完成；根据用户确认标注为 Codex 重置。原帖未说明具体套餐、账号资格或各账号实际生效时刻。",
+  "checkNote": "恢复雷达维护并补录 Day 13：依据 2026-10-18 09:32（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），宣告与完成帖均在其中，重置对象经用户确认。晚间该交接文件未刷新，09:32 后窗口未核实，不证明其后无新帖；雷达检查自本日起并入 Zcode 每日 10:00、18:20 维护任务，原 Codex 每小时任务保持暂停。",
   "automationEnabled": true,
   "cadenceMinutes": 60,
   "posts": [
+    {
+      "summary": "Tibo 于北京时间 10 月 18 日 00:20 发帖「Day 13/ Le limit reset」，宣告新一轮限额重置开始，并于 05:12 发帖「Done」表示完成。根据用户确认，本次重置对象为 Codex/ChatGPT 相关限额；原帖没有说明覆盖套餐、账号资格或各账号实际生效时刻，不能据此推断所有用户均已获得重置。",
+      "publishedAt": "2026-10-18T00:20:00+08:00",
+      "publishedAtPrecision": "minute",
+      "evidence": [
+        {
+          "name": "Tibo Day 13 Reset 帖",
+          "url": "https://x.com/thsottiaux/status/2111492673890824348"
+        },
+        {
+          "name": "Tibo 完成帖（Done）",
+          "url": "https://x.com/thsottiaux/status/2111566005684289735"
+        }
+      ],
+      "verification": "confirmed",
+      "url": "https://x.com/thsottiaux/status/2111492673890824348",
+      "title": "Codex Day 13 限额重置：Tibo 宣告并于凌晨完成",
+      "verificationMethod": "核对 Tibo X 原帖（Zcode 原文交接，依用户授权采信）；宣告与完成时间由页面绝对时间确认到分钟，重置对象经用户确认",
+      "effectiveAt": null,
+      "id": "2111492673890824348",
+      "scope": "Codex/ChatGPT 相关限额重置（范围经用户确认）；原帖未说明适用套餐、账号资格或覆盖范围。"
+    },
     {
       "summary": "Tibo 先写“Day 10/ Reset”，随后称“Landing within the next 2 hours”，并于北京时间 10 月 15 日 14:28 发文“Done and dusted”。根据用户确认，此处指 Codex 重置；可确认 Tibo 表示重置事项已完成。原帖没有说明覆盖套餐、账号资格或各账号实际生效时刻，不能据此推断所有 Codex 用户均已获得重置。",
       "publishedAt": "2026-10-15T14:28:00+08:00",
