@@ -1,114 +1,114 @@
 {
-  "account": "thsottiaux",
-  "profileUrl": "https://x.com/thsottiaux",
-  "lastCheckedAt": "2026-10-18T13:27:27Z",
-  "checkStatus": "ok",
-  "checkNote": "恢复雷达维护并补录 Day 13：依据 2026-10-18 09:32（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），宣告与完成帖均在其中，重置对象经用户确认。晚间该交接文件未刷新，09:32 后窗口未核实，不证明其后无新帖；雷达检查自本日起并入 Zcode 每日 10:00、18:20 维护任务，原 Codex 每小时任务保持暂停。",
-  "automationEnabled": true,
-  "cadenceMinutes": 60,
-  "posts": [
+ "account": "thsottiaux",
+ "profileUrl": "https://x.com/thsottiaux",
+ "lastCheckedAt": "2026-10-19T02:08:36.528Z",
+ "checkStatus": "ok",
+ "checkNote": "本轮（2026-10-19 10:00 场）读取 09:32（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok，fetchedAt 距检查约 28 分钟），覆盖窗口至当日 09:32。窗口内 3 条本人帖均非重置公告：Day 14 为桌面端编辑已发消息的功能改进（雷达范围外，已入当日简报），其余两条为玩笑与预告式闲聊。Day 13 重置（10-18，已确认 Codex/ChatGPT、完成）之后无新重置帖。posts 无新增，保留 5 条。",
+ "automationEnabled": true,
+ "cadenceMinutes": 60,
+ "posts": [
+  {
+   "summary": "Tibo 于北京时间 10 月 18 日 00:20 发帖「Day 13/ Le limit reset」，宣告新一轮限额重置开始，并于 05:12 发帖「Done」表示完成。根据用户确认，本次重置对象为 Codex/ChatGPT 相关限额；原帖没有说明覆盖套餐、账号资格或各账号实际生效时刻，不能据此推断所有用户均已获得重置。",
+   "publishedAt": "2026-10-18T00:20:00+08:00",
+   "publishedAtPrecision": "minute",
+   "evidence": [
     {
-      "summary": "Tibo 于北京时间 10 月 18 日 00:20 发帖「Day 13/ Le limit reset」，宣告新一轮限额重置开始，并于 05:12 发帖「Done」表示完成。根据用户确认，本次重置对象为 Codex/ChatGPT 相关限额；原帖没有说明覆盖套餐、账号资格或各账号实际生效时刻，不能据此推断所有用户均已获得重置。",
-      "publishedAt": "2026-10-18T00:20:00+08:00",
-      "publishedAtPrecision": "minute",
-      "evidence": [
-        {
-          "name": "Tibo Day 13 Reset 帖",
-          "url": "https://x.com/thsottiaux/status/2111492673890824348"
-        },
-        {
-          "name": "Tibo 完成帖（Done）",
-          "url": "https://x.com/thsottiaux/status/2111566005684289735"
-        }
-      ],
-      "verification": "confirmed",
-      "url": "https://x.com/thsottiaux/status/2111492673890824348",
-      "title": "Codex Day 13 限额重置：Tibo 宣告并于凌晨完成",
-      "verificationMethod": "核对 Tibo X 原帖（Zcode 原文交接，依用户授权采信）；宣告与完成时间由页面绝对时间确认到分钟，重置对象经用户确认",
-      "effectiveAt": null,
-      "id": "2111492673890824348",
-      "scope": "Codex/ChatGPT 相关限额重置（范围经用户确认）；原帖未说明适用套餐、账号资格或覆盖范围。"
+     "name": "Tibo Day 13 Reset 帖",
+     "url": "https://x.com/thsottiaux/status/2111492673890824348"
     },
     {
-      "summary": "Tibo 先写“Day 10/ Reset”，随后称“Landing within the next 2 hours”，并于北京时间 10 月 15 日 14:28 发文“Done and dusted”。根据用户确认，此处指 Codex 重置；可确认 Tibo 表示重置事项已完成。原帖没有说明覆盖套餐、账号资格或各账号实际生效时刻，不能据此推断所有 Codex 用户均已获得重置。",
-      "publishedAt": "2026-10-15T14:28:00+08:00",
-      "publishedAtPrecision": "minute",
-      "evidence": [
-        {
-          "name": "Tibo 完成帖",
-          "url": "https://x.com/thsottiaux/status/2110618732666257557"
-        },
-        {
-          "name": "Tibo 时间安排帖",
-          "url": "https://x.com/thsottiaux/status/2110595554036400151"
-        },
-        {
-          "name": "Tibo Day 10 Reset 帖",
-          "url": "https://x.com/thsottiaux/status/2110595484180214059"
-        }
-      ],
-      "verification": "confirmed",
-      "url": "https://x.com/thsottiaux/status/2110618732666257557",
-      "title": "Codex Day 10 Reset：Tibo 表示重置已完成",
-      "verificationMethod": "核对 Tibo X 原帖（详情时间由页面绝对时间确认）",
-      "effectiveAt": null,
-      "id": "2110618732666257557",
-      "scope": "Codex 重置；原帖未说明适用套餐、账号资格或覆盖范围。"
-    },
-    {
-      "id": "2109873287853707513",
-      "title": "Day 8：Tibo 宣布全局重置已完成",
-      "summary": "已直接核对 Tibo 的 X 原帖：他在全局重置预告之后表示重置已完成。详情页显示北京时间 10 月 13 日 13:06；时间仅核对到分钟，秒数未核实。具体套餐、账号资格和实际生效时刻未明确，请在个人用量页面确认余量。",
-      "scope": "Codex / ChatGPT Work 相关全局重置；具体套餐与账号范围未明确，不推广为所有 GPT 产品。",
-      "publishedAt": "2026-10-13T05:06:00Z",
-      "effectiveAt": null,
-      "url": "https://x.com/thsottiaux/status/2109873287853707513",
-      "verification": "confirmed",
-      "evidence": [
-        {
-          "url": "https://x.com/thsottiaux/status/2109873287853707513",
-          "name": "Tibo 原帖（已核对详情截图）"
-        }
-      ],
-      "publishedAtPrecision": "minute",
-      "verificationMethod": "原帖详情截图 outputs/tibo-reset-confirmed.png"
-    },
-    {
-      "id": "2109132167112782291",
-      "title": "Day 6：Tibo 宣布全局重置已传播完成",
-      "summary": "Tibo 表示重置已传播完成；其引用的上文是全局重置预告。发布时间为北京时间 10 月 11 日 12:01，精度为分钟；未明确具体套餐或每个账号的实际生效时刻。",
-      "scope": "Codex / ChatGPT Work 相关全局重置；原帖未列具体套餐及账号条件。",
-      "publishedAt": "2026-10-11T12:01:00+08:00",
-      "publishedAtPrecision": "minute",
-      "effectiveAt": null,
-      "url": "https://x.com/thsottiaux/status/2109132167112782291",
-      "verification": "confirmed",
-      "verificationMethod": "核对 Tibo X 原帖",
-      "evidence": [
-        {
-          "name": "Tibo 原帖",
-          "url": "https://x.com/thsottiaux/status/2109132167112782291"
-        }
-      ]
-    },
-    {
-      "id": "2107913674593644711",
-      "title": "Day 3：宣布向付费账号发放保存型重置",
-      "summary": "Tibo 宣布正在向付费账号发放 banked reset。发布时间为北京时间 10 月 8 日 03:19，精度为分钟。这是保存型重置发放公告，未声明所有账号均已收到，也不是立即完成的全局重置。",
-      "scope": "原帖称付费账号；未逐项列出套餐、地区和资格条件。",
-      "publishedAt": "2026-10-08T03:19:00+08:00",
-      "publishedAtPrecision": "minute",
-      "effectiveAt": null,
-      "url": "https://x.com/thsottiaux/status/2107913674593644711",
-      "verification": "confirmed",
-      "verificationMethod": "核对 Tibo X 原帖",
-      "evidence": [
-        {
-          "name": "Tibo 原帖",
-          "url": "https://x.com/thsottiaux/status/2107913674593644711"
-        }
-      ]
+     "name": "Tibo 完成帖（Done）",
+     "url": "https://x.com/thsottiaux/status/2111566005684289735"
     }
-  ],
-  "sourceCollectedAt": "2026-10-15T13:24:49.301Z"
+   ],
+   "verification": "confirmed",
+   "url": "https://x.com/thsottiaux/status/2111492673890824348",
+   "title": "Codex Day 13 限额重置：Tibo 宣告并于凌晨完成",
+   "verificationMethod": "核对 Tibo X 原帖（Zcode 原文交接，依用户授权采信）；宣告与完成时间由页面绝对时间确认到分钟，重置对象经用户确认",
+   "effectiveAt": null,
+   "id": "2111492673890824348",
+   "scope": "Codex/ChatGPT 相关限额重置（范围经用户确认）；原帖未说明适用套餐、账号资格或覆盖范围。"
+  },
+  {
+   "summary": "Tibo 先写“Day 10/ Reset”，随后称“Landing within the next 2 hours”，并于北京时间 10 月 15 日 14:28 发文“Done and dusted”。根据用户确认，此处指 Codex 重置；可确认 Tibo 表示重置事项已完成。原帖没有说明覆盖套餐、账号资格或各账号实际生效时刻，不能据此推断所有 Codex 用户均已获得重置。",
+   "publishedAt": "2026-10-15T14:28:00+08:00",
+   "publishedAtPrecision": "minute",
+   "evidence": [
+    {
+     "name": "Tibo 完成帖",
+     "url": "https://x.com/thsottiaux/status/2110618732666257557"
+    },
+    {
+     "name": "Tibo 时间安排帖",
+     "url": "https://x.com/thsottiaux/status/2110595554036400151"
+    },
+    {
+     "name": "Tibo Day 10 Reset 帖",
+     "url": "https://x.com/thsottiaux/status/2110595484180214059"
+    }
+   ],
+   "verification": "confirmed",
+   "url": "https://x.com/thsottiaux/status/2110618732666257557",
+   "title": "Codex Day 10 Reset：Tibo 表示重置已完成",
+   "verificationMethod": "核对 Tibo X 原帖（详情时间由页面绝对时间确认）",
+   "effectiveAt": null,
+   "id": "2110618732666257557",
+   "scope": "Codex 重置；原帖未说明适用套餐、账号资格或覆盖范围。"
+  },
+  {
+   "id": "2109873287853707513",
+   "title": "Day 8：Tibo 宣布全局重置已完成",
+   "summary": "已直接核对 Tibo 的 X 原帖：他在全局重置预告之后表示重置已完成。详情页显示北京时间 10 月 13 日 13:06；时间仅核对到分钟，秒数未核实。具体套餐、账号资格和实际生效时刻未明确，请在个人用量页面确认余量。",
+   "scope": "Codex / ChatGPT Work 相关全局重置；具体套餐与账号范围未明确，不推广为所有 GPT 产品。",
+   "publishedAt": "2026-10-13T05:06:00Z",
+   "effectiveAt": null,
+   "url": "https://x.com/thsottiaux/status/2109873287853707513",
+   "verification": "confirmed",
+   "evidence": [
+    {
+     "url": "https://x.com/thsottiaux/status/2109873287853707513",
+     "name": "Tibo 原帖（已核对详情截图）"
+    }
+   ],
+   "publishedAtPrecision": "minute",
+   "verificationMethod": "原帖详情截图 outputs/tibo-reset-confirmed.png"
+  },
+  {
+   "id": "2109132167112782291",
+   "title": "Day 6：Tibo 宣布全局重置已传播完成",
+   "summary": "Tibo 表示重置已传播完成；其引用的上文是全局重置预告。发布时间为北京时间 10 月 11 日 12:01，精度为分钟；未明确具体套餐或每个账号的实际生效时刻。",
+   "scope": "Codex / ChatGPT Work 相关全局重置；原帖未列具体套餐及账号条件。",
+   "publishedAt": "2026-10-11T12:01:00+08:00",
+   "publishedAtPrecision": "minute",
+   "effectiveAt": null,
+   "url": "https://x.com/thsottiaux/status/2109132167112782291",
+   "verification": "confirmed",
+   "verificationMethod": "核对 Tibo X 原帖",
+   "evidence": [
+    {
+     "name": "Tibo 原帖",
+     "url": "https://x.com/thsottiaux/status/2109132167112782291"
+    }
+   ]
+  },
+  {
+   "id": "2107913674593644711",
+   "title": "Day 3：宣布向付费账号发放保存型重置",
+   "summary": "Tibo 宣布正在向付费账号发放 banked reset。发布时间为北京时间 10 月 8 日 03:19，精度为分钟。这是保存型重置发放公告，未声明所有账号均已收到，也不是立即完成的全局重置。",
+   "scope": "原帖称付费账号；未逐项列出套餐、地区和资格条件。",
+   "publishedAt": "2026-10-08T03:19:00+08:00",
+   "publishedAtPrecision": "minute",
+   "effectiveAt": null,
+   "url": "https://x.com/thsottiaux/status/2107913674593644711",
+   "verification": "confirmed",
+   "verificationMethod": "核对 Tibo X 原帖",
+   "evidence": [
+    {
+     "name": "Tibo 原帖",
+     "url": "https://x.com/thsottiaux/status/2107913674593644711"
+    }
+   ]
+  }
+ ],
+ "sourceCollectedAt": "2026-10-15T13:24:49.301Z"
 }

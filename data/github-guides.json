@@ -78,5 +78,9 @@
  "hmjz100/LinkSwift":"网盘文件下载地址获取工具，支持百度、阿里云盘等八家网盘的直链下载。",
  "akitaonrails/ai-memory":"为编码 Agent CLI 提供长期记忆，并在不同厂商 Agent 之间交接上下文。",
  "stablyai/orca":"用自有订阅统一运行多支编码 Agent 的平台，覆盖桌面、移动与远程运行时。",
- "anomalyco/opencode":"OpenCode 的官方开源仓库，开源编码 Agent 主项目。"
+ "anomalyco/opencode":"OpenCode 的官方开源仓库，开源编码 Agent 主项目。",
+ "mlabonne/llm-course":"附学习路线图与 Colab 笔记本的大模型入门课程。",
+ "Kruk2/jasna":"开源视频修复工具，用于画质恢复处理。",
+ "Comfy-Org/ComfyUI":"基于节点图界面的扩散模型 GUI、API 与后端，支持本地推理。",
+ "pingdotgg/t3code":"用移动、网页与桌面端远程控制本机多家编码 Agent 的操控台。"
 }

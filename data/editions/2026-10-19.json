@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-19",
+  "updatedAt": "2026-10-19T02:08:47.000Z",
+  "headline": "Codex 桌面端补上编辑已发消息，重置节奏与检索 API 延续。",
+  "note": "晨间更新（北京时间约 10:08）：10 月 19 日新事件为 Tibo Day 14 帖（桌面端可编辑线程内已发送消息，09:18）。近三日（16—18 日）条目继续保留：Codex Day 13 限额重置（10-18，重置对象经用户确认为 Codex/ChatGPT）、DeepSeek V4.1-Flash-1017 与 Search/Fetch API（10-17）、Tibo Day 12 用量改进（10-17）、OpenCode v2.0.32 与两款限时免费模型（10-16，今晨复核仍在目录）、WorkBuddy 5.8.2（10-16）。10 月 15 日条目本期出窗。Tibo 交接今晨 3 条本人帖：Day 14 收录；街头求重置玩笑帖与「What's cooking today」闲聊帖未收录，且均非重置公告，重置雷达本轮无新增（lastCheckedAt 已更新）。覆盖局限：OpenAI 官网与帮助中心持续 403，x.ai 域名污染且主站 403，OpenRouter 本轮直连超时经代理核对，Qwen 博客正文为空，混元首页无正文，Google 博客条目无日期；Anthropic 10 月 18 日「Investing in the public benefit」为股份公益基金结构公告，不属收录范围。状态页：DeepSeek、OpenAI、Claude 均正常无事故。GitHub 独立展示，三榜快照今晨 09:41—09:42，总榜 10:01 官方 API 刷新；赛博土鸡蛋 15 条中 14 条今晨复核规则无变化（checkedAt → 10-19），火山方舟页面仍不可读保留 10-13。",
+  "stories": [
+    {
+      "id": "tibo-codex-day14-edit-20261019",
+      "title": "Codex 桌面端支持编辑线程内已发送消息",
+      "summary": "Tibo 北京时间 10 月 19 日 09:18 发布 Day 14 帖文：桌面端应用新增在线程内编辑此前已发送消息的能力。他称这是长期被需要的改进，「花了太长时间才上线」。",
+      "takeaway": "以桌面端客户端实际功能为准，本站未实测；该改进不涉及模型、额度或重置。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2111990254408434095",
+      "publishedDate": "2026-10-19",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-19:tibo-codex-day14-edit-20261019",
+        "sourceUrl": "https://x.com/thsottiaux/status/2111990254408434095"
+      }
+    },
+    {
+      "id": "tibo-codex-day13-reset-20261018",
+      "title": "Codex Day 13 限额重置：Tibo 宣告后于凌晨完成",
+      "summary": "Tibo 北京时间 10 月 18 日 00:20 发布 Day 13 帖文「Le limit reset」，宣告新一轮限额重置开始；05:12 发「Done」表示完成。经用户确认，本次重置对象为 Codex/ChatGPT 相关限额。",
+      "takeaway": "重置的适用套餐、账号资格与各账号实际生效时刻原帖未说明，请以个人用量页为准；重置对象与完成对应关系为用户确认信息，原帖未逐项列出覆盖范围。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2111492673890824348",
+      "publishedDate": "2026-10-18",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-19:tibo-codex-day13-reset-20261018",
+        "sourceUrl": "https://x.com/thsottiaux/status/2111492673890824348"
+      }
+    },
+    {
+      "id": "deepseek-v41-flash-1017-20261017",
+      "title": "DeepSeek 发布 V4.1-Flash-1017，Search/Fetch API 全量开放",
+      "summary": "官方 10 月 17 日发布 DeepSeek-V4.1-Flash-1017，上线网站、App 与 API，称较上一版基准更强、任务完成更快、输出更短，属性能与成本的 Pareto 改进；针对 DeepSeek Harness、腾讯 CodeBuddy、WorkBuddy 优化，建议升级 Harness v0.2.1-rc.1 以上。Search 与 Fetch API 全量开放，每端点每千次调用 0.75 美元，权重已在 Hugging Face 与 ModelScope 开源。",
+      "takeaway": "经 DeepSeek Harness、Claude Code、Codex 服务端工具发起的 Search/Fetch 调用对 DeepSeek API 用户暂时免费，10 月 31 日 16:00 UTC 起计费；1017 是 V4.1 Flash 系列新版本，调用前核对新模型 ID，本站未实测。",
+      "region": "国内",
+      "category": "模型动态",
+      "source": "DeepSeek 官方文档 News",
+      "sourceType": "官方发布",
+      "url": "https://api-docs.deepseek.com/news/news261017",
+      "publishedDate": "2026-10-17",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-19:deepseek-v41-flash-1017-20261017",
+        "sourceUrl": "https://api-docs.deepseek.com/news/news261017"
+      }
+    },
+    {
+      "id": "tibo-codex-day12-usage-20261017",
+      "title": "Tibo：Codex 与 Work 改进上下文复用，有效用量提升",
+      "summary": "Tibo 北京时间 10 月 17 日 07:55 发布 Day 12 帖文：通过跨子代理复用上下文、延长上下文缓存时间和改进请求路由提高缓存命中，Codex 与 Work 的有效用量已获得提升。帖文未列出适用套餐和具体提升幅度。",
+      "takeaway": "这是作者报告的服务端改进，实际用量变化因任务类型而异，本站未独立测量；不等于额外额度发放或重置公告。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2111244596131111253",
+      "publishedDate": "2026-10-17",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-19:tibo-codex-day12-usage-20261017",
+        "sourceUrl": "https://x.com/thsottiaux/status/2111244596131111253"
+      }
+    },
+    {
+      "id": "opencode-v2032-20261016",
+      "title": "OpenCode v2.0.32：/copy 复制最新回复，语音会话 SDK 实验开放",
+      "summary": "OpenCode 官方变更记录将 v2.0.32 标为 10 月 16 日发布：TUI 内 /copy 可复制最新助手回复或压缩摘要，修复无头环境登录崩溃、Gemini 响应异常重试与 Windows 快照问题，并新增实验性语音会话 SDK 接口。",
+      "takeaway": "语音会话 SDK 为实验性接口，行为可能调整；本站未实测该版本，升级前按官方变更记录核对兼容性。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方 Changelog",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/changelog",
+      "publishedDate": "2026-10-16",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-19:opencode-v2032-20261016",
+        "sourceUrl": "https://opencode.ai/changelog"
+      }
+    },
+    {
+      "id": "opencode-glm-flash-free-20261016",
+      "title": "OpenCode 限时免费开放 GLM-5.3-Flash 与 DeepSeek V4.1 Flash",
+      "summary": "OpenCode 官方模型目录列出 GLM-5.3-Flash Free 与 DeepSeek V4.1 Flash Free，输入、输出与缓存读取均不计费，描述为限时免费并称供应商执行零数据保留政策；付费版 DeepSeek V4.1 Flash 为每百万 token 输入 0.30、输出 1.20 美元。官方页面未公布免费截止日期，也未标注上下文上限。",
+      "takeaway": "免费条款以官方模型目录为准，截止时间未公布，不宜当作长期免费；社区讨论称免费版上下文限 200k、官方文档未标注，长上下文任务先小规模验证；本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方模型目录",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/v2/docs/console/models",
+      "publishedDate": "2026-10-16",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-19:opencode-glm-flash-free-20261016",
+        "sourceUrl": "https://opencode.ai/v2/docs/console/models"
+      }
+    },
+    {
+      "id": "workbuddy-582-fixes-20261016",
+      "title": "WorkBuddy 5.8.2 修复历史会话异常等多项使用问题",
+      "summary": "腾讯 WorkBuddy 官方变更记录将 5.8.2 标为 10 月 16 日发布：修复历史会话打开异常、企业微信机器人文件回复卡住、Artifacts 计数跳变、旗舰版侧边栏菜单配置及语音输入等问题，属稳定性修复版本。",
+      "takeaway": "这是桌面端使用问题修复，不含新模型或额度变化；以官方变更记录为准，本站未实际升级验证。",
+      "region": "国内",
+      "category": "产品应用",
+      "source": "腾讯 CodeBuddy / WorkBuddy 官方变更记录",
+      "sourceType": "官方发布",
+      "url": "https://www.codebuddy.cn/docs/workbuddy/Changelog",
+      "publishedDate": "2026-10-16",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-19:workbuddy-582-fixes-20261016",
+        "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+      }
+    }
+  ]
+}
