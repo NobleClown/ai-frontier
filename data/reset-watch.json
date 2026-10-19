@@ -1,9 +1,9 @@
 {
  "account": "thsottiaux",
  "profileUrl": "https://x.com/thsottiaux",
- "lastCheckedAt": "2026-10-19T02:08:36.528Z",
+ "lastCheckedAt": "2026-10-19T10:29:32Z",
  "checkStatus": "ok",
- "checkNote": "本轮（2026-10-19 10:00 场）读取 09:32（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok，fetchedAt 距检查约 28 分钟），覆盖窗口至当日 09:32。窗口内 3 条本人帖均非重置公告：Day 14 为桌面端编辑已发消息的功能改进（雷达范围外，已入当日简报），其余两条为玩笑与预告式闲聊。Day 13 重置（10-18，已确认 Codex/ChatGPT、完成）之后无新重置帖。posts 无新增，保留 5 条。",
+ "checkNote": "本轮（2026-10-19 18:20 场）读取 17:32（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），覆盖窗口至当日 17:32。窗口内 2 条本人帖均非重置公告：12:32 购新域名闲聊帖、12:12 OpenAI 团队与 OpenCode 合作恢复服务并退还攻击中被扣 credits 的帖文（credits 退款不属重置公告，未入雷达；该事件已作为新闻条目收录）。无新增 posts，去重后与既有 5 条一致。",
  "automationEnabled": true,
  "cadenceMinutes": 60,
  "posts": [

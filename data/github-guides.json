@@ -82,5 +82,6 @@
  "mlabonne/llm-course":"附学习路线图与 Colab 笔记本的大模型入门课程。",
  "Kruk2/jasna":"开源视频修复工具，用于画质恢复处理。",
  "Comfy-Org/ComfyUI":"基于节点图界面的扩散模型 GUI、API 与后端，支持本地推理。",
- "pingdotgg/t3code":"用移动、网页与桌面端远程控制本机多家编码 Agent 的操控台。"
+ "pingdotgg/t3code":"用移动、网页与桌面端远程控制本机多家编码 Agent 的操控台。",
+ "YuJunZhiXue/dsh-purge":"面向 DeepSeek Harness 的「破甲」红队提示词工具，可按模型切换越狱提示词，默认提示词面向「小码酱」。"
 }
