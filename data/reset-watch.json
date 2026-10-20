@@ -1,9 +1,9 @@
 {
  "account": "thsottiaux",
  "profileUrl": "https://x.com/thsottiaux",
- "lastCheckedAt": "2026-10-19T10:29:32Z",
+ "lastCheckedAt": "2026-10-20T02:09:47.054Z",
  "checkStatus": "ok",
- "checkNote": "本轮（2026-10-19 18:20 场）读取 17:32（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），覆盖窗口至当日 17:32。窗口内 2 条本人帖均非重置公告：12:32 购新域名闲聊帖、12:12 OpenAI 团队与 OpenCode 合作恢复服务并退还攻击中被扣 credits 的帖文（credits 退款不属重置公告，未入雷达；该事件已作为新闻条目收录）。无新增 posts，去重后与既有 5 条一致。",
+ "checkNote": "本轮（2026-10-20 10:00 场）读取 09:32（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），覆盖窗口至当日 09:32。窗口内仅 1 条本人帖（Day 15「We’re cooked」），为对 OpenAI 官方 Codex 内容帖的玩笑式引用回复，非重置公告；Day 13（10-18，已确认完成）之后无新重置帖。posts 无新增，保留 5 条。",
  "automationEnabled": true,
  "cadenceMinutes": 60,
  "posts": [
