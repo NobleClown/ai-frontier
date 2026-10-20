@@ -1,9 +1,27 @@
 {
   "date": "2026-10-20",
-  "updatedAt": "2026-10-20T02:09:57.000Z",
-  "headline": "20 日晨无独立新事件，免费模型限免与重置后续继续跟踪。",
-  "note": "晨间更新（北京时间约 10:09）：截至本轮核对，未核实到 10 月 20 日独立新事件。近三日（17—19 日）条目继续保留：Tibo OpenCode 服务恢复与 credits 退还（10-19）、WorkBuddy 5.8.3（10-19）、Codex Day 14 桌面端编辑消息（10-19）、Codex Day 13 限额重置（10-18，重置对象经用户确认为 Codex/ChatGPT）、DeepSeek V4.1-Flash-1017 与 Search/Fetch API（10-17）、Tibo Day 12 用量改进（10-17）、OpenCode 限免两模型（10-16 起进行中，今晨复核仍在目录，作为持续状态保留）。Tibo 交接今晨仅 1 条本人帖：Day 15「We're cooked」为对 OpenAI 官方 Codex 内容帖的玩笑式引用回复，无产品事实与额度信息，未收录。覆盖局限：OpenAI 官网与帮助中心持续 403，x.ai 域名污染且主站 403，OpenRouter 经代理核对，Qwen 博客正文为空，混元首页无正文，Google 博客条目无日期；搜索无窗口内新事件。状态页：DeepSeek、OpenAI、Claude 均正常无事故。GitHub 独立展示，三榜快照今晨 09:41—09:43，总榜 10:01 官方 API 刷新；赛博土鸡蛋 15 条今晨全部复核完成、规则无变化（checkedAt → 10-20），火山方舟页面今日恢复可读并完成首次复检（50w token 口径与条目一致）。",
+  "updatedAt": "2026-10-20T10:23:40.000Z",
+  "headline": "Tibo 宣告 Day 15 限额重置，OpenAI 协调 OpenCode 恢复与退款延续。",
+  "note": "晚间更新（北京时间约 18:23）：新增 1 条——Tibo Day 15 重置宣告（14:33「Nevermind, we're still cooking... and reset. Enjoy.」，引用其当日 03:45「We're cooked」玩笑帖）；重置完成状态原帖未写 Done，按「已宣告、完成未确认」处理，对象与资格原帖未说明。重置雷达已同步新增该条目（confirmed，effectiveAt null）。晨间 7 条已核实条目继续保留原日期；OpenCode 晚间复核 v2.0.32 仍为最新，GLM-5.3-Flash Free 与 DeepSeek V4.1 Flash Free 限免仍在目录（目录新增 MiniMax M3.1 Flash Free，页面无日期，不标当天首发）；WorkBuddy 仍 5.8.3；Kimi 仍 1.1.0；Qoder 仍 0.4.8；OpenRouter 最新仍 10-14；Anthropic 最新 10-18（股份公益基金结构公告，不属收录范围）；DeepSeek 文档 News 仍仅 1017 一条。状态页：DeepSeek、Claude 10-19/20 无事故；OpenAI 10-19 深夜「File Download errors」已全部恢复（轻微未收录）、10-20 无事故。覆盖局限维持：OpenAI 官网与帮助中心持续 403，x.ai 域名污染且主站 403，Qwen 博客正文为空，混元与 MiniMax 首页为无正文单页，Google 博客条目无日期。GitHub 独立展示，赛博土鸡蛋与重置雷达另行维护。晨间更新（北京时间约 10:09）：截至本轮核对，未核实到 10 月 20 日独立新事件；近三日（17—19 日）条目继续保留。Tibo 交接今晨仅 1 条本人帖（Day 15「We're cooked」玩笑帖，无产品事实，未收录；晚间该帖被本人 Day 15 重置宣告引用，一并归并）。赛博土鸡蛋 15 条今晨全部复核完成、规则无变化（checkedAt → 10-20），火山方舟页面今日恢复可读并完成首次复检（50w token 口径与条目一致）。",
   "stories": [
+    {
+      "id": "tibo-codex-day15-reset-20261020",
+      "title": "Codex Day 15：Tibo 宣告新一轮限额重置",
+      "summary": "Tibo 北京时间 10 月 20 日 14:33 发布 Day 15 帖文「Nevermind, we're still cooking... and reset. Enjoy.」，宣告重置并让用户享用；该帖引用其当日 03:45 的「We're cooked」玩笑帖。帖文未写明重置是否全部完成，也未列出适用套餐与账号资格。",
+      "takeaway": "重置对象与资格原帖未说明（前次 Day 13 重置对象经用户确认为 Codex/ChatGPT 相关限额，供参考、非本次确认）；本条按「已宣告、完成未确认」处理，实际余量以个人用量页为准。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2112432076767289678",
+      "publishedDate": "2026-10-20",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-20:tibo-codex-day15-reset-20261020",
+        "sourceUrl": "https://x.com/thsottiaux/status/2112432076767289678"
+      }
+    },
     {
       "id": "tibo-opencode-refund-20261019",
       "title": "Tibo：OpenAI 团队协调恢复 OpenCode 用户服务并退还攻击中被扣 credits",
