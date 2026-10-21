@@ -1,8 +1,8 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T02:08:47.000Z",
-  "headline": "用量限额不一致致歉补偿，Codex 缓存能力大幅延长。",
-  "note": "晨间更新（北京时间约 10:08）：10 月 21 日新事件 2 条——Tibo 披露周末约 4 万账号用量限额不一致、已修正并将补偿 credits（01:10）；Codex Day 16 帖宣布 API 可选 12 小时缓存、Codex 与 Work 登录用户缓存长期保留且保证命中（09:10，其引用 OpenAI API 官方 12 小时提示缓存公告，本条目合并处理）。延续 10 月 18—20 日已核实进展 6 条：Codex Day 15 限额重置（10-20，宣告帖）、Tibo OpenCode 服务恢复与退款（10-19）、WorkBuddy 5.8.3（10-19）、Codex Day 14 桌面端编辑消息（10-19）、Codex Day 13 限额重置（10-18）、OpenCode 限免两模型（10-16 起进行中，今晨复核仍在目录）。10 月 17 日条目（DeepSeek 1017、Day 12）本期出窗。Tibo 交接今晨 2 条本人帖全部收录。覆盖局限：OpenAI 官网与帮助中心持续 403，x.ai 域名污染且主站 403，OpenRouter 经代理核对，Qwen 博客正文为空，混元首页无正文，Google 博客条目无日期；搜索无窗口内其他新事件。状态页：DeepSeek、OpenAI、Claude 均正常无事故。GitHub 独立展示，三榜快照今晨 09:40—09:42，总榜 10:01 官方 API 刷新；赛博土鸡蛋 14 条今晨复核规则无变化（checkedAt → 10-21），火山方舟页面再度不可读、保留 10-20。",
+  "updatedAt": "2026-10-21T10:24:05.000Z",
+  "headline": "用量限额补偿与缓存改进延续，OpenCode 与 Kimi 桌面端同日更新。",
+  "note": "晚间更新（北京时间约 18:24）：新增 2 条——OpenCode v2.1.2（10-21：免费额度用尽显示重置时间、OPENCODE_DISABLE_FREE_MODELS 开关等）与 Kimi Code Desktop 1.1.1（10-21：工作区信任确认、/reload 等），均已打开官方变更记录核对。晚间核对未发现其他新事件：OpenAI 状态页 10-21 11:28「ChatGPT、Codex 与 API 性能降级」已全部恢复（轻微，未收录）；Anthropic、OpenRouter、Qoder、WorkBuddy、DeepSeek 均无窗口内新条目；OpenCode 模型目录晚间复核两条限免仍在。Tibo 晚间交接异常：17:33 采集标记 status=source_unavailable、posts 空（17:30 采集失败），晚间未能核对晨间 09:32 之后的新帖，Day 15 重置的完成状态跟进落空，重置雷达本轮标 source_unavailable 并保留原记录，采集恢复后下一轮接续。状态页：DeepSeek、Claude 10-20/21 无事故。覆盖局限维持：OpenAI 官网与帮助中心持续 403，x.ai 域名污染且主站 403，Qwen 博客正文为空，混元与 MiniMax 首页为无正文单页，Google 博客条目无日期；智谱 Coding Plan notice 无新公告。GitHub 独立展示，赛博土鸡蛋与重置雷达另行维护。晨间更新（北京时间约 10:08）：10 月 21 日新事件 2 条——Tibo 披露周末约 4 万账号用量限额不一致、已修正并将补偿 credits（01:10）；Codex Day 16 帖宣布 API 可选 12 小时缓存、Codex 与 Work 登录用户缓存长期保留且保证命中（09:10，其引用 OpenAI API 官方 12 小时提示缓存公告，本条目合并处理）。延续 10 月 18—20 日已核实进展 6 条。10 月 17 日条目（DeepSeek 1017、Day 12）本期出窗。Tibo 交接今晨 2 条本人帖全部收录；赛博土鸡蛋 14 条今晨复核规则无变化（checkedAt → 10-21），火山方舟页面再度不可读、保留 10-20。",
   "stories": [
     {
       "id": "tibo-usage-drain-fix-20261021",
@@ -38,6 +38,42 @@
         "publisher": "AI 前沿",
         "contentId": "news:2026-10-21:tibo-codex-day16-cache-20261021",
         "sourceUrl": "https://x.com/thsottiaux/status/2112712984644784534"
+      }
+    },
+    {
+      "id": "opencode-v212-free-limit-20261021",
+      "title": "OpenCode v2.1.2：免费额度用尽显示重置时间，可隐藏免费模型",
+      "summary": "OpenCode 官方变更记录将 v2.1.2 标为 10 月 21 日发布：免费消息用尽时，桌面端与 TUI 改为显示重置时间、恢复已提交提示词并提供升级或切换模型入口；新增 OPENCODE_DISABLE_FREE_MODELS 开关，可从目录、默认与回退中移除零成本模型；另含位置服务闲置卸载配置与全新安装 PATH 修复。",
+      "takeaway": "该版本不改变限时免费模型的可用性，仅改进用尽提示与目录开关；免费额度的具体数值官方页面仍未公布，本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方 Changelog",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/changelog",
+      "publishedDate": "2026-10-21",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-21:opencode-v212-free-limit-20261021",
+        "sourceUrl": "https://opencode.ai/changelog"
+      }
+    },
+    {
+      "id": "kimi-code-desktop-111-20261021",
+      "title": "Kimi Code Desktop 1.1.1：工作区信任确认与 /reload 重载",
+      "summary": "Kimi 官方变更记录将 1.1.1 标为 10 月 21 日更新：新增打开未信任文件夹时的信任确认、切换模型确认（可选新建会话、压缩后继续或直接继续）、Agent 运行中排队 /compact、/reload 立即应用 AGENTS.md 与配置变更，以及同一会话多客户端打开时的占用确认；修复长对话流式卡顿、发送失败消息丢失与 Windows 打开工作区问题。",
+      "takeaway": "属桌面端功能与稳定性更新，不含新模型或免费额度变化；未信任文件夹拒绝信任后无法发送消息，以客户端实际为准，本站未实测。",
+      "region": "国内",
+      "category": "开发工具",
+      "source": "Kimi Code 官方变更记录",
+      "sourceType": "官方发布",
+      "url": "https://www.kimi.com/code/docs/kimi-code-desktop/changelog.html",
+      "publishedDate": "2026-10-21",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-21:kimi-code-desktop-111-20261021",
+        "sourceUrl": "https://www.kimi.com/code/docs/kimi-code-desktop/changelog.html"
       }
     },
     {
