@@ -87,5 +87,11 @@
  "headroomlabs-ai/headroom":"在工具输出与日志进入大模型前做压缩，为编码 Agent 省 Token。",
  "withmarbleapp/os-taxonomy":"小学阶段学习内容的结构化知识图谱数据集，含细分知识点与先修关系。",
  "shiyu-coder/Kronos":"面向金融市场语言的开源基础模型。",
- "pbakaus/impeccable":"让 AI 编码助手输出更符合设计规范的设计语言。"
+ "pbakaus/impeccable":"让 AI 编码助手输出更符合设计规范的设计语言。",
+ "DietrichGebert/ponytail":"让 AI Agent 少写代码的开发方法论与提示集，主张「不写即最好的代码」。",
+ "Graphify-Labs/graphify":"把代码库、文档与 SQL 结构解析成可查询知识图谱的技能，免向量库。",
+ "msitarzewski/agency-agents":"面向营销与代理业务的专家角色 Agent 提示合集。",
+ "wshobson/agents":"跨多家编码工具通用的 Agent 插件市场合集。",
+ "sickn33/agentic-awesome-skills":"本地优先的 Agent 技能控制台，提供目录发现、技能选择与校验规划。",
+ "vllm-project/vllm":"高吞吐、省显存的大模型推理与服务引擎。"
 }

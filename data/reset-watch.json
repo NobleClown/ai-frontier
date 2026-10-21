@@ -1,12 +1,30 @@
 {
  "account": "thsottiaux",
  "profileUrl": "https://x.com/thsottiaux",
- "lastCheckedAt": "2026-10-20T10:25:37Z",
+ "lastCheckedAt": "2026-10-21T02:08:27.963Z",
  "checkStatus": "ok",
- "checkNote": "本轮（2026-10-20 18:20 场）读取 17:31（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），覆盖窗口至当日 17:31。窗口内 1 条本人帖为 Day 15 重置宣告（14:33，含「and reset. Enjoy.」），已收录为 posts 首条；该帖引用当日 03:45「We're cooked」玩笑帖，一并归并进 evidence。重置完成状态原帖未写 Done，后续轮次若出现完成帖将按时间接续核对，不把宣告当作已完成。",
+ "checkNote": "本轮（2026-10-21 10:00 场）读取 09:32（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），覆盖窗口至当日 09:32。窗口内 2 条本人帖：新增用量限额不一致公告条目（usage/rate limits 范围，补偿承诺中、非已完成重置）；Day 16 为缓存功能改进（12h API 缓存与登录用户缓存保留），不属限额/重置，未入雷达（已入当日简报）。posts 共 6 条。",
  "automationEnabled": true,
  "cadenceMinutes": 60,
  "posts": [
+  {
+   "id": "2112592264686149749",
+   "title": "用量限额不一致：约 4 万账号受影响，已修正并将补偿 credits",
+   "summary": "Tibo 北京时间 10 月 21 日 01:10 发帖：周末有用户反映用量消耗快于预期，排查发现约 40,000 个账号存在用量限额不一致（实际应用的用量与其所选套餐不符），问题已修正；受影响用户将获得 credits 补偿，团队正在逐一联系。原帖未说明补偿数额、到账时间与具体套餐划分。",
+   "scope": "Codex/ChatGPT 相关订阅账号中约 40,000 个受影响账号；原帖未列出套餐划分与资格条件。",
+   "publishedAt": "2026-10-21T01:10:00+08:00",
+   "publishedAtPrecision": "minute",
+   "effectiveAt": null,
+   "url": "https://x.com/thsottiaux/status/2112592264686149749",
+   "verification": "confirmed",
+   "verificationMethod": "Zcode 原文交接（依用户授权采信）",
+   "evidence": [
+    {
+     "name": "Tibo 原帖（用量异常说明与补偿承诺）",
+     "url": "https://x.com/thsottiaux/status/2112592264686149749"
+    }
+   ]
+  },
   {
    "summary": "Tibo 于北京时间 10 月 20 日 14:33 发帖「Day 15/ Nevermind, we're still cooking... and reset. Enjoy.」，宣告重置并称 Enjoy；该帖引用其当日 03:45 的「Day 15/ We're cooked」玩笑帖。原帖未写明重置是否全部完成，也没有说明对象、适用套餐、账号资格或各账号实际生效时刻，不能据此推断所有用户均已获得重置。",
    "publishedAt": "2026-10-20T14:33:00+08:00",
