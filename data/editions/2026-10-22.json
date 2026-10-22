@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-22",
+  "updatedAt": "2026-10-22T02:30:24.000Z",
+  "headline": "OpenAI 部分区域服务调查中，OpenCode 连发修复与免费额度改进。",
+  "note": "晨间更新（北京时间约 10:30）：10 月 22 日新事件为 OpenAI 状态页进行中事故（ChatGPT 印度/日本/韩国转换失败与 Response API 错误，约 10:01 北京开始、截至今晨核对仍为调查中，可能较快解决，以状态页为准）；另有 OpenCode v2.1.2（10-21：免费额度恢复、可用环境变量隐藏免费模型等）。延续 10 月 19—21 日已核实进展 7 条：用量限额不一致补偿、Day 16 缓存、OpenCode v2.1.0、Codex Day 15 重置、OpenCode 恢复退款、WorkBuddy 5.8.3、Day 14。10 月 18 日条目（Day 13 重置）本期出窗；限免条目作为进行中状态保留。Tibo 采集今晨失败（status=source_unavailable），本期无 Tibo 新帖，覆盖以 10 月 21 日 09:32 为止；重置雷达同受影响，已按规则保留原记录并置 source_unavailable。覆盖局限：OpenAI 官网与帮助中心持续 403（事故信息取自状态页），x.ai 域名污染且主站 403，Qwen 博客正文为空，混元首页无正文，Google 博客条目无日期；搜索无窗口内其他新事件。状态页：DeepSeek、Claude 正常（Claude Fable 5 于 21 日 19:49—20:29 UTC 有一次已解决的降级），OpenAI 见上。GitHub 独立展示，三榜快照今晨 09:43—09:44，总榜 10:02 官方 API 刷新；赛博土鸡蛋 14 条今晨复核规则无变化（checkedAt → 10-22），火山方舟连续第 2 天不可读保留 10-20。",
+  "stories": [
+    {
+      "id": "openai-incident-response-api-20261022",
+      "title": "OpenAI 状态页：部分地区 ChatGPT 转换失败与 Response API 错误调查中",
+      "summary": "OpenAI 状态页显示进行中事故：印度、日本、韩国地区的 ChatGPT 转换失败，同时存在 Response API 错误，影响范围标注为 APIs 与 ChatGPT。约北京时间 10 月 22 日 10:01 开始，截至今晨 10:10 前后核对状态仍为「调查中」，状态页尚无进一步更新。",
+      "takeaway": "事故仍在调查中、可能较快解决；涉及上述地区的调用请关注状态页与重试策略，本站不预测恢复时间。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "OpenAI 状态页",
+      "sourceType": "官方发布",
+      "url": "https://status.openai.com/",
+      "publishedDate": "2026-10-22",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-22:openai-incident-response-api-20261022",
+        "sourceUrl": "https://status.openai.com/"
+      }
+    },
+    {
+      "id": "opencode-v212-20261021",
+      "title": "OpenCode v2.1.2：免费额度恢复改进，可隐藏免费模型",
+      "summary": "OpenCode 官方变更记录将 v2.1.2 标为 10 月 21 日发布：改进桌面端与 TUI 的免费额度恢复，新增 OPENCODE_DISABLE_FREE_MODELS 环境变量可隐藏免费模型，支持配置化的位置卸载，并让全新安装更可靠（补建 shell 配置与 PATH）。另修复凭据转发、SDK 重试时序与 Code Mode 异步任务交错等问题。",
+      "takeaway": "免费额度相关行为有调整，使用限免模型的用户升级后建议复核额度显示；以官方变更记录为准，本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方 Changelog",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/changelog",
+      "publishedDate": "2026-10-21",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-22:opencode-v212-20261021",
+        "sourceUrl": "https://opencode.ai/changelog"
+      }
+    },
+    {
+      "id": "tibo-usage-drain-fix-20261021",
+      "title": "Tibo：约 4 万账号用量限额不一致已修正，将补偿 credits",
+      "summary": "Tibo 北京时间 10 月 21 日 01:10 发帖：周末有用户反映用量消耗快于预期，排查发现约 40,000 个账号存在用量限额不一致（实际应用的用量与其所选套餐不符），问题已修正；受影响用户将获得 credits 补偿，团队正在逐一联系。",
+      "takeaway": "补偿的 credits 数额与到账方式帖文未说明，发放属承诺中而非已确认到账；是否受影响以账号通知与个人用量页为准。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2112592264686149749",
+      "publishedDate": "2026-10-21",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-22:tibo-usage-drain-fix-20261021",
+        "sourceUrl": "https://x.com/thsottiaux/status/2112592264686149749"
+      }
+    },
+    {
+      "id": "tibo-codex-day16-cache-20261021",
+      "title": "Codex Day 16：API 可选 12 小时缓存，登录用户缓存长期保留",
+      "summary": "Tibo 北京时间 10 月 21 日 09:10 发布 Day 16 帖文：API 现可选 12 小时提示缓存；Codex 与 Work 登录用户的缓存长期保留，返回旧会话或数小时后继续时不再有缓存惩罚，并保证命中缓存。帖文引用 OpenAI API 官方「12 小时提示缓存」公告，后者称共享指令、工具与上下文可缓存更久并按较低缓存输入价计费。",
+      "takeaway": "12 小时缓存为 API 选项、按官方缓存价计费；登录端「缓存长期保留」适用范围与套餐关系原帖未展开。缓存命中与费用以官方文档及账单为准，本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "Tibo · X 原帖（引用 OpenAI API 公告）",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2112712984644784534",
+      "publishedDate": "2026-10-21",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-22:tibo-codex-day16-cache-20261021",
+        "sourceUrl": "https://x.com/thsottiaux/status/2112712984644784534"
+      }
+    },
+    {
+      "id": "opencode-v210-20261020",
+      "title": "OpenCode v2.1.0 大版本：Windows 持久终端与实验性待办，含破坏性变更",
+      "summary": "OpenCode 官方变更记录将 v2.1.0 标为 10 月 20 日发布：Windows x64/ARM64 获得与其他平台一致的持久终端，TUI 新增实验性待办清单（需开启 experimental.todo），长时运行命令不再受五分钟限制。该版本含 SDK/HTTP/插件破坏性变更：provider 状态字段统一为 native、工具事件合并、凭据配置迁移至 metadata、压缩事件更名等；旧存储会话经兼容解码器仍可读，无需数据库迁移。",
+      "takeaway": "依赖 SDK、HTTP 接口或插件的集成需按官方迁移说明调整字段与事件；运行时兼容读取不等于公共写入兼容，升级前核对集成代码，本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方 Changelog",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/changelog",
+      "publishedDate": "2026-10-20",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-22:opencode-v210-20261020",
+        "sourceUrl": "https://opencode.ai/changelog"
+      }
+    },
+    {
+      "id": "tibo-codex-day15-reset-20261020",
+      "title": "Codex Day 15：Tibo 宣告新一轮限额重置",
+      "summary": "Tibo 北京时间 10 月 20 日发布 Day 15 帖文，宣告新一轮限额重置。该事件由晚间核对收录；重置完成情况以雷达与个人用量页后续信息为准。",
+      "takeaway": "适用套餐、账号资格与各账号实际生效时刻原帖未说明，请以个人用量页为准。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2112432076767289678",
+      "publishedDate": "2026-10-20",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-22:tibo-codex-day15-reset-20261020",
+        "sourceUrl": "https://x.com/thsottiaux/status/2112432076767289678"
+      }
+    },
+    {
+      "id": "tibo-opencode-refund-20261019",
+      "title": "Tibo：OpenAI 团队协调恢复 OpenCode 用户服务并退还攻击中被扣 credits",
+      "summary": "Tibo 北京时间 10 月 19 日 12:12 发帖：其团队已与 OpenCode 合作，让同为 OpenAI API 客户的 OpenCode 用户恢复业务，攻击中会被扣除的 credits 也将退还；他还提到可申请 Daybreak Blue 访问权限用于网络防御。OpenCode 官方 changelog 与 GitHub Releases 晚间核对暂无对应公告。",
+      "takeaway": "恢复与退款细节以 OpenCode 官方渠道后续公告为准；「攻击中被扣 credits 退还」的适用范围与方式帖文未展开，本站未实测。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2112034063934742720",
+      "publishedDate": "2026-10-19",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-22:tibo-opencode-refund-20261019",
+        "sourceUrl": "https://x.com/thsottiaux/status/2112034063934742720"
+      }
+    },
+    {
+      "id": "workbuddy-583-fixes-20261019",
+      "title": "WorkBuddy 5.8.3 修复会话错乱与沙箱内存膨胀等问题",
+      "summary": "腾讯 WorkBuddy 官方变更记录将 5.8.3 标为 10 月 19 日发布：修复切换版本时内置运行时闪屏、账号刷新导致会话与企业微信助手入口混淆、语音功能异常等问题，优化本地沙箱内存占用并改善企业代理与系统证书环境下的连接稳定性。",
+      "takeaway": "属桌面端稳定性与连接修复，不含新模型或额度变化；以官方变更记录为准，本站未实际升级验证。",
+      "region": "国内",
+      "category": "产品应用",
+      "source": "腾讯 CodeBuddy / WorkBuddy 官方变更记录",
+      "sourceType": "官方发布",
+      "url": "https://www.codebuddy.cn/docs/workbuddy/Changelog",
+      "publishedDate": "2026-10-19",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-22:workbuddy-583-fixes-20261019",
+        "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+      }
+    },
+    {
+      "id": "tibo-codex-day14-edit-20261019",
+      "title": "Codex 桌面端支持编辑线程内已发送消息",
+      "summary": "Tibo 北京时间 10 月 19 日 09:18 发布 Day 14 帖文：桌面端应用新增在线程内编辑此前已发送消息的能力。他称这是长期被需要的改进，「花了太长时间才上线」。",
+      "takeaway": "以桌面端客户端实际功能为准，本站未实测；该改进不涉及模型、额度或重置。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2111990254408434095",
+      "publishedDate": "2026-10-19",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-22:tibo-codex-day14-edit-20261019",
+        "sourceUrl": "https://x.com/thsottiaux/status/2111990254408434095"
+      }
+    },
+    {
+      "id": "opencode-glm-flash-free-20261016",
+      "title": "OpenCode 限时免费开放 GLM-5.3-Flash 与 DeepSeek V4.1 Flash",
+      "summary": "OpenCode 官方模型目录列出 GLM-5.3-Flash Free 与 DeepSeek V4.1 Flash Free，输入、输出与缓存读取均不计费，描述为限时免费并称供应商执行零数据保留政策；付费版 DeepSeek V4.1 Flash 为每百万 token 输入 0.30、输出 1.20 美元。官方页面未公布免费截止日期，也未标注上下文上限。",
+      "takeaway": "免费条款以官方模型目录为准，截止时间未公布，不宜当作长期免费；社区讨论称免费版上下文限 200k、官方文档未标注，长上下文任务先小规模验证；本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方模型目录",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/v2/docs/console/models",
+      "publishedDate": "2026-10-16",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-22:opencode-glm-flash-free-20261016",
+        "sourceUrl": "https://opencode.ai/v2/docs/console/models"
+      }
+    }
+  ]
+}

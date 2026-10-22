@@ -1,9 +1,9 @@
 {
  "account": "thsottiaux",
  "profileUrl": "https://x.com/thsottiaux",
- "lastCheckedAt": "2026-10-21T10:24:05Z",
+ "lastCheckedAt": "2026-10-22T02:30:15.490Z",
  "checkStatus": "source_unavailable",
- "checkNote": "本轮（2026-10-21 18:20 场）读取 17:33（北京）交接文件，其 status=source_unavailable、posts 为空列表（17:30 采集失败），本轮不视为直接读取成功。既有 7 条 posts 原样保留，未新增、未伪造。晨间 09:32 采集后至 17:33 的窗口未能核对，Day 15 重置（10-20 宣告）的完成状态跟进落空；采集恢复后的下一轮将从该窗口接续核对。",
+ "checkNote": "本轮（2026-10-22 10:00 场）采集交接文件 status=source_unavailable、posts=0（fetchedAt 2026-10-22T01:37:19.798Z，读取失败轮），不视为直接读取成功。posts 保留原 7 条未变；覆盖截止为最近一次成功采集（2026-10-21 09:32 北京，已含当日用量限额不一致公告）。不回退采信第三方；待下一轮采集恢复后核对 10-21 09:32 以来的窗口。",
  "automationEnabled": true,
  "cadenceMinutes": 60,
  "posts": [

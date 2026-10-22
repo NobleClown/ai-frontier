@@ -93,5 +93,8 @@
  "msitarzewski/agency-agents":"面向营销与代理业务的专家角色 Agent 提示合集。",
  "wshobson/agents":"跨多家编码工具通用的 Agent 插件市场合集。",
  "sickn33/agentic-awesome-skills":"本地优先的 Agent 技能控制台，提供目录发现、技能选择与校验规划。",
- "vllm-project/vllm":"高吞吐、省显存的大模型推理与服务引擎。"
+ "vllm-project/vllm":"高吞吐、省显存的大模型推理与服务引擎。",
+ "supabase/supabase":"基于 Postgres 的应用开发平台，为 Web、移动与 AI 应用提供数据库等服务。",
+ "twentyhq/twenty":"面向 AI 时代的开源 CRM，Salesforce 的开源替代。",
+ "strelov1/freehire":"面向求职者的开源职位搜索引擎。"
 }
