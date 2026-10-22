@@ -96,5 +96,6 @@
  "vllm-project/vllm":"高吞吐、省显存的大模型推理与服务引擎。",
  "supabase/supabase":"基于 Postgres 的应用开发平台，为 Web、移动与 AI 应用提供数据库等服务。",
  "twentyhq/twenty":"面向 AI 时代的开源 CRM，Salesforce 的开源替代。",
- "strelov1/freehire":"面向求职者的开源职位搜索引擎。"
+ "strelov1/freehire":"面向求职者的开源职位搜索引擎。",
+ "hugohe3/ppt-master":"用 AI 把文档或主题生成原生 PowerPoint 演示文稿，支持原生图形与动画、数据图表表格、备注配音及自定义 .pptx 模板。"
 }

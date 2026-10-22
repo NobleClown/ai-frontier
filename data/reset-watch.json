@@ -1,12 +1,30 @@
 {
  "account": "thsottiaux",
  "profileUrl": "https://x.com/thsottiaux",
- "lastCheckedAt": "2026-10-22T02:30:15.490Z",
- "checkStatus": "source_unavailable",
- "checkNote": "本轮（2026-10-22 10:00 场）采集交接文件 status=source_unavailable、posts=0（fetchedAt 2026-10-22T01:37:19.798Z，读取失败轮），不视为直接读取成功。posts 保留原 7 条未变；覆盖截止为最近一次成功采集（2026-10-21 09:32 北京，已含当日用量限额不一致公告）。不回退采信第三方；待下一轮采集恢复后核对 10-21 09:32 以来的窗口。",
+ "lastCheckedAt": "2026-10-22T10:23:26Z",
+ "checkStatus": "ok",
+ "checkNote": "本轮（2026-10-22 18:20 场）读取 17:31（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），采集已恢复。窗口内 1 条本人帖为 Day 17 重置宣告（14:55「it's reset day today」），已收录为 posts 首条；完成状态原帖未写 Done，后续轮次若出现完成帖将按时间接续核对。此前 10-21 09:32 后的缺口窗口（两轮 source_unavailable）按采集器增量拉取为据，本轮未再现其他帖文，该窗口完整性以采集增量为准、未逐帖核验。",
  "automationEnabled": true,
  "cadenceMinutes": 60,
  "posts": [
+  {
+   "summary": "Tibo 于北京时间 10 月 22 日 14:55 发帖「Day 17/ Bet you thought we forgot, but no, it's reset day today.」，宣告当天为重置日，并顺带提醒申请 Daybreak Blue 访问权限（称约需 15 分钟）。原帖未写明重置是否全部完成，也没有说明对象、适用套餐、账号资格或各账号实际生效时刻，不能据此推断所有用户均已获得重置。",
+   "publishedAt": "2026-10-22T14:55:00+08:00",
+   "publishedAtPrecision": "minute",
+   "evidence": [
+    {
+     "name": "Tibo Day 17 重置宣告帖",
+     "url": "https://x.com/thsottiaux/status/2113162277688070445"
+    }
+   ],
+   "verification": "confirmed",
+   "url": "https://x.com/thsottiaux/status/2113162277688070445",
+   "title": "Day 17：Tibo 宣告当日为限额重置日",
+   "verificationMethod": "核对 Tibo X 原帖（Zcode 原文交接，依用户授权采信）；发布时间由页面绝对时间确认到分钟；重置日已宣告，完成状态原帖未写 Done",
+   "effectiveAt": null,
+   "id": "2113162277688070445",
+   "scope": "Tibo 宣告的重置；对象、适用套餐与账号资格原帖未说明（前次 Day 13 重置对象经用户确认为 Codex/ChatGPT 相关限额，供参考、非本次确认）。完成状态原帖未明确。"
+  },
   {
    "id": "2112592264686149749",
    "title": "用量限额不一致：约 4 万账号受影响，已修正并将补偿 credits",

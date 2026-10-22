@@ -1,14 +1,32 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T02:30:24.000Z",
-  "headline": "OpenAI 部分区域服务调查中，OpenCode 连发修复与免费额度改进。",
-  "note": "晨间更新（北京时间约 10:30）：10 月 22 日新事件为 OpenAI 状态页进行中事故（ChatGPT 印度/日本/韩国转换失败与 Response API 错误，约 10:01 北京开始、截至今晨核对仍为调查中，可能较快解决，以状态页为准）；另有 OpenCode v2.1.2（10-21：免费额度恢复、可用环境变量隐藏免费模型等）。延续 10 月 19—21 日已核实进展 7 条：用量限额不一致补偿、Day 16 缓存、OpenCode v2.1.0、Codex Day 15 重置、OpenCode 恢复退款、WorkBuddy 5.8.3、Day 14。10 月 18 日条目（Day 13 重置）本期出窗；限免条目作为进行中状态保留。Tibo 采集今晨失败（status=source_unavailable），本期无 Tibo 新帖，覆盖以 10 月 21 日 09:32 为止；重置雷达同受影响，已按规则保留原记录并置 source_unavailable。覆盖局限：OpenAI 官网与帮助中心持续 403（事故信息取自状态页），x.ai 域名污染且主站 403，Qwen 博客正文为空，混元首页无正文，Google 博客条目无日期；搜索无窗口内其他新事件。状态页：DeepSeek、Claude 正常（Claude Fable 5 于 21 日 19:49—20:29 UTC 有一次已解决的降级），OpenAI 见上。GitHub 独立展示，三榜快照今晨 09:43—09:44，总榜 10:02 官方 API 刷新；赛博土鸡蛋 14 条今晨复核规则无变化（checkedAt → 10-22），火山方舟连续第 2 天不可读保留 10-20。",
+  "updatedAt": "2026-10-22T10:23:26.000Z",
+  "headline": "Tibo 宣告 Day 17 重置日，OpenAI 晨间事故已恢复，Qoder 发布企业微信集成。",
+  "note": "晚间更新（北京时间约 18:23）：新增 2 条——Tibo Day 17 重置宣告（14:55「it's reset day today」，完成状态原帖未写 Done，按「已宣告、完成未确认」处理）与 Qoder 0.4.9（10-22：企业微信集成、视频生成预览、Linux ARM64 等）；更正 1 条——晨间收录的 OpenAI 事故（ChatGPT 对话与 Responses API 错误）晚间复查状态页已标记全部恢复，当日另有两起已解决的小型 API 错误事故（gpt-5.6-luna、FedRAMP），未单独收录。Tibo 采集晚间恢复（17:31 status=ok），本轮窗口内仅 Day 17 一条新帖；昨日 09:32 后至本次采集的缺口窗口按采集器增量拉取为据、未再现其他帖文，完整性以采集增量为准并如实记录。OpenCode 模型目录晚间复核两条限免仍在（目录新增 Flint 40B Free，无上线日期，不标当天）。Claude 状态页 10-22 Connectors 错误事件已解决（03:50—08:07 UTC）；DeepSeek 正常。覆盖局限维持：OpenAI 官网与帮助中心持续 403，x.ai 域名污染且主站 403，Qwen 博客正文为空，混元与 MiniMax 首页为无正文单页，Google 博客条目无日期；Anthropic 10-21 人事任命公告不属收录范围；智谱 Coding Plan notice 无新公告。GitHub 独立展示，赛博土鸡蛋与重置雷达另行维护。晨间更新（北京时间约 10:30）：10 月 22 日新事件为 OpenAI 状态页进行中事故（详见条目，晚间已更正为恢复）；另有 OpenCode v2.1.2（10-21）。Tibo 采集今晨失败（status=source_unavailable），本期晨间无 Tibo 新帖，覆盖以 10 月 21 日 09:32 为止；重置雷达同受影响已按规则保留原记录并置 source_unavailable。10 月 18 日条目（Day 13 重置）本期出窗；赛博土鸡蛋 14 条今晨复核规则无变化（checkedAt → 10-22），火山方舟连续第 2 天不可读保留 10-20。",
   "stories": [
     {
+      "id": "tibo-codex-day17-reset-20261022",
+      "title": "Codex Day 17：Tibo 宣告今日为限额重置日",
+      "summary": "Tibo 北京时间 10 月 22 日 14:55 发帖「Day 17/ Bet you thought we forgot, but no, it's reset day today.」，宣告当天为重置日，并顺带提醒申请 Daybreak Blue 访问权限。帖文未写明重置是否已完成，也未列出适用套餐与账号资格。",
+      "takeaway": "重置对象与资格原帖未说明（前次 Day 13 重置对象经用户确认为 Codex/ChatGPT 相关限额，供参考、非本次确认）；本条按「已宣告、完成未确认」处理，实际余量以个人用量页与雷达后续核对为准。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2113162277688070445",
+      "publishedDate": "2026-10-22",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-22:tibo-codex-day17-reset-20261022",
+        "sourceUrl": "https://x.com/thsottiaux/status/2113162277688070445"
+      }
+    },
+    {
       "id": "openai-incident-response-api-20261022",
-      "title": "OpenAI 状态页：部分地区 ChatGPT 转换失败与 Response API 错误调查中",
-      "summary": "OpenAI 状态页显示进行中事故：印度、日本、韩国地区的 ChatGPT 转换失败，同时存在 Response API 错误，影响范围标注为 APIs 与 ChatGPT。约北京时间 10 月 22 日 10:01 开始，截至今晨 10:10 前后核对状态仍为「调查中」，状态页尚无进一步更新。",
-      "takeaway": "事故仍在调查中、可能较快解决；涉及上述地区的调用请关注状态页与重试策略，本站不预测恢复时间。",
+      "title": "OpenAI 状态页：ChatGPT 对话与 Responses API 错误事故已恢复",
+      "summary": "OpenAI 状态页今日显示一起影响 ChatGPT 与 API 的事故（部分地区 ChatGPT 转换失败与 Responses API 错误），晨间约 10:01（北京）核对时仍为调查中；晚间复查状态页，该事故已标记「全部恢复」。状态页当日另记录两起已解决的小型事故（gpt-5.6-luna API 错误率升高、FedRAMP API 错误率升高）。",
+      "takeaway": "事故已由状态页标记全部恢复，期间受影响的调用可结合自身错误率与账单复核；事故各时刻以状态页显示时区为准，本站未独立验证恢复程度。",
       "region": "海外",
       "category": "产品应用",
       "source": "OpenAI 状态页",
@@ -20,6 +38,24 @@
         "publisher": "AI 前沿",
         "contentId": "news:2026-10-22:openai-incident-response-api-20261022",
         "sourceUrl": "https://status.openai.com/"
+      }
+    },
+    {
+      "id": "qoder-049-wecom-20261022",
+      "title": "Qoder 0.4.9：企业微信集成、视频生成预览与 Linux ARM64 支持",
+      "summary": "Qoder 官方发布记录将 0.4.9 标为 10 月 22 日发布（「Work with Qoder in WeCom」）：新增企业微信集成、视频生成与预览、从文件打开 Qoder、Linux ARM64 支持及可恢复侧任务（实验性）；改进 Qoder Helper、增量会话导入、扩展发现、侧边栏自定义与代理绕过地址；修复文件 diff 记录、自定义 Agent 权限、Remote SSH 选择器 Skills 缺失及插件替换失败等问题。",
+      "takeaway": "属客户端功能更新，不涉及模型或额度规则变化；实验性功能以官方说明为准，本站未实测。",
+      "region": "国内",
+      "category": "产品应用",
+      "source": "Qoder 官方发布记录",
+      "sourceType": "官方发布",
+      "url": "https://docs.qoder.com/release-notes/qoder",
+      "publishedDate": "2026-10-22",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-22:qoder-049-wecom-20261022",
+        "sourceUrl": "https://docs.qoder.com/release-notes/qoder"
       }
     },
     {
