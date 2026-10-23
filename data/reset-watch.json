@@ -1,12 +1,34 @@
 {
  "account": "thsottiaux",
  "profileUrl": "https://x.com/thsottiaux",
- "lastCheckedAt": "2026-10-22T10:23:26Z",
+ "lastCheckedAt": "2026-10-23T10:26:48Z",
  "checkStatus": "ok",
- "checkNote": "本轮（2026-10-22 18:20 场）读取 17:31（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），采集已恢复。窗口内 1 条本人帖为 Day 17 重置宣告（14:55「it's reset day today」），已收录为 posts 首条；完成状态原帖未写 Done，后续轮次若出现完成帖将按时间接续核对。此前 10-21 09:32 后的缺口窗口（两轮 source_unavailable）按采集器增量拉取为据，本轮未再现其他帖文，该窗口完整性以采集增量为准、未逐帖核验。",
+ "checkNote": "本轮（2026-10-23 18:20 场）读取 17:31（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），采集恢复。窗口内 1 条本人帖为 Day 18（12:46）：以「that's a reset!」确认 Day 17 重置并汇报产品动态，已收录为 posts 首条；重置覆盖范围仍未逐项说明，保持不推断。今晨失败轮的缺口按采集器增量拉取为据，本轮未再现其他帖文，完整性以采集增量为准。",
  "automationEnabled": true,
  "cadenceMinutes": 60,
  "posts": [
+  {
+   "summary": "Tibo 于北京时间 10 月 23 日 12:46 发帖：Decisions API 正式发布（GA）、OpenResponses 加入 Linux 基金会、团队上线若干性能改进、Uber 全面采用 Codex 与 Work，并以「But yes… that's a reset!」确认重置。该帖为对前日 Day 17 重置宣告（10-22 14:55）的作者口径确认；重置对象、适用套餐、账号资格与覆盖范围仍未逐项说明。",
+   "publishedAt": "2026-10-23T12:46:00+08:00",
+   "publishedAtPrecision": "minute",
+   "evidence": [
+    {
+     "name": "Tibo Day 18 确认帖",
+     "url": "https://x.com/thsottiaux/status/2113492187770175603"
+    },
+    {
+     "name": "Tibo Day 17 宣告帖",
+     "url": "https://x.com/thsottiaux/status/2113162277688070445"
+    }
+   ],
+   "verification": "confirmed",
+   "url": "https://x.com/thsottiaux/status/2113492187770175603",
+   "title": "Day 18：Tibo 确认重置，并汇报 Decisions API GA 等动态",
+   "verificationMethod": "核对 Tibo X 原帖（Zcode 原文交接，依用户授权采信）；发布时间由页面绝对时间确认到分钟；重置获作者口径确认，覆盖范围原帖未逐项说明",
+   "effectiveAt": null,
+   "id": "2113492187770175603",
+   "scope": "对 Day 17（10-22）重置宣告的作者确认；对象、适用套餐与账号资格原帖未说明（前次 Day 13 重置对象经用户确认为 Codex/ChatGPT 相关限额，供参考、非本次确认）。"
+  },
   {
    "summary": "Tibo 于北京时间 10 月 22 日 14:55 发帖「Day 17/ Bet you thought we forgot, but no, it's reset day today.」，宣告当天为重置日，并顺带提醒申请 Daybreak Blue 访问权限（称约需 15 分钟）。原帖未写明重置是否全部完成，也没有说明对象、适用套餐、账号资格或各账号实际生效时刻，不能据此推断所有用户均已获得重置。",
    "publishedAt": "2026-10-22T14:55:00+08:00",

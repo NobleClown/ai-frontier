@@ -1,0 +1,242 @@
+{
+  "date": "2026-10-23",
+  "updatedAt": "2026-10-23T10:26:48.000Z",
+  "headline": "Tibo 确认重置并报 Decisions API GA，OpenCode 与 WorkBuddy 客户端连日更新。",
+  "note": "晚间更新（北京时间约 18:26）：新增 3 条——Tibo Day 18 帖（12:46：Decisions API GA、OpenResponses 加入 Linux 基金会、性能改进、Uber 全面采用 Codex 与 Work，并确认「that's a reset!」，Day 17 重置由此获作者口径确认，条目已补充）；OpenCode v2.1.4（10-23：MCP 输入表单即时显示、experimental.background_compaction 等）；WorkBuddy 5.9.0（标 10-20、灰度中，官方变更记录晚间核对时新增可见，保留原始日期）。晚间核对未发现其他新事件：Anthropic 最新仍 10-22（生命科学客座研究员招募不属收录范围）；Kimi 仍 1.1.1；Qoder 仍 0.4.9；DeepSeek News 仍仅 1017；状态页 DeepSeek/Claude 10-23 无事故，OpenAI 10-23 三起边缘小事故（Dots 企业版性能、新广告账号配置、客服响应延迟）均已恢复未收录。Tibo 采集晚间恢复（17:31 status=ok），本轮窗口内仅 Day 18 一条新帖；今晨失败轮的缺口按采集器增量拉取为据、未再现其他帖文。OpenCode 模型目录晚间复核两条限免仍在（免费列表轮换：MiniMax M3.1 Flash Free 已不在，Flint 40B Free 在列；不影响在用条目）。覆盖局限维持：OpenAI 官网与帮助中心持续 403，x.ai 域名污染且主站 403，Qwen 博客正文为空，混元与 MiniMax 首页为无正文单页，Google 博客条目无日期。GitHub 独立展示，赛博土鸡蛋与重置雷达另行维护。晨间更新（北京时间约 10:07）：10 月 23 日新事件 1 条——Anthropic 将 Agent Skills 开放标准捐赠给 Linux 基金会旗下 Agentic AI Foundation（10-22）；另将 OpenCode v2.1.2 与 v2.1.3 合并为一条连发条目。Tibo 交接晨间失败，本期晨间无 Tibo 新帖，覆盖以 10-22 14:55 Day 17 宣告为止；赛博土鸡蛋 14 条今晨复核规则无变化（checkedAt → 10-23），火山方舟连续第 3 天不可读保留 10-20。",
+  "stories": [
+    {
+      "id": "tibo-codex-day18-20261023",
+      "title": "Codex Day 18：Decisions API GA，Tibo 确认重置",
+      "summary": "Tibo 北京时间 10 月 23 日 12:46 发帖：Decisions API 正式发布（GA）、OpenResponses 加入 Linux 基金会、团队上线若干性能改进、Uber 全面采用 Codex 与 Work，并确认「But yes… that's a reset!」——前日 Day 17 宣告的重置由此获作者口径确认。帖文未展开重置的覆盖范围与完成细节。",
+      "takeaway": "重置确认仅为作者口径，对象与资格未列明；Decisions API 与 OpenResponses 细节以 OpenAI 官方文档为准，本站未实测。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2113492187770175603",
+      "publishedDate": "2026-10-23",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-23:tibo-codex-day18-20261023",
+        "sourceUrl": "https://x.com/thsottiaux/status/2113492187770175603"
+      }
+    },
+    {
+      "id": "opencode-v214-20261023",
+      "title": "OpenCode v2.1.4：MCP 输入表单即时显示，实验后台压缩",
+      "summary": "OpenCode 官方变更记录将 v2.1.4 标为 10 月 23 日发布：MCP 服务器在工具调用中请求输入时表单即时显示（支持文本、数字、单选、多选、布尔与 URL，桌面端与 Web 同样支持）；新增 experimental.background_compaction 在会话临近压缩阈值时后台预生成摘要；压缩请求超限时优先缩短较旧工具输出以保留更多历史；另含 ChatGPT 登录上下文上限相关调整。",
+      "takeaway": "后台压缩为实验特性，未使用的摘要仍消耗 token；以官方变更记录为准，本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方 Changelog",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/changelog",
+      "publishedDate": "2026-10-23",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-23:opencode-v214-20261023",
+        "sourceUrl": "https://opencode.ai/changelog"
+      }
+    },
+    {
+      "id": "workbuddy-590-gray-20261020",
+      "title": "WorkBuddy 5.9.0 灰度中：海外版消息中心与多项修复",
+      "summary": "腾讯 WorkBuddy 官方变更记录将 5.9.0 标为 10 月 20 日发布、灰度中：新增独立文件浏览器 HTML 新窗口打开、模型选择器自定义模型入口、Buddy One 购买后绑定引导与海外版消息中心及运营位；修复独立文件浏览器特殊字符路径与 Office 宏文件打不开、连接器 Token 失效无修复入口、专家搜索优先级错误等问题。",
+      "takeaway": "版本为灰度发布、功能可见性因账号而异；不含新模型或免费额度变化，以官方变更记录为准，本站未实测。",
+      "region": "国内",
+      "category": "产品应用",
+      "source": "腾讯 CodeBuddy / WorkBuddy 官方变更记录",
+      "sourceType": "官方发布",
+      "url": "https://www.codebuddy.cn/docs/workbuddy/Changelog",
+      "publishedDate": "2026-10-20",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-23:workbuddy-590-gray-20261020",
+        "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+      }
+    },
+    {
+      "id": "anthropic-agent-skills-aaif-20261022",
+      "title": "Anthropic 将 Agent Skills 开放标准捐赠给 Agentic AI Foundation",
+      "summary": "Anthropic 10 月 22 日宣布把 Agent Skills 开放标准捐赠给 Linux 基金会旗下的 Agentic AI Foundation（AAIF），该基金会由 Anthropic 与 Block、OpenAI 共同发起。官方称标准自 2025 年 12 月发布以来已有包括 ChatGPT、Cursor、GitHub Copilot、VS Code 在内的 70 余个 Agent 平台集成，累计发布超 100 万个技能、安装约 2.8 亿次，承诺保持开放、社区驱动与厂商中立。",
+      "takeaway": "技能为含 SKILL.md 的目录结构，任何 Agent 均可实现；捐赠后标准治理转向基金会，开发者按 AAIF 后续规范跟进即可，本站未实测集成效果。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "Anthropic 官方公告",
+      "sourceType": "官方发布",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "publishedDate": "2026-10-22",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-23:anthropic-agent-skills-aaif-20261022",
+        "sourceUrl": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+      }
+    },
+    {
+      "id": "opencode-v212-v213-20261022",
+      "title": "OpenCode v2.1.2/v2.1.3 连发：免费额度恢复与 Bun 安全升级",
+      "summary": "OpenCode 连发两个修复版本：v2.1.2（10 月 21 日）改进桌面端与 TUI 的免费额度恢复、新增隐藏免费模型的环境变量并修复全新安装；v2.1.3（10 月 22 日）升级 Bun 1.4.4 修复 Brotli、TLS、HTTP/3、WebSocket 安全问题，桌面端换用更快的代码高亮，SDK 新增 client.voice.models() 与 client.voice.session() 语音接口。",
+      "takeaway": "两版均含安全或免费额度相关变化，使用限免模型与语音 SDK 的用户建议跟随升级；以官方变更记录为准，本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方 Changelog",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/changelog",
+      "publishedDate": "2026-10-22",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-23:opencode-v212-v213-20261022",
+        "sourceUrl": "https://opencode.ai/changelog"
+      }
+    },
+    {
+      "id": "tibo-codex-day17-reset-20261022",
+      "title": "Codex Day 17：Tibo 宣告当日为限额重置日",
+      "summary": "Tibo 北京时间 10 月 22 日 14:55 发布 Day 17 帖文，宣告当日为限额重置日，并提醒用户领取 Daybreak 相关权益。10 月 23 日 Day 18 帖已以「that's a reset!」确认该重置；覆盖范围仍未逐项说明。",
+      "takeaway": "适用套餐、账号资格与各账号实际生效时刻原帖未说明，请以个人用量页为准；完成情况以雷达后续核实为准。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2113162277688070445",
+      "publishedDate": "2026-10-22",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-23:tibo-codex-day17-reset-20261022",
+        "sourceUrl": "https://x.com/thsottiaux/status/2113162277688070445"
+      }
+    },
+    {
+      "id": "openai-incident-response-api-20261022",
+      "title": "OpenAI 昨日 ChatGPT 与 Response API 错误事故已解决",
+      "summary": "OpenAI 状态页 10 月 22 日的事故（印度、日本、韩国地区 ChatGPT 转换失败与 Response API 错误）现已恢复，状态页显示各系统全面正常，无进行中事故。今晨晨报曾以「调查中」收录该事故。",
+      "takeaway": "事故已结束；受影响时段的调用如仍有异常可重试并核对账单，状态页无受影响请求的补偿说明。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "OpenAI 状态页",
+      "sourceType": "官方发布",
+      "url": "https://status.openai.com/",
+      "publishedDate": "2026-10-22",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-23:openai-incident-response-api-20261022",
+        "sourceUrl": "https://status.openai.com/"
+      }
+    },
+    {
+      "id": "qoder-049-wecom-20261022",
+      "title": "Qoder 0.4.9：企业微信集成、视频生成预览与 Linux ARM64 支持",
+      "summary": "Qoder 官方发布记录将 0.4.9 标为 10 月 22 日更新：新增企业微信集成、视频生成预览与 Linux ARM64 支持等功能改进。",
+      "takeaway": "以官方发布记录与客户端实际功能为准，本站未实测；企业微信集成需按官方指引授权。",
+      "region": "国内",
+      "category": "产品应用",
+      "source": "Qoder 官方发布记录",
+      "sourceType": "官方发布",
+      "url": "https://docs.qoder.com/release-notes/qoder",
+      "publishedDate": "2026-10-22",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-23:qoder-049-wecom-20261022",
+        "sourceUrl": "https://docs.qoder.com/release-notes/qoder"
+      }
+    },
+    {
+      "id": "tibo-usage-drain-fix-20261021",
+      "title": "Tibo：约 4 万账号用量限额不一致已修正，将补偿 credits",
+      "summary": "Tibo 北京时间 10 月 21 日 01:10 发帖：周末有用户反映用量消耗快于预期，排查发现约 40,000 个账号存在用量限额不一致（实际应用的用量与其所选套餐不符），问题已修正；受影响用户将获得 credits 补偿，团队正在逐一联系。",
+      "takeaway": "补偿的 credits 数额与到账方式帖文未说明，发放属承诺中而非已确认到账；是否受影响以账号通知与个人用量页为准。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2112592264686149749",
+      "publishedDate": "2026-10-21",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-23:tibo-usage-drain-fix-20261021",
+        "sourceUrl": "https://x.com/thsottiaux/status/2112592264686149749"
+      }
+    },
+    {
+      "id": "tibo-codex-day16-cache-20261021",
+      "title": "Codex Day 16：API 可选 12 小时缓存，登录用户缓存长期保留",
+      "summary": "Tibo 北京时间 10 月 21 日 09:10 发布 Day 16 帖文：API 现可选 12 小时提示缓存；Codex 与 Work 登录用户的缓存长期保留，返回旧会话或数小时后继续时不再有缓存惩罚，并保证命中缓存。帖文引用 OpenAI API 官方「12 小时提示缓存」公告，后者称共享指令、工具与上下文可缓存更久并按较低缓存输入价计费。",
+      "takeaway": "12 小时缓存为 API 选项、按官方缓存价计费；登录端「缓存长期保留」适用范围与套餐关系原帖未展开。缓存命中与费用以官方文档及账单为准，本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "Tibo · X 原帖（引用 OpenAI API 公告）",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2112712984644784534",
+      "publishedDate": "2026-10-21",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-23:tibo-codex-day16-cache-20261021",
+        "sourceUrl": "https://x.com/thsottiaux/status/2112712984644784534"
+      }
+    },
+    {
+      "id": "opencode-v210-20261020",
+      "title": "OpenCode v2.1.0 大版本：Windows 持久终端与实验性待办，含破坏性变更",
+      "summary": "OpenCode 官方变更记录将 v2.1.0 标为 10 月 20 日发布：Windows x64/ARM64 获得与其他平台一致的持久终端，TUI 新增实验性待办清单（需开启 experimental.todo），长时运行命令不再受五分钟限制。该版本含 SDK/HTTP/插件破坏性变更：provider 状态字段统一为 native、工具事件合并、凭据配置迁移至 metadata、压缩事件更名等；旧存储会话经兼容解码器仍可读，无需数据库迁移。",
+      "takeaway": "依赖 SDK、HTTP 接口或插件的集成需按官方迁移说明调整字段与事件；运行时兼容读取不等于公共写入兼容，升级前核对集成代码，本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方 Changelog",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/changelog",
+      "publishedDate": "2026-10-20",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-23:opencode-v210-20261020",
+        "sourceUrl": "https://opencode.ai/changelog"
+      }
+    },
+    {
+      "id": "tibo-codex-day15-reset-20261020",
+      "title": "Codex Day 15：Tibo 宣告新一轮限额重置",
+      "summary": "Tibo 北京时间 10 月 20 日发布 Day 15 帖文，宣告新一轮限额重置。该事件由晚间核对收录；重置完成情况以雷达与个人用量页后续信息为准。",
+      "takeaway": "适用套餐、账号资格与各账号实际生效时刻原帖未说明，请以个人用量页为准。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2112432076767289678",
+      "publishedDate": "2026-10-20",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-23:tibo-codex-day15-reset-20261020",
+        "sourceUrl": "https://x.com/thsottiaux/status/2112432076767289678"
+      }
+    },
+    {
+      "id": "opencode-glm-flash-free-20261016",
+      "title": "OpenCode 限时免费开放 GLM-5.3-Flash 与 DeepSeek V4.1 Flash",
+      "summary": "OpenCode 官方模型目录列出 GLM-5.3-Flash Free 与 DeepSeek V4.1 Flash Free，输入、输出与缓存读取均不计费，描述为限时免费并称供应商执行零数据保留政策；付费版 DeepSeek V4.1 Flash 为每百万 token 输入 0.30、输出 1.20 美元。官方页面未公布免费截止日期，也未标注上下文上限。",
+      "takeaway": "免费条款以官方模型目录为准，截止时间未公布，不宜当作长期免费；社区讨论称免费版上下文限 200k、官方文档未标注，长上下文任务先小规模验证；本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方模型目录",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/v2/docs/console/models",
+      "publishedDate": "2026-10-16",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-23:opencode-glm-flash-free-20261016",
+        "sourceUrl": "https://opencode.ai/v2/docs/console/models"
+      }
+    }
+  ]
+}

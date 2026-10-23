@@ -97,5 +97,9 @@
  "supabase/supabase":"基于 Postgres 的应用开发平台，为 Web、移动与 AI 应用提供数据库等服务。",
  "twentyhq/twenty":"面向 AI 时代的开源 CRM，Salesforce 的开源替代。",
  "strelov1/freehire":"面向求职者的开源职位搜索引擎。",
- "hugohe3/ppt-master":"用 AI 把文档或主题生成原生 PowerPoint 演示文稿，支持原生图形与动画、数据图表表格、备注配音及自定义 .pptx 模板。"
+ "hugohe3/ppt-master":"用 AI 把文档或主题生成原生 PowerPoint 演示文稿，支持原生图形与动画、数据图表表格、备注配音及自定义 .pptx 模板。",
+ "php/php-src":"PHP 语言解释器的官方源码仓库。",
+ "fastapi/fastapi":"高性能、易上手的 Python Web 框架，类型标注驱动、开箱即用。",
+ "luongnv89/claude-howto":"Claude Code 的可视化示例教程，从基础概念到高级 Agent 用法并附可复制模板。",
+ "Meloong-Git/PCL":"Minecraft 启动器 Plain Craft Launcher（PCL）。"
 }
