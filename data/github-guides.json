@@ -101,5 +101,10 @@
  "php/php-src":"PHP 语言解释器的官方源码仓库。",
  "fastapi/fastapi":"高性能、易上手的 Python Web 框架，类型标注驱动、开箱即用。",
  "luongnv89/claude-howto":"Claude Code 的可视化示例教程，从基础概念到高级 Agent 用法并附可复制模板。",
- "Meloong-Git/PCL":"Minecraft 启动器 Plain Craft Launcher（PCL）。"
+ "Meloong-Git/PCL":"Minecraft 启动器 Plain Craft Launcher（PCL）。",
+ "Renhuai123/ziwei-doushu":"紫微斗数开源排盘引擎，基于倪海厦《天纪》体系，含排盘算法、四化系统与格局知识库。",
+ "SnailSploit/Claude-Red":"面向 Claude 技能体系的进攻性安全（红队）技能库，按攻击面提供结构化 SKILL.md 方法论。",
+ "OpenBMB/VoxCPM":"OpenBMB 的无分词器多语言语音合成模型，支持创意声音设计与逼真音色克隆。",
+ "nodejs/node":"Node.js JavaScript 运行时的官方源码仓库。",
+ "elie222/rakazo":"开源的 Grok Bot 替代品，可自选模型与沙箱运行。"
 }

@@ -1,9 +1,9 @@
 {
  "account": "thsottiaux",
  "profileUrl": "https://x.com/thsottiaux",
- "lastCheckedAt": "2026-10-23T10:26:48Z",
- "checkStatus": "ok",
- "checkNote": "本轮（2026-10-23 18:20 场）读取 17:31（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），采集恢复。窗口内 1 条本人帖为 Day 18（12:46）：以「that's a reset!」确认 Day 17 重置并汇报产品动态，已收录为 posts 首条；重置覆盖范围仍未逐项说明，保持不推断。今晨失败轮的缺口按采集器增量拉取为据，本轮未再现其他帖文，完整性以采集增量为准。",
+ "lastCheckedAt": "2026-10-24T10:25:26Z",
+ "checkStatus": "source_unavailable",
+ "checkNote": "本轮（2026-10-24 18:20 场）交接文件 fetchedAt 为 2026-10-24T04:33:43Z（北京 12:33 午间采集，超 3 小时），17:30 晚间采集未产出，本轮不视为直接读取成功。窗口内唯一本人帖为 11:41 哲理调侃帖（无产品事实），非重置公告。posts 保留 9 条未变（最新为 Day 18 确认帖，10-23 12:46）；12:33 之后的窗口未核实，Day 17/18 重置后续如有新帖待采集恢复后补核。不回退采信第三方。",
  "automationEnabled": true,
  "cadenceMinutes": 60,
  "posts": [

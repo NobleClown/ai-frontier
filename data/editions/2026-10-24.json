@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-24",
+  "updatedAt": "2026-10-24T10:25:26.000Z",
+  "headline": "Qoder 改进模型选择器，重置确认与 OpenCode 快速迭代延续。",
+  "note": "晚间更新（北京时间约 18:25，本期由晚间场覆盖全天）：今日晨间场未运行（无晨间简报与核对，详见维护报告），本期覆盖 10 月 23 日晚间核对截止之后至本期的窗口。新增 1 条：Qoder 0.4.11（10-23：模型选择器分组、负载指示与 New/Free 徽章等）。近三日（21—23 日）条目延续 5 条：Tibo Day 18 确认重置并报 Decisions API GA（10-23）、OpenCode v2.1.4（10-23）、Anthropic Agent Skills 标准捐赠 AAIF（10-22）、OpenCode v2.1.2/v2.1.3 连发（10-22）、Qoder 0.4.9 企业微信集成（10-22）；OpenCode 限免两模型（10-16 起进行中，晚间复核仍在目录）作为持续状态保留。10 月 20—21 日条目（用量限额补偿、Day 16、v2.1.0、Day 15、WorkBuddy 5.9.0 灰度）本期出窗。Tibo 交接停在今日 12:33（北京）采集：仅 1 条 11:41 哲理调侃帖（无产品事实未收录），17:30 晚间采集未产出（fetchedAt 超 3 小时），重置雷达本轮按规则保留原记录并置 source_unavailable；Day 17/18 重置的后续无新信息。覆盖局限：OpenAI 官网与帮助中心持续 403，x.ai 域名污染且主站 403，Qwen 博客正文为空，混元与 MiniMax 首页为无正文单页，Google 博客条目无日期；Anthropic 10-22 生命科学客座研究员招募不属收录范围。状态页：DeepSeek 10-23/24 无事故；Claude 10-23 夜间至 24 日凌晨连续三起模型错误事件（Fable 5/5.1、Opus 5.5、Fable 5.1/Sonnet 5.5/Haiku 5.5）均已解决；OpenAI 10-24 两起小事故（ChatGPT 应用连接 CIMD 降级、帮助中心聊天支持降级）均已恢复——均按口径未单独收录。GitHub 独立展示，赛博土鸡蛋与重置雷达另行维护。",
+  "stories": [
+    {
+      "id": "qoder-0411-model-selector-20261023",
+      "title": "Qoder 0.4.11：模型选择器分组与负载指示，新增 New/Free 徽章",
+      "summary": "Qoder 官方发布记录将 0.4.11 标为 10 月 23 日发布：模型选择器支持分组展示、负载指示器，并为新模型或免费模型显示「New / Free」徽章；新增模型更新通知；修复滚动位置跳动、浏览器页面恢复与移动端任务继续等问题。变更记录中无 0.4.10（0.4.9 直接跳至 0.4.11）。",
+      "takeaway": "属客户端功能更新，不涉及模型或额度规则变化；负载指示与徽章以客户端实际显示为准，本站未实测。",
+      "region": "国内",
+      "category": "产品应用",
+      "source": "Qoder 官方发布记录",
+      "sourceType": "官方发布",
+      "url": "https://docs.qoder.com/release-notes/qoder",
+      "publishedDate": "2026-10-23",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-24:qoder-0411-model-selector-20261023",
+        "sourceUrl": "https://docs.qoder.com/release-notes/qoder"
+      }
+    },
+    {
+      "id": "tibo-codex-day18-20261023",
+      "title": "Codex Day 18：Decisions API GA，Tibo 确认重置",
+      "summary": "Tibo 北京时间 10 月 23 日 12:46 发帖：Decisions API 正式发布（GA）、OpenResponses 加入 Linux 基金会、团队上线若干性能改进、Uber 全面采用 Codex 与 Work，并确认「But yes… that's a reset!」——前日 Day 17 宣告的重置由此获作者口径确认。帖文未展开重置的覆盖范围与完成细节。",
+      "takeaway": "重置确认仅为作者口径，对象与资格未列明；Decisions API 与 OpenResponses 细节以 OpenAI 官方文档为准，本站未实测。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2113492187770175603",
+      "publishedDate": "2026-10-23",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-24:tibo-codex-day18-20261023",
+        "sourceUrl": "https://x.com/thsottiaux/status/2113492187770175603"
+      }
+    },
+    {
+      "id": "opencode-v214-20261023",
+      "title": "OpenCode v2.1.4：MCP 输入表单即时显示，实验后台压缩",
+      "summary": "OpenCode 官方变更记录将 v2.1.4 标为 10 月 23 日发布：MCP 服务器在工具调用中请求输入时表单即时显示（支持文本、数字、单选、多选、布尔与 URL，桌面端与 Web 同样支持）；新增 experimental.background_compaction 在会话临近压缩阈值时后台预生成摘要；压缩请求超限时优先缩短较旧工具输出以保留更多历史；另含 ChatGPT 登录上下文上限相关调整。",
+      "takeaway": "后台压缩为实验特性，未使用的摘要仍消耗 token；以官方变更记录为准，本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方 Changelog",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/changelog",
+      "publishedDate": "2026-10-23",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-24:opencode-v214-20261023",
+        "sourceUrl": "https://opencode.ai/changelog"
+      }
+    },
+    {
+      "id": "anthropic-agent-skills-aaif-20261022",
+      "title": "Anthropic 将 Agent Skills 开放标准捐赠给 Agentic AI Foundation",
+      "summary": "Anthropic 10 月 22 日宣布把 Agent Skills 开放标准捐赠给 Linux 基金会旗下的 Agentic AI Foundation（AAIF），该基金会由 Anthropic 与 Block、OpenAI 共同发起。官方称标准自 2025 年 12 月发布以来已有包括 ChatGPT、Cursor、GitHub Copilot、VS Code 在内的 70 余个 Agent 平台集成，累计发布超 100 万个技能、安装约 2.8 亿次，承诺保持开放、社区驱动与厂商中立。",
+      "takeaway": "技能为含 SKILL.md 的目录结构，任何 Agent 均可实现；捐赠后标准治理转向基金会，开发者按 AAIF 后续规范跟进即可，本站未实测集成效果。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "Anthropic 官方公告",
+      "sourceType": "官方发布",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "publishedDate": "2026-10-22",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-24:anthropic-agent-skills-aaif-20261022",
+        "sourceUrl": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+      }
+    },
+    {
+      "id": "opencode-v212-v213-20261022",
+      "title": "OpenCode v2.1.2/v2.1.3 连发：免费额度恢复与 Bun 安全升级",
+      "summary": "OpenCode 连发两个修复版本：v2.1.2（10 月 21 日）改进桌面端与 TUI 的免费额度恢复、新增隐藏免费模型的环境变量并修复全新安装；v2.1.3（10 月 22 日）升级 Bun 1.4.4 修复 Brotli、TLS、HTTP/3、WebSocket 安全问题，桌面端换用更快的代码高亮，SDK 新增 client.voice.models() 与 client.voice.session() 语音接口。",
+      "takeaway": "两版均含安全或免费额度相关变化，使用限免模型与语音 SDK 的用户建议跟随升级；以官方变更记录为准，本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方 Changelog",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/changelog",
+      "publishedDate": "2026-10-22",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-24:opencode-v212-v213-20261022",
+        "sourceUrl": "https://opencode.ai/changelog"
+      }
+    },
+    {
+      "id": "qoder-049-wecom-20261022",
+      "title": "Qoder 0.4.9：企业微信集成、视频生成预览与 Linux ARM64 支持",
+      "summary": "Qoder 官方发布记录将 0.4.9 标为 10 月 22 日更新（「Work with Qoder in WeCom」）：新增企业微信集成、视频生成预览与 Linux ARM64 支持等功能改进。",
+      "takeaway": "以官方发布记录与客户端实际功能为准，本站未实测；企业微信集成需按官方指引授权。",
+      "region": "国内",
+      "category": "产品应用",
+      "source": "Qoder 官方发布记录",
+      "sourceType": "官方发布",
+      "url": "https://docs.qoder.com/release-notes/qoder",
+      "publishedDate": "2026-10-22",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-24:qoder-049-wecom-20261022",
+        "sourceUrl": "https://docs.qoder.com/release-notes/qoder"
+      }
+    },
+    {
+      "id": "opencode-glm-flash-free-20261016",
+      "title": "OpenCode 限时免费开放 GLM-5.3-Flash 与 DeepSeek V4.1 Flash",
+      "summary": "OpenCode 官方模型目录列出 GLM-5.3-Flash Free 与 DeepSeek V4.1 Flash Free，输入、输出与缓存读取均不计费，描述为限时免费并称供应商执行零数据保留政策；付费版 DeepSeek V4.1 Flash 为每百万 token 输入 0.30、输出 1.20 美元。官方页面未公布免费截止日期，也未标注上下文上限。",
+      "takeaway": "免费条款以官方模型目录为准，截止时间未公布，不宜当作长期免费；社区讨论称免费版上下文限 200k、官方文档未标注，长上下文任务先小规模验证；本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方模型目录",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/v2/docs/console/models",
+      "publishedDate": "2026-10-16",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-24:opencode-glm-flash-free-20261016",
+        "sourceUrl": "https://opencode.ai/v2/docs/console/models"
+      }
+    }
+  ]
+}
