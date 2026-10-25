@@ -1,9 +1,9 @@
 {
  "account": "thsottiaux",
  "profileUrl": "https://x.com/thsottiaux",
- "lastCheckedAt": "2026-10-24T10:25:26Z",
+ "lastCheckedAt": "2026-10-25T02:04:34.203Z",
  "checkStatus": "source_unavailable",
- "checkNote": "本轮（2026-10-24 18:20 场）交接文件 fetchedAt 为 2026-10-24T04:33:43Z（北京 12:33 午间采集，超 3 小时），17:30 晚间采集未产出，本轮不视为直接读取成功。窗口内唯一本人帖为 11:41 哲理调侃帖（无产品事实），非重置公告。posts 保留 9 条未变（最新为 Day 18 确认帖，10-23 12:46）；12:33 之后的窗口未核实，Day 17/18 重置后续如有新帖待采集恢复后补核。不回退采信第三方。",
+ "checkNote": "本轮（2026-10-25 10:00 场）采集交接文件 status=source_unavailable、posts=0（fetchedAt 2026-10-25T01:34:22.269Z，读取失败轮），不视为直接读取成功。posts 保留 9 条未变；最近一次成功采集约在 10-23（Day 18 完成条目），此后 10-24、10-25 两日采集连续失败，覆盖缺口约 2 天。另：10-24 的失败前数据中曾出现一条「Day 19」帖（戳记为未来时间，来自时钟异常的采集轮），仅作线索、不采信，待采集恢复后核实。不回退采信第三方。",
  "automationEnabled": true,
  "cadenceMinutes": 60,
  "posts": [
