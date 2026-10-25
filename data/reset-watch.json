@@ -1,12 +1,38 @@
 {
  "account": "thsottiaux",
  "profileUrl": "https://x.com/thsottiaux",
- "lastCheckedAt": "2026-10-25T02:04:34.203Z",
- "checkStatus": "source_unavailable",
- "checkNote": "本轮（2026-10-25 10:00 场）采集交接文件 status=source_unavailable、posts=0（fetchedAt 2026-10-25T01:34:22.269Z，读取失败轮），不视为直接读取成功。posts 保留 9 条未变；最近一次成功采集约在 10-23（Day 18 完成条目），此后 10-24、10-25 两日采集连续失败，覆盖缺口约 2 天。另：10-24 的失败前数据中曾出现一条「Day 19」帖（戳记为未来时间，来自时钟异常的采集轮），仅作线索、不采信，待采集恢复后核实。不回退采信第三方。",
+ "lastCheckedAt": "2026-10-25T10:23:01Z",
+ "checkStatus": "ok",
+ "checkNote": "本轮（2026-10-25 18:20 场）读取 17:32（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），采集恢复。按增量返回 5 条帖（10-25 00:26 起）：Day 20 三帖（宣告/时限/完成）合并收录为 posts 首条；03:21 Dots 招聘帖与 00:26 闲聊帖不属雷达范围未收录。此前 10-23 午后至 10-25 00:26 的缺口窗口未再现帖文，完整性以采集增量为准；晨间线索「Day 19」帖（时钟异常实例数据）未再现，维持不采信。",
  "automationEnabled": true,
  "cadenceMinutes": 60,
  "posts": [
+  {
+   "summary": "Tibo 于北京时间 10 月 25 日 11:39 发帖「Day 20/ Rest and reset」宣告重置，11:40 补充时限「By midnight PST」（太平洋时间午夜前），14:06 发帖「It is all propagated. Enjoy some mad codexing tomorrow.」确认已全部传播生效。三帖均未说明对象、适用套餐、账号资格或各账号实际生效时刻，不能据此推断所有用户均已获得重置。这是 Day 17（10-22）之后的又一轮重置，两次宣告间隔约 3 天。",
+   "publishedAt": "2026-10-25T11:39:00+08:00",
+   "publishedAtPrecision": "minute",
+   "evidence": [
+    {
+     "name": "Tibo Day 20 宣告帖",
+     "url": "https://x.com/thsottiaux/status/2114200152701575656"
+    },
+    {
+     "name": "Tibo 时限帖（By midnight PST）",
+     "url": "https://x.com/thsottiaux/status/2114200291319124163"
+    },
+    {
+     "name": "Tibo 完成确认帖（It is all propagated）",
+     "url": "https://x.com/thsottiaux/status/2114237083652882932"
+    }
+   ],
+   "verification": "confirmed",
+   "url": "https://x.com/thsottiaux/status/2114200152701575656",
+   "title": "Day 20：Tibo 宣告重置并确认已全部生效",
+   "verificationMethod": "核对 Tibo X 原帖（Zcode 原文交接，依用户授权采信）；宣告、时限与完成时间均由页面绝对时间确认到分钟；完成与传播为作者口径",
+   "effectiveAt": null,
+   "id": "2114200152701575656",
+   "scope": "Tibo 宣告并确认完成的重置；对象、适用套餐与账号资格原帖未说明（前次 Day 13 重置对象经用户确认为 Codex/ChatGPT 相关限额，供参考、非本次确认）。"
+  },
   {
    "summary": "Tibo 于北京时间 10 月 23 日 12:46 发帖：Decisions API 正式发布（GA）、OpenResponses 加入 Linux 基金会、团队上线若干性能改进、Uber 全面采用 Codex 与 Work，并以「But yes… that's a reset!」确认重置。该帖为对前日 Day 17 重置宣告（10-22 14:55）的作者口径确认；重置对象、适用套餐、账号资格与覆盖范围仍未逐项说明。",
    "publishedAt": "2026-10-23T12:46:00+08:00",

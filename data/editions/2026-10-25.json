@@ -1,9 +1,27 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T02:04:58.000Z",
-  "headline": "免费模型限免与代理工具修复延续，24 日 Claude 短时错误已全部恢复。",
-  "note": "晨间更新（北京时间约 10:05）：截至本轮核对，未核实到 10 月 25 日独立新事件；本期 7 条为 10 月 22—24 日已核实进展的延续，保留原始发布日期。10 月 21 日条目（用量补偿、Day 16 缓存）本期出窗；OpenCode 限免条目作为进行中状态保留（今晨复核仍在目录）。Tibo 采集连续两日失败（status=source_unavailable），本期无 Tibo 新帖，覆盖缺口自 10 月 23 日午后起，雷达已按规则保留原记录并注明；另一采集实例（时钟曾异常）数据中出现过一条「Day 19」帖，因时间戳不可信未采信，待采集恢复后核实。状态页：DeepSeek、OpenAI 正常；Claude 于 10 月 24 日有三起短时错误（Fable 5/5.1、Opus 5.5 等）均已解决，最长约 35 分钟，仅记入 review。GitHub 独立展示，三榜快照今晨 09:47—09:48，总榜 10:01 官方 API 刷新；赛博土鸡蛋 14 条今晨复核规则无变化（checkedAt → 10-25），火山方舟连续第 4 天不可读保留 10-20。",
+  "updatedAt": "2026-10-25T10:23:01.000Z",
+  "headline": "Tibo 确认 Day 20 重置已全部生效，限免与代理工具修复延续。",
+  "note": "晚间更新（北京时间约 18:23）：新增 1 条——Tibo Day 20 重置（10-25 完整时间线：11:39 宣告「Rest and reset」、11:40 时限「By midnight PST」、14:06 确认「It is all propagated」已全部生效；三帖合并为一条，与 Day 13/17 间隔约 3 天的节奏一致）。Tibo 采集晚间恢复（17:32 status=ok），本轮按增量返回 5 条帖（10-25 00:26 起）：Day 20 三帖收录合并，另两条为 Dots 招聘帖与周六闲聊帖未收录；此前 10-23 午后至 10-25 00:26 的缺口窗口未再现帖文，完整性以采集增量为准。晨间提到的「Day 19」帖（时钟异常实例的数据，未来戳）未再现，维持不采信。晨间 7 条已核实条目继续保留原日期（22—24 日窗口内）；OpenCode 晚间复核 v2.1.4 仍为最新、两条限免仍在目录（免费列表轮换：LongCat 2.5 Preview Free 移出，仅记录）。状态页：DeepSeek、OpenAI 正常（OpenAI 10-25 无事故）；Claude 10-25 又有两起短时错误（多模型 06:05—07:53 UTC、Fable 5.1 08:08—08:49 UTC）均已解决，加上 10-23/24 的同类事件已连续三日出现，仍按「短时已恢复」口径未单独收录、仅记 review。覆盖局限维持：OpenAI 官网与帮助中心持续 403，x.ai 域名污染且主站 403，Qwen 博客正文为空，混元与 MiniMax 首页为无正文单页，Google 博客条目无日期。GitHub 独立展示，赛博土鸡蛋与重置雷达另行维护。晨间更新（北京时间约 10:05）：截至本轮核对，未核实到 10 月 25 日独立新事件；本期 7 条为 10 月 22—24 日已核实进展的延续。Tibo 采集连续两日失败，晨间无 Tibo 新帖，覆盖缺口自 10 月 23 日午后起；另一采集实例（时钟曾异常）数据中出现过一条「Day 19」帖，因时间戳不可信未采信。赛博土鸡蛋 14 条今晨复核规则无变化（checkedAt → 10-25），火山方舟连续第 4 天不可读保留 10-20。",
   "stories": [
+    {
+      "id": "tibo-codex-day20-reset-20261025",
+      "title": "Codex Day 20：Tibo 宣告重置并确认已全部生效",
+      "summary": "Tibo 北京时间 10 月 25 日 11:39 发帖「Day 20/ Rest and reset」宣告重置，11:40 补充时限「By midnight PST」（太平洋时间午夜前），14:06 发帖「It is all propagated. Enjoy some mad codexing tomorrow.」确认已全部传播生效。三帖均未列明重置对象、适用套餐与账号资格。",
+      "takeaway": "完成与传播为作者口径、未列对象与资格，实际余量以个人用量页为准；这是 Day 17（10-22）之后的又一轮重置，两次宣告间隔约 3 天，覆盖范围均未经用户逐项确认。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2114200152701575656",
+      "publishedDate": "2026-10-25",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-25:tibo-codex-day20-reset-20261025",
+        "sourceUrl": "https://x.com/thsottiaux/status/2114200152701575656"
+      }
+    },
     {
       "id": "qoder-0411-model-selector-20261023",
       "title": "Qoder 0.4.11：模型选择器分组与负载指示，新增 New/Free 徽章",
