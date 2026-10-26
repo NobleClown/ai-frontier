@@ -1,9 +1,45 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T02:07:00.000Z",
-  "headline": "重置节奏与工具迭代延续，26 日晨无独立新事件。",
-  "note": "晨间更新（北京时间约 10:07）：截至本轮核对，未核实到 10 月 26 日独立新事件；本期 8 条为 10 月 22—25 日已核实进展的延续，保留原始发布日期。Codex Day 20 重置（10-25，宣告并确认已全部生效）列首；10 月 21 日及更早条目已出窗；OpenCode 限免条目作为进行中状态保留（今晨复核仍在目录）。Tibo 采集连续第 3 日失败（status=source_unavailable），本期无 Tibo 新帖，覆盖缺口自 10-25 晚间起，雷达已按规则保留原记录；其 10-25 帖内含糊预告（「cooking」类表述）不构成可收录事实。状态页：DeepSeek、OpenAI、Claude 正常（Claude 10-25 有两起已解决短时错误：Fable 5.1 约 21 分钟、多模型约 30 分钟，仅记 review）。GitHub 独立展示，三榜快照今晨 09:41—09:49，总榜 10:02 官方 API 刷新；赛博土鸡蛋 14 条今晨复核规则无变化（checkedAt → 10-26），火山方舟连续第 5 天不可读保留 10-20。",
+  "updatedAt": "2026-10-26T10:23:09.000Z",
+  "headline": "Codex 重置节奏加快：Day 21 宣告距上一轮仅一天，WorkBuddy 当日更新。",
+  "note": "晚间更新（北京时间约 18:23）：新增 2 条——Tibo Day 21 重置宣告（13:21「Wonder what happens the remaining seven days. But today is a reset.」，距 Day 20（10-25）仅一天，节奏明显加快；「剩下七天」含义原帖未解释不推断；截至晚间核对未见完成帖）与 WorkBuddy 5.9.2（10-26：语音终稿直接回填、多项修复；5.9.1 标 10-22 已出窗不补，changelog 昨日核对时最新为 5.9.0 灰度）。另 Tibo 13:48 有 ChatGPT 网页外观自定义提醒帖（指向既有设置页，无新事实未收录）。Tibo 采集晚间正常（17:32 status=ok）。晨间 8 条已核实条目继续保留原日期（出窗按惯例由晨间场滚动执行）；OpenCode 晚间复核 v2.1.4 仍为最新、两条限免仍在目录（免费列表与昨日一致）。状态页：DeepSeek、OpenAI（10-25/26 无事故）、Claude（10-26 无事故）正常；Claude 10-25 两起短时模型错误均已解决（昨日已记录）。覆盖局限维持：OpenAI 官网与帮助中心持续 403，x.ai 域名污染且主站 403，Qwen 博客正文为空，混元与 MiniMax 首页为无正文单页，Google 博客条目无日期。GitHub 独立展示，赛博土鸡蛋与重置雷达另行维护。晨间更新（北京时间约 10:07）：截至本轮核对，未核实到 10 月 26 日独立新事件；本期 8 条为 10 月 22—25 日已核实进展的延续。Tibo 采集连续第 3 日失败（晨间轮），本期晨间无 Tibo 新帖，覆盖缺口自 10-25 晚间起；其 10-25 帖内含糊预告（「cooking」类表述）不构成可收录事实。赛博土鸡蛋 14 条今晨复核规则无变化（checkedAt → 10-26），火山方舟连续第 5 天不可读保留 10-20。",
   "stories": [
+    {
+      "id": "tibo-codex-day21-reset-20261026",
+      "title": "Codex Day 21：Tibo 宣告当日重置",
+      "summary": "Tibo 北京时间 10 月 26 日 13:21 发帖「Day 21/ Wonder what happens the remaining seven days. But today is a reset.」宣告当天为重置日，并称好奇「剩下七天」会发生什么。帖文未列明重置对象、适用套餐与账号资格；截至晚间核对未见完成确认帖。",
+      "takeaway": "「剩下七天」含义原帖未解释，不推断；完成状态待后续核对，实际余量以个人用量页为准。本次宣告距 Day 20（10-25）仅一天，重置节奏明显加快，覆盖范围均未经用户逐项确认。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2114588174249071102",
+      "publishedDate": "2026-10-26",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-26:tibo-codex-day21-reset-20261026",
+        "sourceUrl": "https://x.com/thsottiaux/status/2114588174249071102"
+      }
+    },
+    {
+      "id": "workbuddy-592-fixes-20261026",
+      "title": "WorkBuddy 5.9.2：语音终稿直接回填，多项稳定性修复",
+      "summary": "腾讯 WorkBuddy 官方变更记录将 5.9.2 标为 10 月 26 日发布：优化语音识别终稿直接回填输入框（不再额外润色）、恢复语音组合快捷键；修复版本切换后欢迎页路由不生效、本地文件保存与另存为异常、云会话停止生成后回车误发送、MCP 应用面板被空白页替换及深色模式部分卡片不可辨认等问题。",
+      "takeaway": "属桌面端稳定性与体验修复，不含新模型或额度变化；以官方变更记录为准，本站未实测。",
+      "region": "国内",
+      "category": "产品应用",
+      "source": "腾讯 CodeBuddy / WorkBuddy 官方变更记录",
+      "sourceType": "官方发布",
+      "url": "https://www.codebuddy.cn/docs/workbuddy/Changelog",
+      "publishedDate": "2026-10-26",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-26:workbuddy-592-fixes-20261026",
+        "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+      }
+    },
     {
       "id": "tibo-codex-day20-reset-20261025",
       "title": "Codex Day 20：Tibo 宣告重置并确认已全部生效",

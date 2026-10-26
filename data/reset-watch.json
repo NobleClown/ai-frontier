@@ -1,12 +1,30 @@
 {
  "account": "thsottiaux",
  "profileUrl": "https://x.com/thsottiaux",
- "lastCheckedAt": "2026-10-26T02:05:14.259Z",
- "checkStatus": "source_unavailable",
- "checkNote": "本轮（2026-10-26 10:00 场）采集交接文件 status=source_unavailable、posts=0（fetchedAt 2026-10-26T01:35:07.900Z，读取失败轮），不视为直接读取成功。posts 保留 9 条未变；最近一次成功采集为 10-25（Day 20 重置宣告与生效确认），10-25 晚间至今的窗口未核实（Tibo 采集已连续 3 轮失败）。不回退采信第三方。",
+ "lastCheckedAt": "2026-10-26T10:23:09Z",
+ "checkStatus": "ok",
+ "checkNote": "本轮（2026-10-26 18:20 场）读取 17:32（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），采集恢复。窗口内 2 条本人帖：Day 21 重置宣告（13:21）已收录为 posts 首条，完成帖待后续轮次接续核对；13:48 ChatGPT 外观自定义提醒帖不属雷达范围未收录。晨间失败轮的缺口按采集增量拉取为据，本轮未再现其他帖文，完整性以采集增量为准。",
  "automationEnabled": true,
  "cadenceMinutes": 60,
  "posts": [
+  {
+   "summary": "Tibo 于北京时间 10 月 26 日 13:21 发帖「Day 21/ Wonder what happens the remaining seven days. But today is a reset.」宣告当天为重置日，并称好奇「剩下七天」会发生什么。原帖未列明重置对象、适用套餐、账号资格或各账号实际生效时刻；截至本轮晚间核对（17:32 采集）未见完成确认帖。本次宣告距 Day 20（10-25）仅一天，重置节奏明显加快。",
+   "publishedAt": "2026-10-26T13:21:00+08:00",
+   "publishedAtPrecision": "minute",
+   "evidence": [
+    {
+     "name": "Tibo Day 21 宣告帖",
+     "url": "https://x.com/thsottiaux/status/2114588174249071102"
+    }
+   ],
+   "verification": "confirmed",
+   "url": "https://x.com/thsottiaux/status/2114588174249071102",
+   "title": "Day 21：Tibo 宣告当日重置（完成待核实）",
+   "verificationMethod": "核对 Tibo X 原帖（Zcode 原文交接，依用户授权采信）；发布时间由页面绝对时间确认到分钟；重置已宣告，完成状态尚未核实",
+   "effectiveAt": null,
+   "id": "2114588174249071102",
+   "scope": "Tibo 宣告的重置；对象、适用套餐与账号资格原帖未说明（前次 Day 13 重置对象经用户确认为 Codex/ChatGPT 相关限额，供参考、非本次确认）。完成状态待后续核对。"
+  },
   {
    "summary": "Tibo 于北京时间 10 月 25 日 11:39 发帖「Day 20/ Rest and reset」宣告重置，11:40 补充时限「By midnight PST」（太平洋时间午夜前），14:06 发帖「It is all propagated. Enjoy some mad codexing tomorrow.」确认已全部传播生效。三帖均未说明对象、适用套餐、账号资格或各账号实际生效时刻，不能据此推断所有用户均已获得重置。这是 Day 17（10-22）之后的又一轮重置，两次宣告间隔约 3 天。",
    "publishedAt": "2026-10-25T11:39:00+08:00",
