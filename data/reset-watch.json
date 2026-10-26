@@ -1,9 +1,9 @@
 {
  "account": "thsottiaux",
  "profileUrl": "https://x.com/thsottiaux",
- "lastCheckedAt": "2026-10-25T10:23:01Z",
- "checkStatus": "ok",
- "checkNote": "本轮（2026-10-25 18:20 场）读取 17:32（北京）直接读取交接（retrievalMethod=direct_browser_text，status=ok），采集恢复。按增量返回 5 条帖（10-25 00:26 起）：Day 20 三帖（宣告/时限/完成）合并收录为 posts 首条；03:21 Dots 招聘帖与 00:26 闲聊帖不属雷达范围未收录。此前 10-23 午后至 10-25 00:26 的缺口窗口未再现帖文，完整性以采集增量为准；晨间线索「Day 19」帖（时钟异常实例数据）未再现，维持不采信。",
+ "lastCheckedAt": "2026-10-26T02:05:14.259Z",
+ "checkStatus": "source_unavailable",
+ "checkNote": "本轮（2026-10-26 10:00 场）采集交接文件 status=source_unavailable、posts=0（fetchedAt 2026-10-26T01:35:07.900Z，读取失败轮），不视为直接读取成功。posts 保留 9 条未变；最近一次成功采集为 10-25（Day 20 重置宣告与生效确认），10-25 晚间至今的窗口未核实（Tibo 采集已连续 3 轮失败）。不回退采信第三方。",
  "automationEnabled": true,
  "cadenceMinutes": 60,
  "posts": [

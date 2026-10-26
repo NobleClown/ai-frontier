@@ -112,5 +112,10 @@
  "pollen-robotics/microduck": "小型双足鸭子机器人开源项目。",
  "google-gemini/gemini-cli": "把 Gemini 模型能力带入终端的开源 AI Agent。",
  "jbiaojerry/ebook-treasure-chest": "汇总多个读书平台电子书下载链接的开源索引仓库。",
- "makecindy/cindy": "开箱即用的开源 AI Agent，支持多平台使用。"
+ "makecindy/cindy": "开箱即用的开源 AI Agent，支持多平台使用。",
+ "TauricResearch/TradingAgents": "多智能体大模型金融交易框架（研究项目）。",
+ "JetBrains/thinkrail": "JetBrains 出品的轻量 AI 编码 IDE，可随工作习惯自我定制。",
+ "coollabsio/coolify": "可自托管的开源 PaaS，一键部署站点、数据库与 360+ 服务。",
+ "AgriciDaniel/claude-seo": "Claude Code 的通用 SEO 技能包，覆盖技术 SEO、E-E-A-T 与外链等。",
+ "multica-ai/andrej-karpathy-skills": "根据 Karpathy 对 LLM 编码缺陷的观察整理的 CLAUDE.md 行为改进文件。"
 }
