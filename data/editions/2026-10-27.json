@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-27",
+  "updatedAt": "2026-10-27T02:11:10.000Z",
+  "headline": "GPT-6.1 Terra 发布并进入 Codex/Work，Qoder 两款模型限免与首日上架。",
+  "note": "晨间更新（北京时间约 10:11）：10 月 27 日新事件 2 条——GPT-6.1 Terra 发布（OpenAI 官方 10-26 起在 ChatGPT Work/Codex 上线；Tibo Day 22 帖确认 Codex 端 API 与订阅用量为 6.1 Sol 的 2 倍，官方原文引用见其引用帖）；Qoder 上架 DeepSeek V4.1 Flash-1017（0.0x 至 11 月 1 日，官方论坛原文核对）与 Kimi K3.1 Pro 首日上架（10-26 两则公告，已同步新增土鸡蛋条目）。延续 10 月 25—26 日已核实进展 4 条（Day 21 重置、WorkBuddy 5.9.2、Day 20 重置、限免进行中）；10 月 24 日及更早条目出窗。Tibo 采集今日恢复（此前连续 3 日失败），覆盖 10-26 09:32 以来的窗口，Day 21 的完成确认帖未见，完成状态以个人用量页为准。覆盖局限：OpenAI 官网与帮助中心持续 403（Terra 详情取自 Tibo 引用的官方公告与搜索核对的官方发布说明），x.ai 域名污染且主站 403，Qwen 博客正文为空，混元首页无正文，Google 博客条目无日期；搜索无窗口内其他新事件。状态页：DeepSeek、OpenAI、Claude 均正常无事故。GitHub 独立展示，三榜快照今晨 09:41—09:43，总榜 10:02 官方 API 刷新；赛博土鸡蛋 16 条今晨全部复核（14 条规则无变化 + 火山恢复可读完成复检 + 新增 Qoder 限免条目），checkedAt → 10-27。",
+  "stories": [
+    {
+      "id": "opai-gpt61-terra-20261027",
+      "title": "OpenAI 发布 GPT-6.1 Terra：电脑操作增强、价格减半，Codex 用量翻倍",
+      "summary": "OpenAI 官方发布 GPT-6.1 Terra：主打屏幕理解与跨应用电脑操作，写作与请求理解更自然，速度约提升 3 倍、API 价格约减半，正逐步在 ChatGPT Work 与 Codex 中上线。Tibo 同步宣告 Codex 的 Terra 上线：写作、个性与请求细腻理解显著更强，API 与订阅用量为 6.1 Sol 的 2 倍。",
+      "takeaway": "Terra 已在 Codex/Work 逐步上线，实际可用性以客户端为准；「2 倍用量」为官方口径，与具体套餐的关系原帖未展开，本站未实测。",
+      "region": "海外",
+      "category": "模型动态",
+      "source": "Tibo · X 原帖（引用 OpenAI 官方公告）",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2114800277677092936",
+      "publishedDate": "2026-10-27",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-27:opai-gpt61-terra-20261027",
+        "sourceUrl": "https://x.com/thsottiaux/status/2114800277677092936"
+      }
+    },
+    {
+      "id": "qoder-ds1017-kimi-k31-20261026",
+      "title": "Qoder 上架 DeepSeek V4.1 Flash-1017 限免至 11 月 1 日与 Kimi K3.1 Pro",
+      "summary": "Qoder 官方论坛 10 月 26 日两则公告：DeepSeek V4.1 Flash-1017 对免费与付费用户 0.0x 积分，至 11 月 1 日 00:00（UTC+8）恢复计费，该模型自 10 月 17 日发布当日起已在 Qoder 可用；Kimi K3.1 Pro（3T 级参数、1M 上下文）首日在全端上架。",
+      "takeaway": "0.0x 期限明确（11 月 1 日），到期恢复计费；两款模型以客户端实际显示为准，本站未实测。相关限免已同步至土鸡蛋清单。",
+      "region": "国内",
+      "category": "产品应用",
+      "source": "Qoder 官方论坛",
+      "sourceType": "官方发布",
+      "url": "https://forum.qoder.com/t/deepseek-v4-1-flash-1017-supported-in-qoder-0-0x-credits-until-nov-1",
+      "publishedDate": "2026-10-26",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-27:qoder-ds1017-kimi-k31-20261026",
+        "sourceUrl": "https://forum.qoder.com/t/deepseek-v4-1-flash-1017-supported-in-qoder-0-0x-credits-until-nov-1"
+      }
+    },
+    {
+      "id": "tibo-codex-day21-reset-20261026",
+      "title": "Codex Day 21：Tibo 宣告当日重置",
+      "summary": "Tibo 北京时间 10 月 26 日 13:21 发帖「Day 21/ Wonder what happens the remaining seven days. But today is a reset.」宣告当天为重置日，并称好奇「剩下七天」会发生什么。帖文未列明重置对象、适用套餐与账号资格；截至晚间核对未见完成确认帖。",
+      "takeaway": "「剩下七天」含义原帖未解释，不推断；完成状态待后续核对，实际余量以个人用量页为准。本次宣告距 Day 20（10-25）仅一天，重置节奏明显加快，覆盖范围均未经用户逐项确认。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2114588174249071102",
+      "publishedDate": "2026-10-26",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-27:tibo-codex-day21-reset-20261026",
+        "sourceUrl": "https://x.com/thsottiaux/status/2114588174249071102"
+      }
+    },
+    {
+      "id": "tibo-codex-day20-reset-20261025",
+      "title": "Codex Day 20：Tibo 宣告重置并确认已全部生效",
+      "summary": "Tibo 北京时间 10 月 25 日 11:39 发帖「Day 20/ Rest and reset」宣告重置，11:40 补充时限「By midnight PST」（太平洋时间午夜前），14:06 发帖「It is all propagated. Enjoy some mad codexing tomorrow.」确认已全部传播生效。三帖均未列明重置对象、适用套餐与账号资格。",
+      "takeaway": "完成与传播为作者口径、未列对象与资格，实际余量以个人用量页为准；这是 Day 17（10-22）之后的又一轮重置，两次宣告间隔约 3 天，覆盖范围均未经用户逐项确认。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "Tibo · X 原帖",
+      "sourceType": "官方发布",
+      "url": "https://x.com/thsottiaux/status/2114200152701575656",
+      "publishedDate": "2026-10-25",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-27:tibo-codex-day20-reset-20261025",
+        "sourceUrl": "https://x.com/thsottiaux/status/2114200152701575656"
+      }
+    },
+    {
+      "id": "workbuddy-592-fixes-20261026",
+      "title": "WorkBuddy 5.9.2：语音终稿直接回填，多项稳定性修复",
+      "summary": "腾讯 WorkBuddy 官方变更记录将 5.9.2 标为 10 月 26 日发布：优化语音识别终稿直接回填输入框（不再额外润色）、恢复语音组合快捷键；修复版本切换后欢迎页路由不生效、本地文件保存与另存为异常、云会话停止生成后回车误发送、MCP 应用面板被空白页替换及深色模式部分卡片不可辨认等问题。",
+      "takeaway": "属桌面端稳定性与体验修复，不含新模型或额度变化；以官方变更记录为准，本站未实测。",
+      "region": "国内",
+      "category": "产品应用",
+      "source": "腾讯 CodeBuddy / WorkBuddy 官方变更记录",
+      "sourceType": "官方发布",
+      "url": "https://www.codebuddy.cn/docs/workbuddy/Changelog",
+      "publishedDate": "2026-10-26",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-27:workbuddy-592-fixes-20261026",
+        "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+      }
+    },
+    {
+      "id": "opencode-glm-flash-free-20261016",
+      "title": "OpenCode 限时免费开放 GLM-5.3-Flash 与 DeepSeek V4.1 Flash",
+      "summary": "OpenCode 官方模型目录列出 GLM-5.3-Flash Free 与 DeepSeek V4.1 Flash Free，输入、输出与缓存读取均不计费，描述为限时免费并称供应商执行零数据保留政策；付费版 DeepSeek V4.1 Flash 为每百万 token 输入 0.30、输出 1.20 美元。官方页面未公布免费截止日期，也未标注上下文上限。",
+      "takeaway": "免费条款以官方模型目录为准，截止时间未公布，不宜当作长期免费；社区讨论称免费版上下文限 200k、官方文档未标注，长上下文任务先小规模验证；本站未实测。",
+      "region": "海外",
+      "category": "开发工具",
+      "source": "OpenCode 官方模型目录",
+      "sourceType": "官方发布",
+      "url": "https://opencode.ai/v2/docs/console/models",
+      "publishedDate": "2026-10-16",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-27:opencode-glm-flash-free-20261016",
+        "sourceUrl": "https://opencode.ai/v2/docs/console/models"
+      }
+    }
+  ]
+}

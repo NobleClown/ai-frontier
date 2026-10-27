@@ -1,5 +1,6 @@
-import todayEdition from '@/data/editions/2026-10-26.json';
-import previousEdition from '@/data/editions/2026-10-25.json';
+import todayEdition from '@/data/editions/2026-10-27.json';
+import previousEdition from '@/data/editions/2026-10-26.json';
+import october25Edition from '@/data/editions/2026-10-25.json';
 import october24Edition from '@/data/editions/2026-10-24.json';
 import october23Edition from '@/data/editions/2026-10-23.json';
 import october22Edition from '@/data/editions/2026-10-22.json';
@@ -13,4 +14,4 @@ import october15Edition from '@/data/editions/2026-10-15.json';
 import october14Edition from '@/data/editions/2026-10-14.json';
 import {initialEdition} from './initial-edition';
 import type {Edition} from './news-types';
-export const bundledEditions:Edition[]=[todayEdition as Edition,previousEdition as Edition,october24Edition as Edition,october23Edition as Edition,october22Edition as Edition,october21Edition as Edition,october20Edition as Edition,october19Edition as Edition,october18Edition as Edition,october17Edition as Edition,october16Edition as Edition,october15Edition as Edition,october14Edition as Edition,initialEdition];
+export const bundledEditions:Edition[]=[todayEdition as Edition,previousEdition as Edition,october25Edition as Edition,october24Edition as Edition,october23Edition as Edition,october22Edition as Edition,october21Edition as Edition,october20Edition as Edition,october19Edition as Edition,october18Edition as Edition,october17Edition as Edition,october16Edition as Edition,october15Edition as Edition,october14Edition as Edition,initialEdition];

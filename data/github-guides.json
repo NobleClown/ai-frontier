@@ -117,5 +117,10 @@
  "JetBrains/thinkrail": "JetBrains 出品的轻量 AI 编码 IDE，可随工作习惯自我定制。",
  "coollabsio/coolify": "可自托管的开源 PaaS，一键部署站点、数据库与 360+ 服务。",
  "AgriciDaniel/claude-seo": "Claude Code 的通用 SEO 技能包，覆盖技术 SEO、E-E-A-T 与外链等。",
- "multica-ai/andrej-karpathy-skills": "根据 Karpathy 对 LLM 编码缺陷的观察整理的 CLAUDE.md 行为改进文件。"
+ "multica-ai/andrej-karpathy-skills": "根据 Karpathy 对 LLM 编码缺陷的观察整理的 CLAUDE.md 行为改进文件。",
+ "NVIDIA/SkillSpector": "安装前扫描 Claude Code、Codex 与 MCP 技能的安全漏洞与恶意模式。",
+ "nightly-labs/openbot": "本地优先的桌面工作区，为常驻 AI 队友提供任务队列与协作环境。",
+ "Panniantong/Agent-Reach": "让 AI Agent 读取和检索 Twitter、Reddit、B站等站点的命令行工具。",
+ "gitroomhq/postiz-app": "开源的 Agent 化社交媒体排程发布工具。",
+ "alchaincyf/huashu-design": "在 Agent 中一句话生成网页原型、PPT 与信息图的设计技能。"
 }

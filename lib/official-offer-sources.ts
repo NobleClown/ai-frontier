@@ -5,7 +5,7 @@ export const offerOperatorDomains:Record<string,string[]>={
  'opencode-glm-flash-free':['opencode.ai'],
  'opencode-deepseek-flash-free':['opencode.ai'],
  'openrouter-free':['openrouter.ai'],
- 'qoder-daily':['qoder.com'], 'qoder-efficient':['qoder.com'], 'qoder-flash-ended':['qoder.com'],
+ 'qoder-daily':['qoder.com'], 'qoder-efficient':['qoder.com'], 'qoder-flash-ended':['qoder.com'], 'qoder-ds1017-free':['qoder.com'],
  'workbuddy-free':['workbuddy.cn','codebuddy.cn'], 'workbuddy-mini-hy3':['workbuddy.cn'],
  'zhipu-flash':['bigmodel.cn','z.ai','zhipuai.cn'],
  'aliyun-quota':['aliyun.com'],
