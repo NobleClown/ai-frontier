@@ -1,9 +1,45 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T02:11:10.000Z",
-  "headline": "GPT-6.1 Terra 发布并进入 Codex/Work，Qoder 两款模型限免与首日上架。",
-  "note": "晨间更新（北京时间约 10:11）：10 月 27 日新事件 2 条——GPT-6.1 Terra 发布（OpenAI 官方 10-26 起在 ChatGPT Work/Codex 上线；Tibo Day 22 帖确认 Codex 端 API 与订阅用量为 6.1 Sol 的 2 倍，官方原文引用见其引用帖）；Qoder 上架 DeepSeek V4.1 Flash-1017（0.0x 至 11 月 1 日，官方论坛原文核对）与 Kimi K3.1 Pro 首日上架（10-26 两则公告，已同步新增土鸡蛋条目）。延续 10 月 25—26 日已核实进展 4 条（Day 21 重置、WorkBuddy 5.9.2、Day 20 重置、限免进行中）；10 月 24 日及更早条目出窗。Tibo 采集今日恢复（此前连续 3 日失败），覆盖 10-26 09:32 以来的窗口，Day 21 的完成确认帖未见，完成状态以个人用量页为准。覆盖局限：OpenAI 官网与帮助中心持续 403（Terra 详情取自 Tibo 引用的官方公告与搜索核对的官方发布说明），x.ai 域名污染且主站 403，Qwen 博客正文为空，混元首页无正文，Google 博客条目无日期；搜索无窗口内其他新事件。状态页：DeepSeek、OpenAI、Claude 均正常无事故。GitHub 独立展示，三榜快照今晨 09:41—09:43，总榜 10:02 官方 API 刷新；赛博土鸡蛋 16 条今晨全部复核（14 条规则无变化 + 火山恢复可读完成复检 + 新增 Qoder 限免条目），checkedAt → 10-27。",
+  "updatedAt": "2026-10-27T10:26:11.000Z",
+  "headline": "OpenAI 托管代码审查事故缓解中，Kimi 调整 Agent 默认委派行为。",
+  "note": "晚间更新（北京时间约 18:26）：新增 2 条——OpenAI 状态页进行中事故（GitHub 私有仓库托管 Code Review/Security Review 错误率升高，已缓解、监控中，约 2 小时）与 Kimi Code Desktop 1.1.3/1.1.4 连发（10-25/26：Agent 默认不再主动启动 subagent 与 Swarm）。Day 21 重置（10-26）的 summary 已更正：10 月 27 日晨晚间核对均未见完成确认帖。晚间核对未发现其他新事件：Anthropic 10-26 S-1 上市申报公告为融资类未收录；Claude 10-27 Sonnet 5.5 短时错误已解决（约 40 分钟，仅记 review）；WorkBuddy 仍 5.9.2；OpenCode 晚间复核 v2.1.4 仍为最新、两条限免仍在目录（免费列表与昨日一致）。Tibo 晚间交接停在晨间 09:32 采集（status=ok、无新帖写入，fetchedAt 超 3 小时），17:30 轮未产出，Day 21 完成状态待采集刷新后补核；雷达本轮按规则保留原记录并置 source_unavailable。覆盖局限维持：OpenAI 官网与帮助中心持续 403，x.ai 域名污染且主站 403，Qwen 博客正文为空，混元与 MiniMax 首页为无正文单页，Google 博客条目无日期；智谱 Coding Plan notice 页晚间读取输出异常，未核对到新公告（以昨日核对为据）。GitHub 独立展示，赛博土鸡蛋与重置雷达另行维护。晨间更新（北京时间约 10:11）：10 月 27 日新事件 2 条——GPT-6.1 Terra 发布（OpenAI 官方 10-26 起在 ChatGPT Work/Codex 上线；Tibo Day 22 帖确认 Codex 端 API 与订阅用量为 6.1 Sol 的 2 倍）与 Qoder 上架 DeepSeek V4.1 Flash-1017（0.0x 至 11 月 1 日）及 Kimi K3.1 Pro 首日上架（已同步新增土鸡蛋条目）。Tibo 采集今日恢复，覆盖 10-26 09:32 以来的窗口，Day 21 完成确认帖未见。赛博土鸡蛋 16 条今晨全部复核（含火山恢复可读复检与新增 Qoder 限免条目），checkedAt → 10-27。",
   "stories": [
+    {
+      "id": "openai-codereview-incident-20261027",
+      "title": "OpenAI 状态页：GitHub 私有仓库托管代码审查错误率升高，缓解中",
+      "summary": "OpenAI 状态页显示进行中事故：私有 GitHub 仓库的托管 Code Review 与 Security Review 大面积错误率升高，已应用缓解措施、正在监控确认恢复；截至北京时间 10 月 27 日 18:25 前后核对仍为监控中，状态页标注已持续约 2 小时。当日另一起 Ads POST 错误事故已恢复。",
+      "takeaway": "事故进行中，依赖托管代码审查的集成请关注状态页并调整重试策略；恢复确认前不预测完成时间，影响范围以状态页为准，本站未实测。",
+      "region": "海外",
+      "category": "产品应用",
+      "source": "OpenAI 状态页",
+      "sourceType": "官方发布",
+      "url": "https://status.openai.com/",
+      "publishedDate": "2026-10-27",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-27:openai-codereview-incident-20261027",
+        "sourceUrl": "https://status.openai.com/"
+      }
+    },
+    {
+      "id": "kimi-code-113-114-20261026",
+      "title": "Kimi Code Desktop 1.1.3/1.1.4：Agent 默认不再主动启动子代理与 Swarm",
+      "summary": "Kimi 官方变更记录连发两版：1.1.3（10 月 25 日）将默认行为调整为直接处理任务、不再主动启动 subagent（需要委派时在消息、AGENTS.md 或技能中明确提出，或开启多 Agent 模式），Swarm 仅在开启 Swarm 模式后运行、不再自行发起；1.1.4（10 月 26 日）优化模型切换提示，开启 Swarm 不再弹确认框（直接开启并提示高消耗），修复未开启 Swarm 时发起 Swarm 显示失败卡片的问题。",
+      "takeaway": "属 Agent 默认行为调整，依赖自动委派的既有工作流需注意行为变化；1.1.2（10-23，会话占用接管等）已出窗仅记录，本站未实测。",
+      "region": "国内",
+      "category": "开发工具",
+      "source": "Kimi Code 官方变更记录",
+      "sourceType": "官方发布",
+      "url": "https://www.kimi.com/code/docs/kimi-code-desktop/changelog.html",
+      "publishedDate": "2026-10-26",
+      "contentDisclosure": {
+        "generationMethod": "ai_generated",
+        "publisher": "AI 前沿",
+        "contentId": "news:2026-10-27:kimi-code-113-114-20261026",
+        "sourceUrl": "https://www.kimi.com/code/docs/kimi-code-desktop/changelog.html"
+      }
+    },
     {
       "id": "opai-gpt61-terra-20261027",
       "title": "OpenAI 发布 GPT-6.1 Terra：电脑操作增强、价格减半，Codex 用量翻倍",
@@ -43,7 +79,7 @@
     {
       "id": "tibo-codex-day21-reset-20261026",
       "title": "Codex Day 21：Tibo 宣告当日重置",
-      "summary": "Tibo 北京时间 10 月 26 日 13:21 发帖「Day 21/ Wonder what happens the remaining seven days. But today is a reset.」宣告当天为重置日，并称好奇「剩下七天」会发生什么。帖文未列明重置对象、适用套餐与账号资格；截至晚间核对未见完成确认帖。",
+      "summary": "Tibo 北京时间 10 月 26 日 13:21 发帖「Day 21/ Wonder what happens the remaining seven days. But today is a reset.」宣告当天为重置日，并称好奇「剩下七天」会发生什么。帖文未列明重置对象、适用套餐与账号资格；10 月 27 日晨间与晚间核对均未见完成确认帖。",
       "takeaway": "「剩下七天」含义原帖未解释，不推断；完成状态待后续核对，实际余量以个人用量页为准。本次宣告距 Day 20（10-25）仅一天，重置节奏明显加快，覆盖范围均未经用户逐项确认。",
       "region": "海外",
       "category": "产品应用",

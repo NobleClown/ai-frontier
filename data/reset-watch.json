@@ -1,9 +1,9 @@
 {
  "account": "thsottiaux",
  "profileUrl": "https://x.com/thsottiaux",
- "lastCheckedAt": "2026-10-27T02:10:54.796Z",
- "checkStatus": "ok",
- "checkNote": "本轮（2026-10-27 10:00 场）采集恢复：直接读取交接 status=ok（fetchedAt 2026-10-27T01:32:50.747Z，09:32 北京，覆盖 10-26 09:32 以来的窗口）。窗口内 1 条本人帖（Day 22「Terra is back」，引用 OpenAI GPT-6.1 Terra 官方公告）：为模型发布与用量改进（API/订阅用量为 6.1 Sol 的 2 倍），不属限额调整或重置，未入雷达（已入当日简报头条）；Day 21 重置（10-26）的完成确认帖未在本窗口出现，完成状态以个人用量页为准。posts 保持 10 条。此前 3 日采集失败造成的缺口已由本轮窗口覆盖至 10-27 09:32。",
+ "lastCheckedAt": "2026-10-27T10:26:11Z",
+ "checkStatus": "source_unavailable",
+ "checkNote": "本轮（2026-10-27 18:20 场）交接文件 fetchedAt 仍为 2026-10-27T01:32:50Z（北京 09:32 晨间采集，status=ok），17:30 晚间采集未产出新数据，fetchedAt 超 3 小时，本轮不视为直接读取成功。晨间采集窗口内最新帖为 Day 22 Terra（10-27 03:24），无 Day 21 完成帖；09:32 之后的窗口未核实，Day 21（10-26 宣告）完成状态待采集刷新后补核。posts 保留 11 条未变，未新增、未伪造。不回退采信第三方。",
  "automationEnabled": true,
  "cadenceMinutes": 60,
  "posts": [
