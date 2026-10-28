@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-27T10:29:31.180Z",
+  "checkedAt": "2026-10-28T02:13:22.091Z",
   "boards": [
     {
       "id": "total",
       "title": "总榜",
       "description": "公开、未归档仓库按累计 Star 排序",
       "sourceUrl": "https://api.github.com/search/repositories?q=stars:%3E10000+archived:false&sort=stars&order=desc&per_page=20",
-      "updatedAt": "2026-10-27T10:29:30.171Z",
+      "updatedAt": "2026-10-28T02:13:21.082Z",
       "error": null,
       "projects": [
         {
@@ -14,8 +14,8 @@
           "url": "https://github.com/codecrafters-io/build-your-own-x",
           "description": "Master programming by recreating your favorite technologies from scratch.",
           "language": "Markdown",
-          "stars": 556546,
-          "forks": 52098,
+          "stars": 556680,
+          "forks": 52101,
           "growth": ""
         },
         {
@@ -23,8 +23,8 @@
           "url": "https://github.com/sindresorhus/awesome",
           "description": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
           "language": "",
-          "stars": 525385,
-          "forks": 37796,
+          "stars": 525779,
+          "forks": 37820,
           "growth": ""
         },
         {
@@ -32,8 +32,8 @@
           "url": "https://github.com/public-apis/public-apis",
           "description": "A collective list of free APIs",
           "language": "Python",
-          "stars": 492541,
-          "forks": 54881,
+          "stars": 492738,
+          "forks": 54915,
           "growth": ""
         },
         {
@@ -41,8 +41,8 @@
           "url": "https://github.com/freeCodeCamp/freeCodeCamp",
           "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
           "language": "TypeScript",
-          "stars": 458017,
-          "forks": 48677,
+          "stars": 458057,
+          "forks": 48686,
           "growth": ""
         },
         {
@@ -50,8 +50,8 @@
           "url": "https://github.com/EbookFoundation/free-programming-books",
           "description": ":books: Freely available programming books",
           "language": "Python",
-          "stars": 400258,
-          "forks": 67021,
+          "stars": 400310,
+          "forks": 67026,
           "growth": ""
         },
         {
@@ -59,8 +59,8 @@
           "url": "https://github.com/morluto/rea",
           "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
           "language": "TypeScript",
-          "stars": 394313,
-          "forks": 98841,
+          "stars": 397694,
+          "forks": 99724,
           "growth": ""
         },
         {
@@ -68,8 +68,8 @@
           "url": "https://github.com/openclaw/openclaw",
           "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
           "language": "TypeScript",
-          "stars": 393184,
-          "forks": 82665,
+          "stars": 393227,
+          "forks": 82667,
           "growth": ""
         },
         {
@@ -77,8 +77,8 @@
           "url": "https://github.com/donnemartin/system-design-primer",
           "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
           "language": "Python",
-          "stars": 375764,
-          "forks": 59013,
+          "stars": 375857,
+          "forks": 59020,
           "growth": ""
         },
         {
@@ -86,8 +86,8 @@
           "url": "https://github.com/nilbuild/developer-roadmap",
           "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
           "language": "TypeScript",
-          "stars": 370521,
-          "forks": 45153,
+          "stars": 370579,
+          "forks": 45160,
           "growth": ""
         },
         {
@@ -95,8 +95,8 @@
           "url": "https://github.com/jwasham/coding-interview-university",
           "description": "A complete computer science study plan to become a software engineer.",
           "language": "",
-          "stars": 363436,
-          "forks": 85071,
+          "stars": 363466,
+          "forks": 85078,
           "growth": ""
         },
         {
@@ -104,8 +104,8 @@
           "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
           "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
           "language": "",
-          "stars": 330892,
-          "forks": 15587,
+          "stars": 331126,
+          "forks": 15602,
           "growth": ""
         },
         {
@@ -113,8 +113,8 @@
           "url": "https://github.com/vinta/awesome-python",
           "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
           "language": "Python",
-          "stars": 330570,
-          "forks": 29014,
+          "stars": 330719,
+          "forks": 29023,
           "growth": ""
         },
         {
@@ -122,8 +122,8 @@
           "url": "https://github.com/obra/superpowers",
           "description": "An agentic skills framework & software development methodology that works.",
           "language": "Shell",
-          "stars": 305846,
-          "forks": 27242,
+          "stars": 306488,
+          "forks": 27280,
           "growth": ""
         },
         {
@@ -131,8 +131,8 @@
           "url": "https://github.com/mattpocock/skills",
           "description": "Skills for Real Engineers. Straight from my .agents directory.",
           "language": "Shell",
-          "stars": 304441,
-          "forks": 25631,
+          "stars": 304929,
+          "forks": 25662,
           "growth": ""
         },
         {
@@ -140,8 +140,8 @@
           "url": "https://github.com/affaan-m/ECC",
           "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
           "language": "JavaScript",
-          "stars": 290264,
-          "forks": 43011,
+          "stars": 290937,
+          "forks": 43081,
           "growth": ""
         },
         {
@@ -149,8 +149,8 @@
           "url": "https://github.com/practical-tutorials/project-based-learning",
           "description": "Curated list of project-based tutorials",
           "language": "Python",
-          "stars": 288152,
-          "forks": 36730,
+          "stars": 288231,
+          "forks": 36735,
           "growth": ""
         },
         {
@@ -158,8 +158,8 @@
           "url": "https://github.com/996icu/996.ICU",
           "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
           "language": "",
-          "stars": 277176,
-          "forks": 20679,
+          "stars": 277185,
+          "forks": 20678,
           "growth": ""
         },
         {
@@ -167,8 +167,8 @@
           "url": "https://github.com/deepseek-ai/deepseek-harness",
           "description": "DeepSeek Harness: Everything is a Plugin.",
           "language": "TypeScript",
-          "stars": 263214,
-          "forks": 31830,
+          "stars": 263770,
+          "forks": 31910,
           "growth": ""
         },
         {
@@ -176,17 +176,17 @@
           "url": "https://github.com/NousResearch/hermes-agent",
           "description": "The agent that grows with you",
           "language": "Python",
-          "stars": 257561,
-          "forks": 56440,
+          "stars": 257771,
+          "forks": 56533,
           "growth": ""
         },
         {
-          "name": "torvalds/linux",
-          "url": "https://github.com/torvalds/linux",
-          "description": "Linux kernel source tree",
-          "language": "C",
-          "stars": 253648,
-          "forks": 67415,
+          "name": "trimstray/the-book-of-secret-knowledge",
+          "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+          "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+          "language": "",
+          "stars": 253794,
+          "forks": 14650,
           "growth": ""
         }
       ]
