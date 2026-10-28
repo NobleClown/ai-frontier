@@ -1,8 +1,8 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T02:09:49.000Z",
-  "headline": "开源编码工具密集迭代：OpenCode 大版本、Kimi Code 与 WorkBuddy 修复版接连上线。",
-  "note": "晨间更新（北京时间约 10:09）：10 月 28 日晨无独立新事件；本期 10 条为 10 月 23—27 日已核实进展的延续，保留原始发布日期。新增 2 条（均为 10-27 发布）：OpenCode v2.2.0 大版本（实验性桌面插件、桌面端重构、图像/决策生成 API、按供应商/模型的提示缓存 TTL，含 @opencode/ai 改为 Promise API、移除 GitHub Action、TUI 插件需 OpenTUI 0.7 等破坏性变更）与 WorkBuddy 5.9.3（选择性数据导入、Windows 升级与沙箱初始化修复）。10 月 22—23 日条目出窗；OpenCode 限免条目作为进行中状态保留（今晨复核仍在目录）。Tibo 采集连续第 4 日失败（status=source_unavailable），本期无 Tibo 新帖，覆盖缺口自 10-25 晚间起；10-24 一轮失败前数据中的「Day 19」帖（未来戳）仍未采信。状态页：DeepSeek、OpenAI 正常；Claude 10-27 有两起已解决短时错误（Sonnet 5.5，合计约 2 小时），仅记 review。GitHub 独立展示，三榜快照仍为昨晚 18:02—18:03（今晨 09:40 采集未产出新数据），总榜 10:02 官方 API 刷新；赛博土鸡蛋 16 条今晨全部复核规则无变化（checkedAt → 10-28），火山方舟恢复可读完成复检。",
+  "updatedAt": "2026-10-28T10:22:33.000Z",
+  "headline": "开源编码工具密集迭代延续，OpenAI 托管代码审查事故已解决。",
+  "note": "晚间更新（北京时间约 18:22）：更正 1 条——昨日收录的 OpenAI 托管代码审查事故（GitHub 私有仓库 Code Review/Security Review 错误率升高）状态页已确认解决（10-27 16:30，持续约 2 小时），条目标题与内容同步更新。晚间核对未发现其他新事件：OpenAI 10-28 凌晨另记录一起 6.1 Sol 模型性能降级已恢复正常（轻微，仅记 review）；Claude 10-27 夜间至 28 日凌晨 Gmail 连接器错误事件已解决（约 6.5 小时，影响 claude.ai/Code/Cowork，仅记 review）；Anthropic 10-27 药物研发进展与 GSA 政府合作公告、10-26 S-1 申报均不属收录范围；Kimi 仍 1.1.4、Qoder 仍 0.4.11、WorkBuddy 仍 5.9.3；OpenCode 晚间复核 v2.2.0 仍为最新、两条限免仍在目录（免费列表与昨日一致）。Tibo 采集连续第 4 日失败（今晨 status=source_unavailable），晚间交接亦未恢复，覆盖缺口自 10-25 晚间起持续；Day 21（10-26）完成状态仍未核实，重置雷达保留原记录。状态页：DeepSeek 正常。覆盖局限维持：OpenAI 官网与帮助中心持续 403，x.ai 域名污染且主站 403，Qwen 博客正文为空，混元与 MiniMax 首页为无正文单页，Google 博客条目无日期。GitHub 独立展示，赛博土鸡蛋与重置雷达另行维护。晨间更新（北京时间约 10:09）：10 月 28 日晨无独立新事件；新增 2 条（均为 10-27 发布）：OpenCode v2.2.0 大版本与 WorkBuddy 5.9.3。10 月 22—23 日条目出窗；赛博土鸡蛋 16 条今晨全部复核规则无变化（checkedAt → 10-28），火山方舟恢复可读完成复检。",
   "stories": [
     {
       "id": "opencode-v220-20261027",
@@ -42,9 +42,9 @@
     },
     {
       "id": "openai-codereview-incident-20261027",
-      "title": "OpenAI 状态页：GitHub 私有仓库托管代码审查错误率升高，缓解中",
-      "summary": "OpenAI 状态页显示进行中事故：私有 GitHub 仓库的托管 Code Review 与 Security Review 大面积错误率升高，已应用缓解措施、正在监控确认恢复；截至北京时间 10 月 27 日 18:25 前后核对仍为监控中，状态页标注已持续约 2 小时。当日另一起 Ads POST 错误事故已恢复。",
-      "takeaway": "事故进行中，依赖托管代码审查的集成请关注状态页并调整重试策略；恢复确认前不预测完成时间，影响范围以状态页为准，本站未实测。",
+      "title": "OpenAI 状态页：GitHub 私有仓库托管代码审查事故已解决",
+      "summary": "OpenAI 状态页 10 月 27 日事故：私有 GitHub 仓库的托管 Code Review 与 Security Review 大面积错误率升高，当日 16:30（状态页显示时刻）确认「The issue is now resolved」，实际影响约 2 小时；此前晚间核对时处于缓解与监控中。当日另一起 Ads POST 错误事故亦已恢复，10 月 28 日凌晨另记录一起 6.1 Sol 模型性能降级并已恢复正常。",
+      "takeaway": "事故已由状态页标记解决；期间失败的托管审查任务可重新发起并核对结果，影响范围以状态页为准，本站未实测。",
       "region": "海外",
       "category": "产品应用",
       "source": "OpenAI 状态页",

@@ -122,5 +122,8 @@
  "nightly-labs/openbot": "本地优先的桌面工作区，为常驻 AI 队友提供任务队列与协作环境。",
  "Panniantong/Agent-Reach": "让 AI Agent 读取和检索 Twitter、Reddit、B站等站点的命令行工具。",
  "gitroomhq/postiz-app": "开源的 Agent 化社交媒体排程发布工具。",
- "alchaincyf/huashu-design": "在 Agent 中一句话生成网页原型、PPT 与信息图的设计技能。"
+ "alchaincyf/huashu-design": "在 Agent 中一句话生成网页原型、PPT 与信息图的设计技能。",
+ "elayadesign/ai-design-skills": "面向 AI 编码工具的设计技能集合（Claude Code、Cursor 等），按需安装的独立 SKILL.md 技能包。",
+ "HKUDS/DeepTutor": "DeepTutor：终身个性化 AI 学习辅导工具。",
+ "togg53192-cmd/jailbreaks": "作者自述的各模型越狱提示词合集仓库。"
 }
