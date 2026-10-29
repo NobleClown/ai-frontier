@@ -125,5 +125,11 @@
  "alchaincyf/huashu-design": "在 Agent 中一句话生成网页原型、PPT 与信息图的设计技能。",
  "elayadesign/ai-design-skills": "面向 AI 编码工具的设计技能集合（Claude Code、Cursor 等），按需安装的独立 SKILL.md 技能包。",
  "HKUDS/DeepTutor": "DeepTutor：终身个性化 AI 学习辅导工具。",
- "togg53192-cmd/jailbreaks": "作者自述的各模型越狱提示词合集仓库。"
+ "togg53192-cmd/jailbreaks": "作者自述的各模型越狱提示词合集仓库。",
+ "macro-inc/macro": "团队统一工作区：邮件、聊天、文档、任务、Agent 与 CRM 以共享 AI 记忆互联。",
+ "expo/skills": "面向 Expo 项目与 EAS 服务的 AI Agent 技能集合。",
+ "ruvnet/RuView": "用普通 WiFi 信号实现空间感知、生命体征监测与存在检测。",
+ "xiaolai/the-craft-of-selfteaching": "开源自学书籍《自学是门手艺》，讲解自学编程的方法与实践。",
+ "Leonxlnx/taste-skill": "给编码 Agent 审美取向的技能：艺术方向、参考图与浏览器校验。",
+ "jakubkrehel/skills": "帮助构建优秀界面的 Agent 技能合集。"
 }
